@@ -1,0 +1,9 @@
+inputFilePath=ingredientsGraph.json
+resultFolderPath=results_ingredients
+delta=0.005
+writeFoundPatterns=true
+sigma=8
+samplingTimeInMS=15000
+removeRepetition=true
+activateSMinus=false
+activateSPlus=true

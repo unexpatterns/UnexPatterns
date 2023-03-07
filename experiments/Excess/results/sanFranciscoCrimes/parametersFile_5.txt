@@ -1,0 +1,9 @@
+inputFilePath=sanFranciscoCrimesGraph.json
+resultFolderPath=results_sf_crimes_5
+delta=0.005
+writeFoundPatterns=true
+sigma=5
+samplingTimeInMS=15000
+removeRepetition=true
+activateSMinus=false
+activateSPlus=true

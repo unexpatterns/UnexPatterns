@@ -1,0 +1,185 @@
+{
+	"numberOfPatterns" :18,
+	"patterns" : [
+		{
+			"subgraph" : ["V(3,0)","V(3,1)","V(4,0)","V(4,1)","V(5,0)","V 10","V 18","V 27","V 70 (2)","V 78 (2)","V 79","V 80"],
+			"characteristic" : 
+			{
+				"descriptorName" : "FoursquareVenues",
+				"positiveAttributes" : ["Travel & Transport","Residence"],
+				"negativeAttributes" : [],
+				"score" : 0.010392657450355312
+			}
+		},
+		{
+			"subgraph" : ["V 83","V 110 (2)","V 153","V 154","V 154 (2)","V 157","V 164 (2)"],
+			"characteristic" : 
+			{
+				"descriptorName" : "FoursquareVenues",
+				"positiveAttributes" : ["Nightlife Spot","Arts & Entertainment","Food"],
+				"negativeAttributes" : [],
+				"score" : 0.011273532634622163
+			}
+		},
+		{
+			"subgraph" : ["V(1,5)","V 13","V 13 (2)","V 83","V 83 (2)","V 112","V 112 (2)","V 115","V 115 (2)","V 141"],
+			"characteristic" : 
+			{
+				"descriptorName" : "FoursquareVenues",
+				"positiveAttributes" : ["Nightlife Spot","Professional & Other Places"],
+				"negativeAttributes" : [],
+				"score" : 0.014336543926836231
+			}
+		},
+		{
+			"subgraph" : ["V(0,5)","V(1,5)","V(1,6)","V 13","V 13 (2)","V 27 (2)","V 83","V 83 (2)","V 88","V 88 (2)","V 89","V 112","V 112 (2)","V 115","V 115 (2)","V 117","V 123 (2)","V 130","V 130 (2)","V 135 (2)","V 136 (2)","V 141","V 141 (2)","V 145","V 145 (2)","V 155","V 155 (2)","V 157 (2)","V 164"],
+			"characteristic" : 
+			{
+				"descriptorName" : "FoursquareVenues",
+				"positiveAttributes" : ["Professional & Other Places"],
+				"negativeAttributes" : [],
+				"score" : 0.0279443842266308
+			}
+		},
+		{
+			"subgraph" : ["V(1,5)","V(3,5)","V(4,3)","V(4,5)","V(5,3)","V(5,4)","V(6,2)","V(6,3)","V 13","V 13 (2)","V 37","V 37 (2)","V 83","V 83 (2)","V 88 (2)","V 90 (2)","V 92","V 92 (2)","V 110","V 110 (2)","V 112","V 112 (2)","V 115","V 115 (2)","V 116 (2)","V 123 (2)","V 131 (2)","V 135 (2)","V 141","V 145","V 145 (2)","V 153","V 154","V 154 (2)","V 155","V 155 (2)","V 157","V 164 (2)"],
+			"characteristic" : 
+			{
+				"descriptorName" : "FoursquareVenues",
+				"positiveAttributes" : ["Nightlife Spot"],
+				"negativeAttributes" : [],
+				"score" : 0.011978912803470881
+			}
+		},
+		{
+			"subgraph" : ["V 83","V 110 (2)","V 112","V 115","V 135 (2)","V 153","V 154","V 154 (2)","V 155 (2)","V 157","V 164 (2)"],
+			"characteristic" : 
+			{
+				"descriptorName" : "FoursquareVenues",
+				"positiveAttributes" : ["Nightlife Spot","Food"],
+				"negativeAttributes" : [],
+				"score" : 0.01367147338541126
+			}
+		},
+		{
+			"subgraph" : ["V 83","V 110","V 110 (2)","V 131 (2)","V 153","V 154","V 154 (2)","V 157","V 164 (2)"],
+			"characteristic" : 
+			{
+				"descriptorName" : "FoursquareVenues",
+				"positiveAttributes" : ["Nightlife Spot","Arts & Entertainment"],
+				"negativeAttributes" : [],
+				"score" : 0.005460289580806868
+			}
+		},
+		{
+			"subgraph" : ["V 83","V 110 (2)","V 131","V 136 (2)","V 153","V 154","V 154 (2)","V 157","V 164 (2)"],
+			"characteristic" : 
+			{
+				"descriptorName" : "FoursquareVenues",
+				"positiveAttributes" : ["Arts & Entertainment","Food"],
+				"negativeAttributes" : [],
+				"score" : 0.0097820013941046
+			}
+		},
+		{
+			"subgraph" : ["V 83","V 106","V 110 (2)","V 112","V 115","V 131","V 135 (2)","V 136 (2)","V 153","V 154","V 154 (2)","V 155 (2)","V 157","V 164","V 164 (2)"],
+			"characteristic" : 
+			{
+				"descriptorName" : "FoursquareVenues",
+				"positiveAttributes" : ["Food"],
+				"negativeAttributes" : [],
+				"score" : 0.011185075574030557
+			}
+		},
+		{
+			"subgraph" : ["V(0,2)","V(0,3)","V(0,4)","V(0,5)","V(0,6)","V(0,7)","V(1,5)","V(1,6)","V(2,0)","V(2,5)","V(2,6)","V(2,7)","V(3,0)","V(3,1)","V(3,5)","V(3,6)","V(3,7)","V(4,0)","V(4,3)","V(4,5)","V(4,7)","V(5,0)","V(5,1)","V(5,3)","V(5,5)","V(5,6)","V(5,7)","V(6,1)","V(6,2)","V(6,3)","V(6,4)","V(6,5)","V(7,0)","V(7,1)","V(7,2)","V(7,3)","V(7,4)","V(7,5)","V 13 (2)","V 37 (2)","V 90 (2)"],
+			"characteristic" : 
+			{
+				"descriptorName" : "FoursquareVenues",
+				"positiveAttributes" : ["Outdoors & Recreation","Residence"],
+				"negativeAttributes" : [],
+				"score" : 0.021270720905616925
+			}
+		},
+		{
+			"subgraph" : ["V(0,0)","V(0,2)","V(0,3)","V(0,4)","V(0,5)","V(0,6)","V(0,7)","V(1,5)","V(1,6)","V(1,7)","V(2,0)","V(2,5)","V(2,6)","V(2,7)","V(3,0)","V(3,1)","V(3,5)","V(3,6)","V(3,7)","V(4,0)","V(4,3)","V(4,5)","V(4,6)","V(4,7)","V(5,0)","V(5,1)","V(5,2)","V(5,3)","V(5,5)","V(5,6)","V(5,7)","V(6,0)","V(6,1)","V(6,2)","V(6,3)","V(6,4)","V(6,5)","V(6,7)","V(7,0)","V(7,1)","V(7,2)","V(7,3)","V(7,4)","V(7,5)","V(7,6)","V(7,7)","V 2 (2)","V 9 (2)","V 13 (2)","V 35","V 37 (2)","V 83 (2)","V 90 (2)","V 92 (2)"],
+			"characteristic" : 
+			{
+				"descriptorName" : "FoursquareVenues",
+				"positiveAttributes" : ["Outdoors & Recreation"],
+				"negativeAttributes" : [],
+				"score" : 0.012728751369016036
+			}
+		},
+		{
+			"subgraph" : ["V(0,0)","V(0,2)","V(0,3)","V(0,4)","V(0,5)","V(0,6)","V(0,7)","V(1,5)","V(1,6)","V(2,0)","V(2,5)","V(2,6)","V(2,7)","V(3,0)","V(3,1)","V(3,5)","V(3,6)","V(3,7)","V(4,0)","V(4,1)","V(4,3)","V(4,5)","V(4,7)","V(5,0)","V(5,1)","V(5,3)","V(5,4)","V(5,5)","V(5,6)","V(5,7)","V(6,1)","V(6,2)","V(6,3)","V(6,4)","V(6,5)","V(7,0)","V(7,1)","V(7,2)","V(7,3)","V(7,4)","V(7,5)","V 2","V 10","V 13 (2)","V 18","V 27","V 35","V 37","V 37 (2)","V 70 (2)","V 71 (2)","V 78","V 78 (2)","V 79","V 80","V 89 (2)","V 90 (2)"],
+			"characteristic" : 
+			{
+				"descriptorName" : "FoursquareVenues",
+				"positiveAttributes" : ["Residence"],
+				"negativeAttributes" : [],
+				"score" : 0.014899721397293163
+			}
+		},
+		{
+			"subgraph" : ["V(0,3)","V(0,4)","V(0,5)","V(0,6)","V(0,7)","V(1,5)","V(1,7)","V(2,6)","V(2,7)","V(3,0)","V(3,1)","V(3,6)","V(3,7)","V(4,0)","V(4,1)","V(4,6)","V(4,7)","V(5,0)","V(5,6)","V(6,0)","V(6,1)","V(6,6)","V(6,7)","V 9 (2)","V 10","V 12 (2)","V 13","V 13 (2)","V 18","V 27","V 70","V 70 (2)","V 72","V 72 (2)","V 73","V 73 (2)","V 78 (2)","V 79","V 80","V 106","V 131 (2)"],
+			"characteristic" : 
+			{
+				"descriptorName" : "FoursquareVenues",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : [],
+				"score" : 0.018420607404053276
+			}
+		},
+		{
+			"subgraph" : ["V(2,5)","V(3,5)","V 27","V 27 (2)","V 88","V 89","V 89 (2)","V 90 (2)","V 112","V 116 (2)","V 117","V 117 (2)","V 129 (2)","V 136 (2)"],
+			"characteristic" : 
+			{
+				"descriptorName" : "FoursquareVenues",
+				"positiveAttributes" : ["College & University"],
+				"negativeAttributes" : [],
+				"score" : 0.006817424002787794
+			}
+		},
+		{
+			"subgraph" : ["V 106","V 106 (2)","V 129","V 129 (2)","V 130","V 131","V 153","V 154 (2)","V 155","V 155 (2)","V 157","V 157 (2)","V 164"],
+			"characteristic" : 
+			{
+				"descriptorName" : "FoursquareVenues",
+				"positiveAttributes" : ["Shop & Service"],
+				"negativeAttributes" : [],
+				"score" : 0.01421310407339688
+			}
+		},
+		{
+			"subgraph" : ["V(0,3)","V(0,4)","V(0,5)","V(0,6)","V(0,7)","V(1,5)","V 13 (2)"],
+			"characteristic" : 
+			{
+				"descriptorName" : "FoursquareVenues",
+				"positiveAttributes" : ["Outdoors & Recreation","Travel & Transport","Residence"],
+				"negativeAttributes" : [],
+				"score" : 0.005577080867866534
+			}
+		},
+		{
+			"subgraph" : ["V(3,5)","V(4,3)","V(4,5)","V(5,3)","V(5,4)","V(6,2)","V(6,3)","V 37","V 37 (2)","V 90 (2)"],
+			"characteristic" : 
+			{
+				"descriptorName" : "FoursquareVenues",
+				"positiveAttributes" : ["Nightlife Spot","Residence"],
+				"negativeAttributes" : [],
+				"score" : 0.007221063017137845
+			}
+		},
+		{
+			"subgraph" : ["V(0,3)","V(0,4)","V(0,5)","V(0,6)","V(0,7)","V(1,5)","V(1,7)","V(2,6)","V(2,7)","V(3,6)","V(3,7)","V(4,6)","V(4,7)","V(5,6)","V 13 (2)"],
+			"characteristic" : 
+			{
+				"descriptorName" : "FoursquareVenues",
+				"positiveAttributes" : ["Outdoors & Recreation","Travel & Transport"],
+				"negativeAttributes" : [],
+				"score" : 0.00615269027949154
+			}
+		}
+	]
+}

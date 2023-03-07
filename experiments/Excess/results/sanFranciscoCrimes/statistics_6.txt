@@ -1,0 +1,4 @@
+nbRecursiveCalls:0
+nbVerifiedPatterns:21582
+patternMiningTimeInMS: 15000
+nbRetrievedPatterns: 207
