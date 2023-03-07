@@ -1,0 +1,7 @@
+inputFilePath=sanFranciscoCrimesGraph.json
+resultFolderPath=results_sf_crimes
+delta=0.005
+writeFoundPatterns=true
+sigma=7
+plusRatio=1.2
+minusRatio=0.3
