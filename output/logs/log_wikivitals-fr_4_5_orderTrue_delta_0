@@ -1,0 +1,198 @@
+Timer unit: 1e-09 s
+
+Total time: 172.407 s
+File: /Users/simondelarue/Documents/PhD/Research/Co-Meg/CoMEG/algorithm.py
+Function: unex_patterns at line 62
+
+Line #      Hits         Time  Per Hit   % Time  Line Contents
+==============================================================
+    62                                           def unex_patterns(adjacency, context, context_csc, extents, intents, r=0, y=0, min_support=0, max_support=np.inf, beta=0, 
+    63                                                       delta=0, degs=[], unexs_g=[], unexs_a=[], unexs=[], names_col=[], comp_gen_graph=None, shuf=False) -> List:
+    64                                               """InClose algorithm using Unexpectedness + IsCannonical function. 
+    65                                               
+    66                                               Parameters
+    67                                               ----------
+    68                                               adjacency: sparse.csr_matrix
+    69                                                   Adjacency matrix of the graph
+    70                                               context: sparse.csr_matrix
+    71                                                   Features matrix of the graph. Contains nodes x attributes.
+    72                                               context_csc: sparse.csc_matrix
+    73                                                   Features matrix of the graph in CSC format.
+    74                                               extents: list
+    75                                                   List of extents, i.e sets of nodes.
+    76                                               intents: list
+    77                                                   List of intents, i.e sets of attributes.
+    78                                               r: int (default=0)
+    79                                                   Index of the pattern being filled.
+    80                                               y: int (default=0)
+    81                                                   Index of candidate attribute.
+    82                                               min_support: int (default=0)
+    83                                                   Minimum support value for extent.
+    84                                               max_support: int (default +inf)
+    85                                                   Maximum support value for extent.
+    86                                               beta: int (default=0)
+    87                                                   Minimum support value for intent.
+    88                                               delta: int (default=0)
+    89                                                   Minimum value for Unexpectedness difference between patterns.
+    90                                               degs, unexs_g, unexs_a, unexs, names_col: list
+    91                                                   Lists for value storage over recursion.
+    92                                               comp_gen_graph: dict (default=None)
+    93                                                   Dictionnary with number of nodes as keys and list of graph generation complexities as values.
+    94                                                   
+    95                                               Returns
+    96                                               -------
+    97                                                   List of tuples where each tuple is an unexpected pattern made of (extent, intent). 
+    98                                               """
+    99                                               global r_new
+   100                                               global ptr
+   101       534     196000.0    367.0      0.0      r_new = r_new + 1
+   102                                               
+   103       534     383000.0    717.2      0.0      print(f'NEW ITERATION \n --------')
+   104       534     447000.0    837.1      0.0      print(f'r: {r} - r_new: {r_new}')
+   105                                               # ------------------------------------------------
+   106       534   20017000.0  37485.0      0.0      print(f'|extents[r]|: {len(extents[r])} - intents[r]: {names_col[intents[r]]}')
+   107                                               
+   108   1837278  510653000.0    277.9      0.3      for j in np.arange(context.shape[1])[y:]:
+   109   1837278 2415459000.0   1314.7      1.4          print(f"new attribute: {j} - {names_col[j]}")
+   110   1837278  239551000.0    130.4      0.1          try:
+   111   1836744  266916000.0    145.3      0.2              extents[r_new] = []
+   112   1836744  286515000.0    156.0      0.2              unexs_g[r_new] = 0
+   113   1836744  279160000.0    152.0      0.2              unexs_a[r_new] = 0
+   114       534     149000.0    279.0      0.0          except IndexError:
+   115       534     196000.0    367.0      0.0              extents.append([])
+   116       534     141000.0    264.0      0.0              unexs_g.append(0)
+   117       534     169000.0    316.5      0.0              unexs_a.append(0)
+   118                                           
+   119                                                   # Form a new extent by adding extension of attribute j to current pattern extent
+   120   1837278 81647818000.0  44439.6     47.4          ext_j = set(extension([j], context_csc))
+   121                                                   #ext_j = set(extension([j], context))
+   122   1837278 5659767000.0   3080.5      3.3          extents[r_new] = list(sorted(set(extents[r]).intersection(ext_j)))
+   123   1837278  342837000.0    186.6      0.2          len_new_extent = len(extents[r_new])
+   124                                                   
+   125   1821491  249180000.0    136.8      0.1          if (len_new_extent >= min_support) and (len_new_extent <= max_support):
+   126                                           
+   127                                                       # Verify that length of intention of new extent is greater than a threshold (e.g beta)
+   128                                                       # In other words, we only enter the loop if the new extent still has "space" to welcome enough new attributes
+   129                                                       # Using this, we can trim all patterns with not enough attributes from the recursion tree
+   130     15787 3599790000.0 228022.4      2.1              size_intention = len(intention(extents[r_new], context))
+   131     13009    2191000.0    168.4      0.0              if size_intention >= beta: 
+   132                                                               
+   133      2778    6036000.0   2172.8      0.0                  new_intent = list(sorted(set(intents[r]).union(set([j]))))
+   134                                                           
+   135                                                           # Compute Unexpectedness on pattern (i.e on graph and attributes)
+   136                                                           # ------------------------------------------------------------------------------------------------------------
+   137      2778   11913000.0   4288.3      0.0                  print(f'  Extent size {len(extents[r_new])} - intent {new_intent}')
+   138      2778     828000.0    298.1      0.0                  size = len(new_intent)
+   139      2778 1254673000.0 451646.1      0.7                  unex_g = graph_unexpectedness(adjacency[extents[r_new], :][:, extents[r_new]], comp_gen_graph)
+   140      2778     759000.0    273.2      0.0                  unexs_g[r_new] = unex_g
+   141                                                           # Attributes unexpectedness
+   142      2778   29145000.0  10491.4      0.0                  unex_a = attr_unexpectedness(context, new_intent, degs)
+   143      2778     563000.0    202.7      0.0                  unexs_a[r_new] = unex_a
+   144                                                           # Total unexpectedness
+   145      2778     591000.0    212.7      0.0                  unex = unex_g + unex_a
+   146                                                           #unexs[r_new] = unex
+   147      2778    5881000.0   2117.0      0.0                  print(f'  U(G): {unex_g}')
+   148      2778    2912000.0   1048.2      0.0                  print(f'  U(A): {unex_a}')
+   149      2778    2732000.0    983.4      0.0                  print(f'  U: {unex}')
+   150      2778    9923000.0   3572.0      0.0                  print(f'unexs: {unexs} r_new: {r_new} - r: {r} - ptr: {ptr}')
+   151                                                           # ------------------------------------------------------------------------------------------------------------
+   152                                                           
+   153                                                           #if set(extents[r_new]) == set(extents[r]):
+   154      1595     672000.0    421.3      0.0                  if len_new_extent - len(extents[r]) == 0:
+   155      1595    3084000.0   1933.5      0.0                      print(f' == comparing unex={unex} and unexs[{ptr}]={unexs[ptr]}')
+   156                                                               
+   157                                                               #if True:
+   158      1590     647000.0    406.9      0.0                      if unex - unexs[ptr] >= delta:
+   159                                                               
+   160      1590    2444000.0   1537.1      0.0                          print(f'  Extent size did not change -> attribute {names_col[j]} is added to intent.')
+   161      1590     472000.0    296.9      0.0                          intents[r] = new_intent
+   162      1590     509000.0    320.1      0.0                          unexs[-1] = unex
+   163                                                               else:
+   164         5       8000.0   1600.0      0.0                          print(f'STOP rec, unexpectedness difference is {unex - unexs[ptr]}')
+   165         5       7000.0   1400.0      0.0                          print(f'Attribute {names_col[j]} ({j}) does not add any unexpectedness to pattern')
+   166                                                                   #extents[r_new].pop(-1) -> no need to change the extent since we are in the block where it did not move by adding attribute
+   167                                                                   #intents[r_new].pop(-1) -> at this stage, we only use new-intent, so no need to remove anything from intents parameter
+   168                                                                   #raise Exception('end')
+   169         5       7000.0   1400.0      0.0                          break
+   170                                                               
+   171                                                           else:
+   172      1183 64575619000.0 54586322.1     37.5                      is_canno = is_cannonical(context, extents, intents, r, j - 1)
+   173       638     138000.0    216.3      0.0                      if is_canno:
+   174       545   14591000.0  26772.5      0.0                          print(f'extents {extents[r]} intents {intents[r]} r {r} rnew {r_new}')
+   175       545     842000.0   1545.0      0.0                          print(f'  Extent size DID change. IsCannonical: {is_canno}')
+   176       545      84000.0    154.1      0.0                          try:
+   177       533     571000.0   1071.3      0.0                              intents[r_new] = []
+   178       533     321000.0    602.3      0.0                          except IndexError:
+   179       533     307000.0    576.0      0.0                              intents.append([])
+   180                                           
+   181                                                                   #intents[r_new] = new_intent 
+   182                                                                   #len_new_intent = len(intents[r_new])
+   183                                           
+   184       545     445000.0    816.5      0.0                          print(f'r:{r} rnew:{r_new}')
+   185       545    2203000.0   4042.2      0.0                          print(f' ISCANNO comparing unex={unex} and unexs[{ptr}]=={unexs[ptr]}')
+   186                                                                   
+   187                                                                   #if True:
+   188       533     386000.0    724.2      0.0                          if unex - unexs[ptr] >= delta or r == 0:
+   189                                                                       
+   190       533     111000.0    208.3      0.0                              intents[r_new] = new_intent 
+   191       533     182000.0    341.5      0.0                              len_new_intent = len(intents[r_new])
+   192                                           
+   193       533     125000.0    234.5      0.0                              unexs.append(unex)
+   194       533     247000.0    463.4      0.0                              ptr += 1
+   195       533   27786000.0  52131.3      0.0                              print(f'  --> Enter recursion with Intent: {names_col[intents[r_new]]}...')
+   196                                           
+   197                                                                       # New: if recursion depth is above a threshold, reorder attributes (randomly) to break the redundancy in patterns
+   198       533    2747000.0   5153.8      0.0                              p = smoothing(len(unexs))
+   199       533  247794000.0 464904.3      0.1                              X = stats.bernoulli(p)
+   200                                           
+   201                                                                       #if False:
+   202       507   31969000.0  63055.2      0.0                              if not shuf and X.rvs(1)[0] == 1:
+   203        26      99000.0   3807.7      0.0                                  print(f'Entering smoothing, val={smoothing(len(unexs))}')
+   204        26      12000.0    461.5      0.0                                  start = j+1
+   205        26       9000.0    346.2      0.0                                  end = len(names_col)
+   206        26     872000.0  33538.5      0.0                                  rand_idxs = np.random.choice(np.arange(start, end), size=(end - start), replace=False)
+   207        26       8000.0    307.7      0.0                                  if len(rand_idxs) > 0:
+   208        26 10166601000.0 391023115.4      5.9                                      context = shuffle_columns(context, rand_idxs)
+   209        26   53540000.0 2059230.8      0.0                                      context_csc = context.tocsc()
+   210        26    2902000.0 111615.4      0.0                                      new_names_col = shuffle_columns(names_col, rand_idxs)
+   211        26     134000.0   5153.8      0.0                                      print(start, end)
+   212        26   10764000.0 414000.0      0.0                                      print(len(rand_idxs), rand_idxs, j)
+   213        26    1616000.0  62153.8      0.0                                      print(new_names_col[j-1:j+5], names_col[j-1:j+5])
+   214        26     424000.0  16307.7      0.0                                      degs = shuffle_columns(degs, rand_idxs)
+   215        26      77000.0   2961.5      0.0                                      print(f"Next attr will be: {new_names_col[j+1]} instead of {names_col[j+1]}")
+   216        26    1194000.0  45923.1      0.0                                      print(f'degs: {degs[j-2:j+10]}')
+   217        26       8000.0    307.7      0.0                                      names_col = new_names_col
+   218        26       7000.0    269.2      0.0                                      shuf = True
+   219       484     139000.0    287.2      0.0                              elif shuf:
+   220        23      14000.0    608.7      0.0                                  print(f'no smoothing, Reorder attributes according to degrees')
+   221        23  280824000.0 12209739.1      0.2                                  sort_index = np.argsort(get_degrees(context.astype(bool), transpose=True))
+   222        23     282000.0  12260.9      0.0                                  new_degs = degs[sort_index]
+   223        23   41420000.0 1800869.6      0.0                                  new_context = context[:, sort_index]
+   224        23    3215000.0 139782.6      0.0                                  new_names_col = names_col[sort_index]
+   225        23   48757000.0 2119869.6      0.0                                  context_csc = new_context.tocsc()
+   226        23    1290000.0  56087.0      0.0                                  degs = new_degs.copy()
+   227        23   15592000.0 677913.0      0.0                                  context = new_context.copy()
+   228        23    3940000.0 171304.3      0.0                                  names_col = new_names_col.copy()
+   229        23    2143000.0  93173.9      0.0                                  print(f'degs: {degs[j-2:j+5]}')
+   230        23       2000.0     87.0      0.0                                  shuf = False
+   231                                           
+   232       533     475000.0    891.2      0.0                              unex_patterns(adjacency, context, context_csc, extents, intents, r=r_new, y=j+1, min_support=min_support, 
+   233       533     154000.0    288.9      0.0                                          max_support=max_support, beta=beta, delta=delta, degs=degs, unexs_g=unexs_g, 
+   234       533     134000.0    251.4      0.0                                          unexs_a=unexs_a, unexs=unexs, names_col=names_col, comp_gen_graph=comp_gen_graph, shuf=shuf)
+   235                                                                   else:
+   236        12       6000.0    500.0      0.0                              print(f'IsCANNO but no U improvement')
+   237        12      21000.0   1750.0      0.0                              break
+   238                                                               
+   239                                                               else:
+   240       638     853000.0   1337.0      0.0                          print(f'IsCannonical: False --> do not enter recursion.')
+   241                                                               
+   242                                               #print(f'inexs: {unexs}')        
+   243       534     599000.0   1121.7      0.0      print(f'r:{r} - r_new:{r_new}')
+   244       534     354000.0    662.9      0.0      unexs.pop(-1)
+   245       534     221000.0    413.9      0.0      ptr -= 1
+   246       534      89000.0    166.7      0.0      shuf = False
+   247                                               #print(f'inexs after pop: {unexs}')        
+   248       534     211000.0    395.1      0.0      print(f'**END FUNCTION')
+   249                                               
+   250       534    6293000.0  11784.6      0.0      return [*zip(extents, intents)]
+
