@@ -1,0 +1,7 @@
+maxDistance=1
+minVertices=8
+resultFolderPath=results_london
+inputFilePath=../../Data/London/289V/graph.json
+topK=-1
+applyUpdating=false
+topKWithUpdating=100

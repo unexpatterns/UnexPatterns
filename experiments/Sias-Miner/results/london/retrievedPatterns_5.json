@@ -1,0 +1,6131 @@
+{
+  "numberOfPatterns": 186,
+  "patterns": [
+    {
+      "subgraph": [
+        "V(3,7)",
+        "V(4,6)",
+        "V(4,8)",
+        "V(4,7)",
+        "V(5,7)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [
+          "Outdoors \u0026 Recreation\u003c\u003d40.0%",
+          "Event\u003c\u003d20.0%",
+          "Arts \u0026 Entertainment\u003c\u003d40.0%"
+        ],
+        "negativeAttributes": [],
+        "informationContent": 26.664145298023904,
+        "overalDescLength": 44.71437934160164,
+        "attributesDescLength": 24.042599881712917,
+        "score": 0.5963214896559226
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(4,7)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(13,13)",
+        "V(14,12)",
+        "V(14,13)",
+        "V(14,14)",
+        "V(15,13)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [
+          "Shop \u0026 Service\u003c\u003d40.0%",
+          "Food\u003c\u003d20.0%"
+        ],
+        "negativeAttributes": [
+          "College \u0026 University\u003e\u003d100.0%",
+          "Event\u003e\u003d100.0%"
+        ],
+        "informationContent": 29.252485375579866,
+        "overalDescLength": 51.62126993721016,
+        "attributesDescLength": 30.949490477321433,
+        "score": 0.5666750432750163
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(14,13)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(5,6)",
+        "V(6,5)",
+        "V(6,6)",
+        "V(6,7)",
+        "V(7,6)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [
+          "College \u0026 University\u003c\u003d20.0%",
+          "Professional \u0026 Other Places\u003c\u003d40.0%"
+        ],
+        "negativeAttributes": [],
+        "informationContent": 19.20869416060915,
+        "overalDescLength": 37.807488745993126,
+        "attributesDescLength": 17.1357092861044,
+        "score": 0.5080658567317541
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(6,6)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(0,7)",
+        "V(2,7)",
+        "V(1,7)",
+        "V(1,6)",
+        "V(1,8)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [
+          "Outdoors \u0026 Recreation\u003c\u003d40.0%",
+          "Food\u003c\u003d40.0%"
+        ],
+        "negativeAttributes": [
+          "Shop \u0026 Service\u003e\u003d60.0%",
+          "College \u0026 University\u003e\u003d60.0%"
+        ],
+        "informationContent": 25.036595602981652,
+        "overalDescLength": 51.62126993721016,
+        "attributesDescLength": 30.949490477321433,
+        "score": 0.48500541798826463
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(1,7)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(4,9)",
+        "V(5,10)",
+        "V(5,8)",
+        "V(5,9)",
+        "V(6,9)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [
+          "Outdoors \u0026 Recreation\u003c\u003d40.0%",
+          "College \u0026 University\u003c\u003d40.0%",
+          "Nightlife Spot\u003c\u003d40.0%"
+        ],
+        "negativeAttributes": [],
+        "informationContent": 20.60500243675411,
+        "overalDescLength": 44.71437934160164,
+        "attributesDescLength": 24.042599881712917,
+        "score": 0.46081378608298157
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(5,9)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(5,8)",
+        "V(7,8)",
+        "V(6,9)",
+        "V(6,7)",
+        "V(6,8)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [
+          "Outdoors \u0026 Recreation\u003c\u003d40.0%",
+          "College \u0026 University\u003c\u003d40.0%",
+          "Professional \u0026 Other Places\u003c\u003d40.0%"
+        ],
+        "negativeAttributes": [],
+        "informationContent": 20.577432963142826,
+        "overalDescLength": 44.71437934160164,
+        "attributesDescLength": 24.042599881712917,
+        "score": 0.46019721767663824
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(6,8)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(4,8)",
+        "V(5,9)",
+        "V(5,7)",
+        "V(5,8)",
+        "V(6,8)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [
+          "Outdoors \u0026 Recreation\u003c\u003d40.0%",
+          "College \u0026 University\u003c\u003d40.0%",
+          "Professional \u0026 Other Places\u003c\u003d40.0%"
+        ],
+        "negativeAttributes": [],
+        "informationContent": 20.53213340184981,
+        "overalDescLength": 44.71437934160164,
+        "attributesDescLength": 24.042599881712917,
+        "score": 0.4591841305677477
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(5,8)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(7,10)",
+        "V(9,10)",
+        "V(8,9)",
+        "V(8,10)",
+        "V(8,11)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [
+          "Nightlife Spot\u003c\u003d40.0%",
+          "Food\u003c\u003d40.0%"
+        ],
+        "negativeAttributes": [
+          "Travel \u0026 Transport\u003e\u003d60.0%"
+        ],
+        "informationContent": 20.047662541411718,
+        "overalDescLength": 44.71437934160164,
+        "attributesDescLength": 24.042599881712917,
+        "score": 0.4483493416794371
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(8,10)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(3,13)",
+        "V(5,13)",
+        "V(4,14)",
+        "V(4,12)",
+        "V(4,13)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [
+          "Outdoors \u0026 Recreation\u003c\u003d40.0%",
+          "Food\u003c\u003d40.0%"
+        ],
+        "negativeAttributes": [
+          "Arts \u0026 Entertainment\u003e\u003d60.0%"
+        ],
+        "informationContent": 20.045551863339064,
+        "overalDescLength": 44.71437934160164,
+        "attributesDescLength": 24.042599881712917,
+        "score": 0.44830213811531
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(4,13)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(2,13)",
+        "V(4,13)",
+        "V(3,12)",
+        "V(3,13)",
+        "V(3,14)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [
+          "Professional \u0026 Other Places\u003c\u003d40.0%"
+        ],
+        "negativeAttributes": [
+          "College \u0026 University\u003e\u003d80.0%",
+          "Arts \u0026 Entertainment\u003e\u003d60.0%"
+        ],
+        "informationContent": 20.038127446602353,
+        "overalDescLength": 44.71437934160164,
+        "attributesDescLength": 24.042599881712917,
+        "score": 0.44813609719411124
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(3,13)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(3,11)",
+        "V(5,11)",
+        "V(4,10)",
+        "V(4,11)",
+        "V(4,12)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [
+          "Outdoors \u0026 Recreation\u003c\u003d40.0%",
+          "Food\u003c\u003d40.0%"
+        ],
+        "negativeAttributes": [
+          "College \u0026 University\u003e\u003d60.0%"
+        ],
+        "informationContent": 19.6969442236295,
+        "overalDescLength": 44.71437934160164,
+        "attributesDescLength": 24.042599881712917,
+        "score": 0.4405058174497289
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(4,11)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(7,1)",
+        "V(8,0)",
+        "V(8,1)",
+        "V(8,2)",
+        "V(9,1)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [
+          "Food\u003c\u003d40.0%"
+        ],
+        "negativeAttributes": [
+          "College \u0026 University\u003e\u003d100.0%",
+          "Event\u003e\u003d100.0%",
+          "Arts \u0026 Entertainment\u003e\u003d60.0%"
+        ],
+        "informationContent": 22.093616986866138,
+        "overalDescLength": 51.62126993721016,
+        "attributesDescLength": 30.949490477321433,
+        "score": 0.4279944490660505
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(8,1)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(1,10)",
+        "V(3,10)",
+        "V(2,9)",
+        "V(2,10)",
+        "V(2,11)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [
+          "Food\u003c\u003d40.0%"
+        ],
+        "negativeAttributes": [
+          "College \u0026 University\u003e\u003d100.0%",
+          "Event\u003e\u003d100.0%"
+        ],
+        "informationContent": 18.49134892572145,
+        "overalDescLength": 44.71437934160164,
+        "attributesDescLength": 24.042599881712917,
+        "score": 0.41354367874491227
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(2,10)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(5,7)",
+        "V(7,7)",
+        "V(6,6)",
+        "V(6,7)",
+        "V(6,8)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [
+          "College \u0026 University\u003c\u003d20.0%"
+        ],
+        "negativeAttributes": [],
+        "informationContent": 12.54372941046692,
+        "overalDescLength": 30.900598150384603,
+        "attributesDescLength": 10.228818690495881,
+        "score": 0.40593807761973033
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(6,7)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(1,11)",
+        "V(2,12)",
+        "V(2,10)",
+        "V(2,11)",
+        "V(3,11)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [
+          "Food\u003c\u003d40.0%"
+        ],
+        "negativeAttributes": [
+          "College \u0026 University\u003e\u003d100.0%",
+          "Event\u003e\u003d100.0%"
+        ],
+        "informationContent": 18.105805715747724,
+        "overalDescLength": 44.71437934160164,
+        "attributesDescLength": 24.042599881712917,
+        "score": 0.4049213246912349
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(2,11)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(4,12)",
+        "V(5,12)",
+        "V(5,11)",
+        "V(5,13)",
+        "V(6,12)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [
+          "Outdoors \u0026 Recreation\u003c\u003d40.0%",
+          "Food\u003c\u003d40.0%"
+        ],
+        "negativeAttributes": [
+          "Event\u003e\u003d100.0%"
+        ],
+        "informationContent": 17.852557209932257,
+        "overalDescLength": 44.71437934160164,
+        "attributesDescLength": 24.042599881712917,
+        "score": 0.39925763194754854
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(5,12)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(0,1)",
+        "V(1,2)",
+        "V(1,0)",
+        "V(1,1)",
+        "V(2,1)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [
+          "Food\u003c\u003d40.0%"
+        ],
+        "negativeAttributes": [
+          "College \u0026 University\u003e\u003d80.0%"
+        ],
+        "informationContent": 14.980569915276776,
+        "overalDescLength": 37.807488745993126,
+        "attributesDescLength": 17.1357092861044,
+        "score": 0.396232873754791
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(1,1)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(10,8)",
+        "V(11,7)",
+        "V(12,8)",
+        "V(11,8)",
+        "V(11,9)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [
+          "Food\u003c\u003d20.0%"
+        ],
+        "negativeAttributes": [],
+        "informationContent": 12.220759851190254,
+        "overalDescLength": 30.900598150384603,
+        "attributesDescLength": 10.228818690495881,
+        "score": 0.3954861906463823
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(11,8)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(9,9)",
+        "V(10,8)",
+        "V(10,10)",
+        "V(10,9)",
+        "V(11,9)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [
+          "Nightlife Spot\u003c\u003d40.0%",
+          "Food\u003c\u003d40.0%"
+        ],
+        "negativeAttributes": [
+          "Event\u003e\u003d100.0%"
+        ],
+        "informationContent": 17.63427498020752,
+        "overalDescLength": 44.71437934160164,
+        "attributesDescLength": 24.042599881712917,
+        "score": 0.39437593096144874
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(10,9)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(9,11)",
+        "V(10,11)",
+        "V(10,10)",
+        "V(10,12)",
+        "V(11,11)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [
+          "Shop \u0026 Service\u003c\u003d40.0%",
+          "Food\u003c\u003d40.0%"
+        ],
+        "negativeAttributes": [],
+        "informationContent": 14.866337038960946,
+        "overalDescLength": 37.807488745993126,
+        "attributesDescLength": 17.1357092861044,
+        "score": 0.39321143858137086
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(10,11)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(8,4)",
+        "V(9,4)",
+        "V(9,5)",
+        "V(9,3)",
+        "V(10,4)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [
+          "Food\u003c\u003d20.0%"
+        ],
+        "negativeAttributes": [],
+        "informationContent": 12.043969424860759,
+        "overalDescLength": 30.900598150384603,
+        "attributesDescLength": 10.228818690495881,
+        "score": 0.38976492837601767
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(9,4)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(0,9)",
+        "V(1,8)",
+        "V(1,9)",
+        "V(2,9)",
+        "V(1,10)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [
+          "Food\u003c\u003d40.0%"
+        ],
+        "negativeAttributes": [
+          "College \u0026 University\u003e\u003d100.0%",
+          "Event\u003e\u003d100.0%"
+        ],
+        "informationContent": 17.402639100328564,
+        "overalDescLength": 44.71437934160164,
+        "attributesDescLength": 24.042599881712917,
+        "score": 0.38919558666751725
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(1,9)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(10,9)",
+        "V(11,8)",
+        "V(11,9)",
+        "V(11,10)",
+        "V(12,9)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [
+          "Nightlife Spot\u003c\u003d40.0%",
+          "Food\u003c\u003d40.0%"
+        ],
+        "negativeAttributes": [],
+        "informationContent": 14.680229123949688,
+        "overalDescLength": 37.807488745993126,
+        "attributesDescLength": 17.1357092861044,
+        "score": 0.38828892399010534
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(11,9)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(13,7)",
+        "V(14,6)",
+        "V(14,7)",
+        "V(14,8)",
+        "V(15,7)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [
+          "Food\u003c\u003d40.0%"
+        ],
+        "negativeAttributes": [
+          "College \u0026 University\u003e\u003d100.0%",
+          "Event\u003e\u003d100.0%"
+        ],
+        "informationContent": 17.23459930156445,
+        "overalDescLength": 44.71437934160164,
+        "attributesDescLength": 24.042599881712917,
+        "score": 0.385437515969938
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(14,7)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(12,1)",
+        "V(13,0)",
+        "V(13,1)",
+        "V(14,1)",
+        "V(13,2)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [
+          "Shop \u0026 Service\u003c\u003d40.0%"
+        ],
+        "negativeAttributes": [
+          "College \u0026 University\u003e\u003d100.0%",
+          "Event\u003e\u003d100.0%"
+        ],
+        "informationContent": 16.789488267790684,
+        "overalDescLength": 44.71437934160164,
+        "attributesDescLength": 24.042599881712917,
+        "score": 0.3754829769530084
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(13,1)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(14,2)",
+        "V(15,1)",
+        "V(15,2)",
+        "V(16,2)",
+        "V(15,3)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [
+          "Food\u003c\u003d40.0%"
+        ],
+        "negativeAttributes": [
+          "Event\u003e\u003d100.0%",
+          "Nightlife Spot\u003e\u003d60.0%",
+          "Arts \u0026 Entertainment\u003e\u003d100.0%"
+        ],
+        "informationContent": 19.37835998192551,
+        "overalDescLength": 51.62126993721016,
+        "attributesDescLength": 30.949490477321433,
+        "score": 0.3753948712516467
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(15,2)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(8,9)",
+        "V(9,8)",
+        "V(9,10)",
+        "V(9,9)",
+        "V(10,9)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [
+          "Nightlife Spot\u003c\u003d40.0%",
+          "Food\u003c\u003d40.0%"
+        ],
+        "negativeAttributes": [],
+        "informationContent": 14.163070169762182,
+        "overalDescLength": 37.807488745993126,
+        "attributesDescLength": 17.1357092861044,
+        "score": 0.37461018013959463
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(9,9)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(8,11)",
+        "V(9,11)",
+        "V(9,10)",
+        "V(10,11)",
+        "V(9,12)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [
+          "Shop \u0026 Service\u003c\u003d40.0%",
+          "Food\u003c\u003d40.0%"
+        ],
+        "negativeAttributes": [],
+        "informationContent": 14.131243707235708,
+        "overalDescLength": 37.807488745993126,
+        "attributesDescLength": 17.1357092861044,
+        "score": 0.37376837700529236
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(9,11)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(5,3)",
+        "V(6,2)",
+        "V(6,4)",
+        "V(6,3)",
+        "V(7,3)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [
+          "Residence\u003c\u003d40.0%",
+          "Food\u003c\u003d40.0%"
+        ],
+        "negativeAttributes": [],
+        "informationContent": 14.07454851684867,
+        "overalDescLength": 37.807488745993126,
+        "attributesDescLength": 17.1357092861044,
+        "score": 0.3722688013321251
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(6,3)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(9,10)",
+        "V(10,9)",
+        "V(11,10)",
+        "V(10,10)",
+        "V(10,11)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [
+          "Nightlife Spot\u003c\u003d40.0%",
+          "Food\u003c\u003d40.0%"
+        ],
+        "negativeAttributes": [],
+        "informationContent": 13.85391267225633,
+        "overalDescLength": 37.807488745993126,
+        "attributesDescLength": 17.1357092861044,
+        "score": 0.3664330303801143
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(10,10)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(4,7)",
+        "V(5,8)",
+        "V(6,7)",
+        "V(5,6)",
+        "V(5,7)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [
+          "Outdoors \u0026 Recreation\u003c\u003d40.0%",
+          "College \u0026 University\u003c\u003d40.0%"
+        ],
+        "negativeAttributes": [],
+        "informationContent": 13.822833359725436,
+        "overalDescLength": 37.807488745993126,
+        "attributesDescLength": 17.1357092861044,
+        "score": 0.3656109892035713
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(5,7)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(2,10)",
+        "V(3,9)",
+        "V(3,10)",
+        "V(3,11)",
+        "V(4,10)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [
+          "Professional \u0026 Other Places\u003c\u003d40.0%",
+          "Food\u003c\u003d40.0%"
+        ],
+        "negativeAttributes": [],
+        "informationContent": 13.793629604587734,
+        "overalDescLength": 37.807488745993126,
+        "attributesDescLength": 17.1357092861044,
+        "score": 0.36483855611937716
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(3,10)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(12,5)",
+        "V(13,4)",
+        "V(13,6)",
+        "V(13,5)",
+        "V(14,5)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [
+          "Food\u003c\u003d40.0%"
+        ],
+        "negativeAttributes": [
+          "College \u0026 University\u003e\u003d100.0%",
+          "Event\u003e\u003d100.0%"
+        ],
+        "informationContent": 16.194084523088108,
+        "overalDescLength": 44.71437934160164,
+        "attributesDescLength": 24.042599881712917,
+        "score": 0.3621672661353784
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(13,5)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(14,13)",
+        "V(16,13)",
+        "V(15,12)",
+        "V(15,13)",
+        "V(15,14)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [
+          "Food\u003c\u003d40.0%"
+        ],
+        "negativeAttributes": [
+          "College \u0026 University\u003e\u003d100.0%",
+          "Event\u003e\u003d100.0%"
+        ],
+        "informationContent": 16.12560453110985,
+        "overalDescLength": 44.71437934160164,
+        "attributesDescLength": 24.042599881712917,
+        "score": 0.3606357679241409
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(15,13)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(3,9)",
+        "V(5,9)",
+        "V(4,9)",
+        "V(4,10)",
+        "V(4,8)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [
+          "Outdoors \u0026 Recreation\u003c\u003d40.0%",
+          "Professional \u0026 Other Places\u003c\u003d40.0%"
+        ],
+        "negativeAttributes": [],
+        "informationContent": 13.524998890124744,
+        "overalDescLength": 37.807488745993126,
+        "attributesDescLength": 17.1357092861044,
+        "score": 0.35773333111308897
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(4,9)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(5,9)",
+        "V(7,9)",
+        "V(6,8)",
+        "V(6,9)",
+        "V(6,10)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [
+          "Outdoors \u0026 Recreation\u003c\u003d40.0%",
+          "Nightlife Spot\u003c\u003d40.0%"
+        ],
+        "negativeAttributes": [],
+        "informationContent": 13.519240101932493,
+        "overalDescLength": 37.807488745993126,
+        "attributesDescLength": 17.1357092861044,
+        "score": 0.3575810123957327
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(6,9)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(12,8)",
+        "V(14,8)",
+        "V(13,8)",
+        "V(13,9)",
+        "V(13,7)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [],
+        "negativeAttributes": [
+          "College \u0026 University\u003e\u003d100.0%",
+          "Arts \u0026 Entertainment\u003e\u003d60.0%"
+        ],
+        "informationContent": 13.17774114658862,
+        "overalDescLength": 37.807488745993126,
+        "attributesDescLength": 17.1357092861044,
+        "score": 0.3485484379859852
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(13,8)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(13,6)",
+        "V(14,7)",
+        "V(14,5)",
+        "V(14,6)",
+        "V(15,6)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [
+          "Food\u003c\u003d40.0%"
+        ],
+        "negativeAttributes": [
+          "College \u0026 University\u003e\u003d60.0%",
+          "Event\u003e\u003d100.0%"
+        ],
+        "informationContent": 15.464905295714397,
+        "overalDescLength": 44.71437934160164,
+        "attributesDescLength": 24.042599881712917,
+        "score": 0.3458597776247352
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(14,6)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(13,2)",
+        "V(14,3)",
+        "V(14,1)",
+        "V(14,2)",
+        "V(15,2)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [],
+        "negativeAttributes": [
+          "Event\u003e\u003d100.0%",
+          "Nightlife Spot\u003e\u003d80.0%",
+          "Arts \u0026 Entertainment\u003e\u003d100.0%"
+        ],
+        "informationContent": 15.408278769077349,
+        "overalDescLength": 44.71437934160164,
+        "attributesDescLength": 24.042599881712917,
+        "score": 0.34459337233250376
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(14,2)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(11,6)",
+        "V(13,6)",
+        "V(12,5)",
+        "V(12,6)",
+        "V(12,7)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [
+          "Food\u003c\u003d40.0%"
+        ],
+        "negativeAttributes": [
+          "Event\u003e\u003d100.0%",
+          "Arts \u0026 Entertainment\u003e\u003d60.0%"
+        ],
+        "informationContent": 15.400203439998865,
+        "overalDescLength": 44.71437934160164,
+        "attributesDescLength": 24.042599881712917,
+        "score": 0.3444127742967625
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(12,6)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(7,3)",
+        "V(8,2)",
+        "V(8,3)",
+        "V(9,3)",
+        "V(8,4)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [
+          "Food\u003c\u003d40.0%"
+        ],
+        "negativeAttributes": [
+          "College \u0026 University\u003e\u003d60.0%",
+          "Event\u003e\u003d100.0%"
+        ],
+        "informationContent": 15.23422926144669,
+        "overalDescLength": 44.71437934160164,
+        "attributesDescLength": 24.042599881712917,
+        "score": 0.34070089948163435
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(8,3)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(11,8)",
+        "V(13,8)",
+        "V(12,8)",
+        "V(12,9)",
+        "V(12,7)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [
+          "Food\u003c\u003d40.0%"
+        ],
+        "negativeAttributes": [
+          "College \u0026 University\u003e\u003d60.0%"
+        ],
+        "informationContent": 12.562162342250808,
+        "overalDescLength": 37.807488745993126,
+        "attributesDescLength": 17.1357092861044,
+        "score": 0.3322665101257792
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(12,8)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(12,14)",
+        "V(13,14)",
+        "V(13,13)",
+        "V(14,14)",
+        "V(13,15)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [
+          "Food\u003c\u003d40.0%"
+        ],
+        "negativeAttributes": [
+          "College \u0026 University\u003e\u003d60.0%"
+        ],
+        "informationContent": 12.543317393732803,
+        "overalDescLength": 37.807488745993126,
+        "attributesDescLength": 17.1357092861044,
+        "score": 0.3317680652635824
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(13,14)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(12,7)",
+        "V(14,7)",
+        "V(13,6)",
+        "V(13,7)",
+        "V(13,8)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [
+          "Food\u003c\u003d40.0%"
+        ],
+        "negativeAttributes": [
+          "College \u0026 University\u003e\u003d60.0%",
+          "Event\u003e\u003d100.0%"
+        ],
+        "informationContent": 14.796271124634172,
+        "overalDescLength": 44.71437934160164,
+        "attributesDescLength": 24.042599881712917,
+        "score": 0.3309063290713716
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(13,7)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(7,14)",
+        "V(8,14)",
+        "V(9,14)",
+        "V(8,13)",
+        "V(8,15)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [
+          "Food\u003c\u003d40.0%"
+        ],
+        "negativeAttributes": [
+          "Nightlife Spot\u003e\u003d60.0%"
+        ],
+        "informationContent": 12.507997887424843,
+        "overalDescLength": 37.807488745993126,
+        "attributesDescLength": 17.1357092861044,
+        "score": 0.33083387186752655
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(8,14)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(0,2)",
+        "V(1,2)",
+        "V(1,1)",
+        "V(1,3)",
+        "V(2,2)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [
+          "Food\u003c\u003d40.0%"
+        ],
+        "negativeAttributes": [
+          "College \u0026 University\u003e\u003d60.0%"
+        ],
+        "informationContent": 12.437750881685202,
+        "overalDescLength": 37.807488745993126,
+        "attributesDescLength": 17.1357092861044,
+        "score": 0.3289758535735428
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(1,2)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(11,9)",
+        "V(12,8)",
+        "V(13,9)",
+        "V(12,9)",
+        "V(12,10)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [],
+        "negativeAttributes": [
+          "College \u0026 University\u003e\u003d100.0%",
+          "Arts \u0026 Entertainment\u003e\u003d60.0%"
+        ],
+        "informationContent": 12.302983190923761,
+        "overalDescLength": 37.807488745993126,
+        "attributesDescLength": 17.1357092861044,
+        "score": 0.32541127694516986
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(12,9)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(4,3)",
+        "V(5,2)",
+        "V(5,3)",
+        "V(5,4)",
+        "V(6,3)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [
+          "Food\u003c\u003d40.0%"
+        ],
+        "negativeAttributes": [
+          "College \u0026 University\u003e\u003d60.0%"
+        ],
+        "informationContent": 11.979198548078173,
+        "overalDescLength": 37.807488745993126,
+        "attributesDescLength": 17.1357092861044,
+        "score": 0.3168472423164509
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(5,3)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(2,12)",
+        "V(3,11)",
+        "V(3,12)",
+        "V(3,13)",
+        "V(4,12)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [],
+        "negativeAttributes": [
+          "College \u0026 University\u003e\u003d100.0%",
+          "Event\u003e\u003d100.0%"
+        ],
+        "informationContent": 11.969339386073173,
+        "overalDescLength": 37.807488745993126,
+        "attributesDescLength": 17.1357092861044,
+        "score": 0.3165864695877664
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(3,12)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(2,11)",
+        "V(4,11)",
+        "V(3,11)",
+        "V(3,10)",
+        "V(3,12)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [
+          "Professional \u0026 Other Places\u003c\u003d40.0%"
+        ],
+        "negativeAttributes": [
+          "College \u0026 University\u003e\u003d60.0%"
+        ],
+        "informationContent": 11.719883056346067,
+        "overalDescLength": 37.807488745993126,
+        "attributesDescLength": 17.1357092861044,
+        "score": 0.30998840296125596
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(3,11)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(13,12)",
+        "V(15,12)",
+        "V(14,13)",
+        "V(14,11)",
+        "V(14,12)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [
+          "Food\u003c\u003d40.0%"
+        ],
+        "negativeAttributes": [
+          "College \u0026 University\u003e\u003d100.0%",
+          "Event\u003e\u003d100.0%"
+        ],
+        "informationContent": 13.63781318786946,
+        "overalDescLength": 44.71437934160164,
+        "attributesDescLength": 24.042599881712917,
+        "score": 0.3049983783445033
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(14,12)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(9,1)",
+        "V(10,2)",
+        "V(10,0)",
+        "V(10,1)",
+        "V(11,1)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [],
+        "negativeAttributes": [
+          "College \u0026 University\u003e\u003d100.0%",
+          "Event\u003e\u003d100.0%",
+          "Arts \u0026 Entertainment\u003e\u003d60.0%"
+        ],
+        "informationContent": 13.370470298900107,
+        "overalDescLength": 44.71437934160164,
+        "attributesDescLength": 24.042599881712917,
+        "score": 0.299019476413942
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(10,1)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(13,8)",
+        "V(14,9)",
+        "V(14,8)",
+        "V(14,7)",
+        "V(15,8)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [],
+        "negativeAttributes": [
+          "College \u0026 University\u003e\u003d100.0%",
+          "Event\u003e\u003d100.0%"
+        ],
+        "informationContent": 11.2120372294289,
+        "overalDescLength": 37.807488745993126,
+        "attributesDescLength": 17.1357092861044,
+        "score": 0.29655598933735483
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(14,8)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(10,11)",
+        "V(12,11)",
+        "V(11,11)",
+        "V(11,12)",
+        "V(11,10)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [
+          "Food\u003c\u003d40.0%"
+        ],
+        "negativeAttributes": [],
+        "informationContent": 8.786720715616486,
+        "overalDescLength": 30.900598150384603,
+        "attributesDescLength": 10.228818690495881,
+        "score": 0.2843543892857337
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(11,11)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(1,8)",
+        "V(2,8)",
+        "V(2,7)",
+        "V(2,9)",
+        "V(3,8)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [
+          "Food\u003c\u003d40.0%"
+        ],
+        "negativeAttributes": [
+          "Event\u003e\u003d100.0%"
+        ],
+        "informationContent": 10.530441815745833,
+        "overalDescLength": 37.807488745993126,
+        "attributesDescLength": 17.1357092861044,
+        "score": 0.278527936263999
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(2,8)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(10,10)",
+        "V(11,11)",
+        "V(11,9)",
+        "V(11,10)",
+        "V(12,10)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [
+          "Food\u003c\u003d40.0%"
+        ],
+        "negativeAttributes": [
+          "Event\u003e\u003d100.0%"
+        ],
+        "informationContent": 10.501747134778405,
+        "overalDescLength": 37.807488745993126,
+        "attributesDescLength": 17.1357092861044,
+        "score": 0.2777689680828481
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(11,10)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(9,6)",
+        "V(10,7)",
+        "V(10,5)",
+        "V(10,6)",
+        "V(11,6)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [
+          "Food\u003c\u003d40.0%"
+        ],
+        "negativeAttributes": [
+          "Event\u003e\u003d100.0%"
+        ],
+        "informationContent": 10.43238197098965,
+        "overalDescLength": 37.807488745993126,
+        "attributesDescLength": 17.1357092861044,
+        "score": 0.27593427432006534
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(10,6)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(12,13)",
+        "V(13,14)",
+        "V(13,13)",
+        "V(13,12)",
+        "V(14,13)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [],
+        "negativeAttributes": [
+          "College \u0026 University\u003e\u003d100.0%",
+          "Arts \u0026 Entertainment\u003e\u003d100.0%"
+        ],
+        "informationContent": 10.410883760983351,
+        "overalDescLength": 37.807488745993126,
+        "attributesDescLength": 17.1357092861044,
+        "score": 0.2753656512583557
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(13,13)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(8,3)",
+        "V(10,3)",
+        "V(9,3)",
+        "V(9,2)",
+        "V(9,4)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [
+          "Food\u003c\u003d40.0%"
+        ],
+        "negativeAttributes": [
+          "Event\u003e\u003d100.0%"
+        ],
+        "informationContent": 10.399211132149766,
+        "overalDescLength": 37.807488745993126,
+        "attributesDescLength": 17.1357092861044,
+        "score": 0.2750569127194909
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(9,3)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(0,8)",
+        "V(2,8)",
+        "V(1,7)",
+        "V(1,8)",
+        "V(1,9)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [
+          "Food\u003c\u003d40.0%"
+        ],
+        "negativeAttributes": [
+          "Event\u003e\u003d100.0%"
+        ],
+        "informationContent": 10.398869108523662,
+        "overalDescLength": 37.807488745993126,
+        "attributesDescLength": 17.1357092861044,
+        "score": 0.27504786626765165
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(1,8)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(12,6)",
+        "V(14,6)",
+        "V(13,5)",
+        "V(13,7)",
+        "V(13,6)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [
+          "Food\u003c\u003d40.0%"
+        ],
+        "negativeAttributes": [
+          "Event\u003e\u003d100.0%"
+        ],
+        "informationContent": 10.032018916685816,
+        "overalDescLength": 37.807488745993126,
+        "attributesDescLength": 17.1357092861044,
+        "score": 0.26534475706877036
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(13,6)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(14,1)",
+        "V(16,1)",
+        "V(15,0)",
+        "V(15,2)",
+        "V(15,1)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [],
+        "negativeAttributes": [
+          "Event\u003e\u003d100.0%",
+          "Arts \u0026 Entertainment\u003e\u003d100.0%"
+        ],
+        "informationContent": 9.944352492710632,
+        "overalDescLength": 37.807488745993126,
+        "attributesDescLength": 17.1357092861044,
+        "score": 0.2630259988840053
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(15,1)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(7,15)",
+        "V(9,15)",
+        "V(8,14)",
+        "V(8,15)",
+        "V(8,16)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [
+          "Travel \u0026 Transport\u003c\u003d40.0%"
+        ],
+        "negativeAttributes": [
+          "Event\u003e\u003d100.0%"
+        ],
+        "informationContent": 9.905430364562005,
+        "overalDescLength": 37.807488745993126,
+        "attributesDescLength": 17.1357092861044,
+        "score": 0.2619965169099413
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(8,15)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(13,14)",
+        "V(14,15)",
+        "V(14,14)",
+        "V(14,13)",
+        "V(15,14)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [],
+        "negativeAttributes": [
+          "College \u0026 University\u003e\u003d100.0%",
+          "Residence\u003e\u003d60.0%"
+        ],
+        "informationContent": 9.777703053841869,
+        "overalDescLength": 37.807488745993126,
+        "attributesDescLength": 17.1357092861044,
+        "score": 0.2586181568295281
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(14,14)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(7,13)",
+        "V(9,13)",
+        "V(8,14)",
+        "V(8,12)",
+        "V(8,13)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [],
+        "negativeAttributes": [
+          "College \u0026 University\u003e\u003d100.0%"
+        ],
+        "informationContent": 7.791713161503138,
+        "overalDescLength": 30.900598150384603,
+        "attributesDescLength": 10.228818690495881,
+        "score": 0.2521541208873382
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(8,13)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(3,12)",
+        "V(5,12)",
+        "V(4,13)",
+        "V(4,11)",
+        "V(4,12)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [
+          "Outdoors \u0026 Recreation\u003c\u003d40.0%"
+        ],
+        "negativeAttributes": [],
+        "informationContent": 7.774064911949031,
+        "overalDescLength": 30.900598150384603,
+        "attributesDescLength": 10.228818690495881,
+        "score": 0.2515829911807798
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(4,12)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(8,13)",
+        "V(10,13)",
+        "V(9,12)",
+        "V(9,13)",
+        "V(9,14)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [],
+        "negativeAttributes": [
+          "College \u0026 University\u003e\u003d100.0%"
+        ],
+        "informationContent": 7.7692272672566975,
+        "overalDescLength": 30.900598150384603,
+        "attributesDescLength": 10.228818690495881,
+        "score": 0.2514264361306546
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(9,13)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(3,14)",
+        "V(4,13)",
+        "V(4,15)",
+        "V(4,14)",
+        "V(5,14)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [
+          "Professional \u0026 Other Places\u003c\u003d40.0%"
+        ],
+        "negativeAttributes": [],
+        "informationContent": 7.716564073483895,
+        "overalDescLength": 30.900598150384603,
+        "attributesDescLength": 10.228818690495881,
+        "score": 0.24972215864332228
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(4,14)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(12,2)",
+        "V(13,1)",
+        "V(13,2)",
+        "V(14,2)",
+        "V(13,3)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [],
+        "negativeAttributes": [
+          "College \u0026 University\u003e\u003d100.0%",
+          "Event\u003e\u003d100.0%",
+          "Nightlife Spot\u003e\u003d60.0%"
+        ],
+        "informationContent": 10.955546048347891,
+        "overalDescLength": 44.71437934160164,
+        "attributesDescLength": 24.042599881712917,
+        "score": 0.24501169891348581
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(13,2)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(8,12)",
+        "V(9,11)",
+        "V(9,12)",
+        "V(9,13)",
+        "V(10,12)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [
+          "Food\u003c\u003d40.0%"
+        ],
+        "negativeAttributes": [],
+        "informationContent": 7.55329109750463,
+        "overalDescLength": 30.900598150384603,
+        "attributesDescLength": 10.228818690495881,
+        "score": 0.24443834584511492
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(9,12)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(7,12)",
+        "V(8,11)",
+        "V(8,13)",
+        "V(8,12)",
+        "V(9,12)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [
+          "Food\u003c\u003d40.0%"
+        ],
+        "negativeAttributes": [],
+        "informationContent": 7.508187677136465,
+        "overalDescLength": 30.900598150384603,
+        "attributesDescLength": 10.228818690495881,
+        "score": 0.24297871648296926
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(8,12)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(6,15)",
+        "V(7,14)",
+        "V(7,16)",
+        "V(7,15)",
+        "V(8,15)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [
+          "Outdoors \u0026 Recreation\u003c\u003d40.0%"
+        ],
+        "negativeAttributes": [
+          "Event\u003e\u003d100.0%"
+        ],
+        "informationContent": 9.009869069584926,
+        "overalDescLength": 37.807488745993126,
+        "attributesDescLength": 17.1357092861044,
+        "score": 0.23830911198881996
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(7,15)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(8,5)",
+        "V(9,4)",
+        "V(9,5)",
+        "V(9,6)",
+        "V(10,5)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [
+          "Food\u003c\u003d40.0%"
+        ],
+        "negativeAttributes": [],
+        "informationContent": 7.356070441013069,
+        "overalDescLength": 30.900598150384603,
+        "attributesDescLength": 10.228818690495881,
+        "score": 0.23805592387607266
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(9,5)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(1,9)",
+        "V(3,9)",
+        "V(2,8)",
+        "V(2,9)",
+        "V(2,10)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [
+          "Food\u003c\u003d40.0%"
+        ],
+        "negativeAttributes": [],
+        "informationContent": 7.237271224010862,
+        "overalDescLength": 30.900598150384603,
+        "attributesDescLength": 10.228818690495881,
+        "score": 0.23421136344316312
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(2,9)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(10,1)",
+        "V(12,1)",
+        "V(11,0)",
+        "V(11,1)",
+        "V(11,2)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [],
+        "negativeAttributes": [
+          "College \u0026 University\u003e\u003d100.0%",
+          "Event\u003e\u003d100.0%",
+          "Residence\u003e\u003d60.0%"
+        ],
+        "informationContent": 10.461781254165949,
+        "overalDescLength": 44.71437934160164,
+        "attributesDescLength": 24.042599881712917,
+        "score": 0.23396905890701813
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(11,1)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(3,8)",
+        "V(5,8)",
+        "V(4,7)",
+        "V(4,8)",
+        "V(4,9)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [
+          "College \u0026 University\u003c\u003d40.0%"
+        ],
+        "negativeAttributes": [],
+        "informationContent": 7.16344290728729,
+        "overalDescLength": 30.900598150384603,
+        "attributesDescLength": 10.228818690495881,
+        "score": 0.23182214377937957
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(4,8)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(7,5)",
+        "V(8,4)",
+        "V(8,6)",
+        "V(8,5)",
+        "V(9,5)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [
+          "Food\u003c\u003d40.0%"
+        ],
+        "negativeAttributes": [],
+        "informationContent": 7.149460141511672,
+        "overalDescLength": 30.900598150384603,
+        "attributesDescLength": 10.228818690495881,
+        "score": 0.23136963584708753
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(8,5)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(9,4)",
+        "V(11,4)",
+        "V(10,3)",
+        "V(10,4)",
+        "V(10,5)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [
+          "Food\u003c\u003d40.0%"
+        ],
+        "negativeAttributes": [],
+        "informationContent": 7.139530786982066,
+        "overalDescLength": 30.900598150384603,
+        "attributesDescLength": 10.228818690495881,
+        "score": 0.23104830373302027
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(10,4)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(10,7)",
+        "V(11,6)",
+        "V(11,8)",
+        "V(11,7)",
+        "V(12,7)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [
+          "Food\u003c\u003d40.0%"
+        ],
+        "negativeAttributes": [],
+        "informationContent": 7.081654672215032,
+        "overalDescLength": 30.900598150384603,
+        "attributesDescLength": 10.228818690495881,
+        "score": 0.22917532656651474
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(11,7)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(7,6)",
+        "V(9,6)",
+        "V(8,5)",
+        "V(8,6)",
+        "V(8,7)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [
+          "Food\u003c\u003d40.0%"
+        ],
+        "negativeAttributes": [],
+        "informationContent": 7.065763056471281,
+        "overalDescLength": 30.900598150384603,
+        "attributesDescLength": 10.228818690495881,
+        "score": 0.22866104475014304
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(8,6)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(4,10)",
+        "V(5,9)",
+        "V(5,10)",
+        "V(5,11)",
+        "V(6,10)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [
+          "Outdoors \u0026 Recreation\u003c\u003d40.0%"
+        ],
+        "negativeAttributes": [],
+        "informationContent": 7.064466740932489,
+        "overalDescLength": 30.900598150384603,
+        "attributesDescLength": 10.228818690495881,
+        "score": 0.2286190936030331
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(5,10)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(6,12)",
+        "V(7,11)",
+        "V(8,12)",
+        "V(7,12)",
+        "V(7,13)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [
+          "Outdoors \u0026 Recreation\u003c\u003d40.0%"
+        ],
+        "negativeAttributes": [],
+        "informationContent": 7.053905522903218,
+        "overalDescLength": 30.900598150384603,
+        "attributesDescLength": 10.228818690495881,
+        "score": 0.22827731322784836
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(7,12)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(8,10)",
+        "V(9,10)",
+        "V(9,11)",
+        "V(9,9)",
+        "V(10,10)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [
+          "Food\u003c\u003d40.0%"
+        ],
+        "negativeAttributes": [],
+        "informationContent": 7.007811175767892,
+        "overalDescLength": 30.900598150384603,
+        "attributesDescLength": 10.228818690495881,
+        "score": 0.2267856156590506
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(9,10)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(14,8)",
+        "V(15,7)",
+        "V(16,8)",
+        "V(15,8)",
+        "V(15,9)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [],
+        "negativeAttributes": [
+          "College \u0026 University\u003e\u003d60.0%",
+          "Event\u003e\u003d100.0%"
+        ],
+        "informationContent": 8.550667505143394,
+        "overalDescLength": 37.807488745993126,
+        "attributesDescLength": 17.1357092861044,
+        "score": 0.2261633287148595
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(15,8)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(11,2)",
+        "V(12,1)",
+        "V(12,2)",
+        "V(12,3)",
+        "V(13,2)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [],
+        "negativeAttributes": [
+          "College \u0026 University\u003e\u003d100.0%",
+          "Event\u003e\u003d100.0%",
+          "Professional \u0026 Other Places\u003e\u003d60.0%"
+        ],
+        "informationContent": 10.095779642343452,
+        "overalDescLength": 44.71437934160164,
+        "attributesDescLength": 24.042599881712917,
+        "score": 0.2257837364847526
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(12,2)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(11,7)",
+        "V(13,7)",
+        "V(12,6)",
+        "V(12,7)",
+        "V(12,8)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [
+          "Food\u003c\u003d40.0%"
+        ],
+        "negativeAttributes": [],
+        "informationContent": 6.975093229892709,
+        "overalDescLength": 30.900598150384603,
+        "attributesDescLength": 10.228818690495881,
+        "score": 0.22572680295529793
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(12,7)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(7,11)",
+        "V(9,11)",
+        "V(8,10)",
+        "V(8,11)",
+        "V(8,12)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [
+          "Food\u003c\u003d40.0%"
+        ],
+        "negativeAttributes": [],
+        "informationContent": 6.973847059637005,
+        "overalDescLength": 30.900598150384603,
+        "attributesDescLength": 10.228818690495881,
+        "score": 0.22568647460146998
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(8,11)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(1,6)",
+        "V(2,5)",
+        "V(3,6)",
+        "V(2,6)",
+        "V(2,7)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [
+          "Food\u003c\u003d40.0%"
+        ],
+        "negativeAttributes": [],
+        "informationContent": 6.96717075759943,
+        "overalDescLength": 30.900598150384603,
+        "attributesDescLength": 10.228818690495881,
+        "score": 0.2254704172292119
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(2,6)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(3,6)",
+        "V(4,6)",
+        "V(4,5)",
+        "V(4,7)",
+        "V(5,6)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [
+          "Outdoors \u0026 Recreation\u003c\u003d40.0%"
+        ],
+        "negativeAttributes": [],
+        "informationContent": 6.953099348545556,
+        "overalDescLength": 30.900598150384603,
+        "attributesDescLength": 10.228818690495881,
+        "score": 0.2250150406379436
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(4,6)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(1,1)",
+        "V(3,1)",
+        "V(2,1)",
+        "V(2,2)",
+        "V(2,0)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [
+          "Food\u003c\u003d40.0%"
+        ],
+        "negativeAttributes": [],
+        "informationContent": 6.932235603359032,
+        "overalDescLength": 30.900598150384603,
+        "attributesDescLength": 10.228818690495881,
+        "score": 0.22433985159839862
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(2,1)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(7,9)",
+        "V(9,9)",
+        "V(8,8)",
+        "V(8,9)",
+        "V(8,10)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [
+          "Nightlife Spot\u003c\u003d40.0%"
+        ],
+        "negativeAttributes": [],
+        "informationContent": 6.920640645343851,
+        "overalDescLength": 30.900598150384603,
+        "attributesDescLength": 10.228818690495881,
+        "score": 0.22396461750232216
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(8,9)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(8,8)",
+        "V(9,7)",
+        "V(9,8)",
+        "V(9,9)",
+        "V(10,8)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [
+          "Food\u003c\u003d40.0%"
+        ],
+        "negativeAttributes": [],
+        "informationContent": 6.916875086510907,
+        "overalDescLength": 30.900598150384603,
+        "attributesDescLength": 10.228818690495881,
+        "score": 0.2238427571158462
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(9,8)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(0,3)",
+        "V(2,3)",
+        "V(1,2)",
+        "V(1,3)",
+        "V(1,4)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [
+          "Food\u003c\u003d40.0%"
+        ],
+        "negativeAttributes": [],
+        "informationContent": 6.915864787320205,
+        "overalDescLength": 30.900598150384603,
+        "attributesDescLength": 10.228818690495881,
+        "score": 0.2238100619820567
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(1,3)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(12,9)",
+        "V(13,10)",
+        "V(14,9)",
+        "V(13,8)",
+        "V(13,9)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [],
+        "negativeAttributes": [
+          "College \u0026 University\u003e\u003d100.0%",
+          "Event\u003e\u003d100.0%"
+        ],
+        "informationContent": 8.452227109342873,
+        "overalDescLength": 37.807488745993126,
+        "attributesDescLength": 17.1357092861044,
+        "score": 0.22355960127710542
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(13,9)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(4,6)",
+        "V(6,6)",
+        "V(5,6)",
+        "V(5,7)",
+        "V(5,5)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [
+          "College \u0026 University\u003c\u003d40.0%"
+        ],
+        "negativeAttributes": [],
+        "informationContent": 6.88612439690993,
+        "overalDescLength": 30.900598150384603,
+        "attributesDescLength": 10.228818690495881,
+        "score": 0.22284760843130225
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(5,6)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(4,11)",
+        "V(5,12)",
+        "V(6,11)",
+        "V(5,10)",
+        "V(5,11)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [
+          "Food\u003c\u003d40.0%"
+        ],
+        "negativeAttributes": [],
+        "informationContent": 6.868662250955786,
+        "overalDescLength": 30.900598150384603,
+        "attributesDescLength": 10.228818690495881,
+        "score": 0.222282501378385
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(5,11)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(1,2)",
+        "V(2,3)",
+        "V(2,1)",
+        "V(2,2)",
+        "V(3,2)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [
+          "Food\u003c\u003d40.0%"
+        ],
+        "negativeAttributes": [],
+        "informationContent": 6.834527547058949,
+        "overalDescLength": 30.900598150384603,
+        "attributesDescLength": 10.228818690495881,
+        "score": 0.221177839787994
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(2,2)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(2,1)",
+        "V(3,1)",
+        "V(3,0)",
+        "V(3,2)",
+        "V(4,1)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [
+          "Food\u003c\u003d40.0%"
+        ],
+        "negativeAttributes": [],
+        "informationContent": 6.830855122508458,
+        "overalDescLength": 30.900598150384603,
+        "attributesDescLength": 10.228818690495881,
+        "score": 0.22105899339762258
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(3,1)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(7,8)",
+        "V(9,8)",
+        "V(8,7)",
+        "V(8,8)",
+        "V(8,9)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [
+          "Food\u003c\u003d40.0%"
+        ],
+        "negativeAttributes": [],
+        "informationContent": 6.821641763805457,
+        "overalDescLength": 30.900598150384603,
+        "attributesDescLength": 10.228818690495881,
+        "score": 0.2207608322209954
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(8,8)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(3,2)",
+        "V(4,2)",
+        "V(4,3)",
+        "V(5,2)",
+        "V(4,1)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [
+          "Food\u003c\u003d40.0%"
+        ],
+        "negativeAttributes": [],
+        "informationContent": 6.809526193983638,
+        "overalDescLength": 30.900598150384603,
+        "attributesDescLength": 10.228818690495881,
+        "score": 0.22036875017252322
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(4,2)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(8,6)",
+        "V(9,6)",
+        "V(9,7)",
+        "V(9,5)",
+        "V(10,6)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [
+          "Food\u003c\u003d40.0%"
+        ],
+        "negativeAttributes": [],
+        "informationContent": 6.802276436314141,
+        "overalDescLength": 30.900598150384603,
+        "attributesDescLength": 10.228818690495881,
+        "score": 0.22013413472481524
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(9,6)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(9,7)",
+        "V(11,7)",
+        "V(10,6)",
+        "V(10,7)",
+        "V(10,8)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [
+          "Food\u003c\u003d40.0%"
+        ],
+        "negativeAttributes": [],
+        "informationContent": 6.801434309409542,
+        "overalDescLength": 30.900598150384603,
+        "attributesDescLength": 10.228818690495881,
+        "score": 0.2201068819544805
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(10,7)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(1,7)",
+        "V(2,8)",
+        "V(3,7)",
+        "V(2,6)",
+        "V(2,7)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [
+          "Food\u003c\u003d40.0%"
+        ],
+        "negativeAttributes": [],
+        "informationContent": 6.788869643880984,
+        "overalDescLength": 30.900598150384603,
+        "attributesDescLength": 10.228818690495881,
+        "score": 0.21970026634570136
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(2,7)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(4,5)",
+        "V(5,4)",
+        "V(5,6)",
+        "V(5,5)",
+        "V(6,5)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [
+          "Travel \u0026 Transport\u003c\u003d40.0%"
+        ],
+        "negativeAttributes": [],
+        "informationContent": 6.786620407133311,
+        "overalDescLength": 30.900598150384603,
+        "attributesDescLength": 10.228818690495881,
+        "score": 0.2196274769214732
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(5,5)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(9,8)",
+        "V(10,7)",
+        "V(10,8)",
+        "V(10,9)",
+        "V(11,8)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [
+          "Food\u003c\u003d40.0%"
+        ],
+        "negativeAttributes": [],
+        "informationContent": 6.7815394463611725,
+        "overalDescLength": 30.900598150384603,
+        "attributesDescLength": 10.228818690495881,
+        "score": 0.219463047716983
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(10,8)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(8,7)",
+        "V(9,6)",
+        "V(9,7)",
+        "V(9,8)",
+        "V(10,7)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [
+          "Food\u003c\u003d40.0%"
+        ],
+        "negativeAttributes": [],
+        "informationContent": 6.772439868027533,
+        "overalDescLength": 30.900598150384603,
+        "attributesDescLength": 10.228818690495881,
+        "score": 0.21916856868167905
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(9,7)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(1,3)",
+        "V(3,3)",
+        "V(2,2)",
+        "V(2,3)",
+        "V(2,4)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [
+          "Food\u003c\u003d40.0%"
+        ],
+        "negativeAttributes": [],
+        "informationContent": 6.768147065984387,
+        "overalDescLength": 30.900598150384603,
+        "attributesDescLength": 10.228818690495881,
+        "score": 0.219029645738432
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(2,3)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(6,11)",
+        "V(8,11)",
+        "V(7,10)",
+        "V(7,12)",
+        "V(7,11)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [
+          "Food\u003c\u003d40.0%"
+        ],
+        "negativeAttributes": [],
+        "informationContent": 6.758947818121714,
+        "overalDescLength": 30.900598150384603,
+        "attributesDescLength": 10.228818690495881,
+        "score": 0.21873194121446446
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(7,11)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(2,3)",
+        "V(3,2)",
+        "V(3,3)",
+        "V(3,4)",
+        "V(4,3)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [
+          "Food\u003c\u003d40.0%"
+        ],
+        "negativeAttributes": [],
+        "informationContent": 6.758101028629002,
+        "overalDescLength": 30.900598150384603,
+        "attributesDescLength": 10.228818690495881,
+        "score": 0.2187045375542314
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(3,3)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(2,2)",
+        "V(4,2)",
+        "V(3,1)",
+        "V(3,2)",
+        "V(3,3)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [
+          "Food\u003c\u003d40.0%"
+        ],
+        "negativeAttributes": [],
+        "informationContent": 6.754421621198286,
+        "overalDescLength": 30.900598150384603,
+        "attributesDescLength": 10.228818690495881,
+        "score": 0.2185854651850556
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(3,2)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(0,10)",
+        "V(2,10)",
+        "V(1,11)",
+        "V(1,9)",
+        "V(1,10)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [],
+        "negativeAttributes": [
+          "College \u0026 University\u003e\u003d100.0%",
+          "Event\u003e\u003d100.0%"
+        ],
+        "informationContent": 8.214704153831558,
+        "overalDescLength": 37.807488745993126,
+        "attributesDescLength": 17.1357092861044,
+        "score": 0.21727716984911252
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(1,10)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(1,4)",
+        "V(3,4)",
+        "V(2,3)",
+        "V(2,4)",
+        "V(2,5)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [
+          "Food\u003c\u003d40.0%"
+        ],
+        "negativeAttributes": [],
+        "informationContent": 6.695161126644284,
+        "overalDescLength": 30.900598150384603,
+        "attributesDescLength": 10.228818690495881,
+        "score": 0.21666768695093863
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(2,4)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(2,5)",
+        "V(3,4)",
+        "V(3,5)",
+        "V(3,6)",
+        "V(4,5)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [
+          "Food\u003c\u003d40.0%"
+        ],
+        "negativeAttributes": [],
+        "informationContent": 6.684721347776295,
+        "overalDescLength": 30.900598150384603,
+        "attributesDescLength": 10.228818690495881,
+        "score": 0.21632983656962296
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(3,5)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(2,15)",
+        "V(4,15)",
+        "V(3,14)",
+        "V(3,16)",
+        "V(3,15)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [],
+        "negativeAttributes": [
+          "College \u0026 University\u003e\u003d60.0%",
+          "Residence\u003e\u003d60.0%"
+        ],
+        "informationContent": 8.050586873565745,
+        "overalDescLength": 37.807488745993126,
+        "attributesDescLength": 17.1357092861044,
+        "score": 0.2129363028487036
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(3,15)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(6,2)",
+        "V(8,2)",
+        "V(7,1)",
+        "V(7,3)",
+        "V(7,2)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [],
+        "negativeAttributes": [
+          "College \u0026 University\u003e\u003d60.0%",
+          "Event\u003e\u003d100.0%"
+        ],
+        "informationContent": 7.893064396600078,
+        "overalDescLength": 37.807488745993126,
+        "attributesDescLength": 17.1357092861044,
+        "score": 0.2087698669866454
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(7,2)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(7,2)",
+        "V(9,2)",
+        "V(8,1)",
+        "V(8,2)",
+        "V(8,3)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [],
+        "negativeAttributes": [
+          "College \u0026 University\u003e\u003d60.0%",
+          "Event\u003e\u003d100.0%"
+        ],
+        "informationContent": 7.785253943171489,
+        "overalDescLength": 37.807488745993126,
+        "attributesDescLength": 17.1357092861044,
+        "score": 0.20591830352648266
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(8,2)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(13,15)",
+        "V(15,15)",
+        "V(14,14)",
+        "V(14,15)",
+        "V(14,16)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [],
+        "negativeAttributes": [
+          "College \u0026 University\u003e\u003d60.0%",
+          "Event\u003e\u003d100.0%",
+          "Residence\u003e\u003d60.0%"
+        ],
+        "informationContent": 9.15169475101117,
+        "overalDescLength": 44.71437934160164,
+        "attributesDescLength": 24.042599881712917,
+        "score": 0.2046700610802521
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(14,15)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(14,14)",
+        "V(16,14)",
+        "V(15,15)",
+        "V(15,13)",
+        "V(15,14)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [],
+        "negativeAttributes": [
+          "Event\u003e\u003d100.0%",
+          "Residence\u003e\u003d60.0%",
+          "Arts \u0026 Entertainment\u003e\u003d60.0%"
+        ],
+        "informationContent": 9.140252305650048,
+        "overalDescLength": 44.71437934160164,
+        "attributesDescLength": 24.042599881712917,
+        "score": 0.20441416028212836
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(15,14)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(9,14)",
+        "V(10,14)",
+        "V(11,14)",
+        "V(10,13)",
+        "V(10,15)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [],
+        "negativeAttributes": [
+          "College \u0026 University\u003e\u003d100.0%"
+        ],
+        "informationContent": 6.256120951121986,
+        "overalDescLength": 30.900598150384603,
+        "attributesDescLength": 10.228818690495881,
+        "score": 0.20245954206695896
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(10,14)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(12,4)",
+        "V(13,3)",
+        "V(13,4)",
+        "V(13,5)",
+        "V(14,4)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [],
+        "negativeAttributes": [
+          "Shop \u0026 Service\u003e\u003d60.0%",
+          "College \u0026 University\u003e\u003d100.0%",
+          "Event\u003e\u003d100.0%"
+        ],
+        "informationContent": 9.011508553838544,
+        "overalDescLength": 44.71437934160164,
+        "attributesDescLength": 24.042599881712917,
+        "score": 0.20153491307558777
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(13,4)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(9,12)",
+        "V(10,13)",
+        "V(10,11)",
+        "V(10,12)",
+        "V(11,12)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [],
+        "negativeAttributes": [
+          "College \u0026 University\u003e\u003d100.0%"
+        ],
+        "informationContent": 6.150303440405924,
+        "overalDescLength": 30.900598150384603,
+        "attributesDescLength": 10.228818690495881,
+        "score": 0.19903509344622103
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(10,12)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(8,2)",
+        "V(10,2)",
+        "V(9,1)",
+        "V(9,3)",
+        "V(9,2)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [],
+        "negativeAttributes": [
+          "College \u0026 University\u003e\u003d60.0%",
+          "Event\u003e\u003d100.0%"
+        ],
+        "informationContent": 7.493340230562556,
+        "overalDescLength": 37.807488745993126,
+        "attributesDescLength": 17.1357092861044,
+        "score": 0.19819724819349993
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(9,2)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(6,1)",
+        "V(8,1)",
+        "V(7,0)",
+        "V(7,1)",
+        "V(7,2)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [],
+        "negativeAttributes": [
+          "College \u0026 University\u003e\u003d60.0%",
+          "Event\u003e\u003d100.0%"
+        ],
+        "informationContent": 7.4813207948454465,
+        "overalDescLength": 37.807488745993126,
+        "attributesDescLength": 17.1357092861044,
+        "score": 0.19787933668665905
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(7,1)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(14,4)",
+        "V(15,4)",
+        "V(15,3)",
+        "V(16,4)",
+        "V(15,5)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [],
+        "negativeAttributes": [
+          "College \u0026 University\u003e\u003d100.0%",
+          "Event\u003e\u003d100.0%",
+          "Arts \u0026 Entertainment\u003e\u003d60.0%"
+        ],
+        "informationContent": 8.592608178847506,
+        "overalDescLength": 44.71437934160164,
+        "attributesDescLength": 24.042599881712917,
+        "score": 0.19216655369860097
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(15,4)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(5,13)",
+        "V(6,14)",
+        "V(6,13)",
+        "V(6,12)",
+        "V(7,13)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [],
+        "negativeAttributes": [
+          "Event\u003e\u003d100.0%",
+          "Arts \u0026 Entertainment\u003e\u003d60.0%"
+        ],
+        "informationContent": 7.051140307319885,
+        "overalDescLength": 37.807488745993126,
+        "attributesDescLength": 17.1357092861044,
+        "score": 0.18650115469695597
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(6,13)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(8,1)",
+        "V(9,0)",
+        "V(9,2)",
+        "V(9,1)",
+        "V(10,1)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [],
+        "negativeAttributes": [
+          "College \u0026 University\u003e\u003d60.0%",
+          "Event\u003e\u003d100.0%"
+        ],
+        "informationContent": 6.996644087654542,
+        "overalDescLength": 37.807488745993126,
+        "attributesDescLength": 17.1357092861044,
+        "score": 0.18505974132958125
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(9,1)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(10,12)",
+        "V(12,12)",
+        "V(11,13)",
+        "V(11,11)",
+        "V(11,12)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [],
+        "negativeAttributes": [
+          "Event\u003e\u003d100.0%",
+          "Professional \u0026 Other Places\u003e\u003d80.0%"
+        ],
+        "informationContent": 6.9479735245762635,
+        "overalDescLength": 37.807488745993126,
+        "attributesDescLength": 17.1357092861044,
+        "score": 0.18377241533431962
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(11,12)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(9,13)",
+        "V(11,13)",
+        "V(10,14)",
+        "V(10,12)",
+        "V(10,13)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [],
+        "negativeAttributes": [
+          "College \u0026 University\u003e\u003d100.0%"
+        ],
+        "informationContent": 5.667670264208644,
+        "overalDescLength": 30.900598150384603,
+        "attributesDescLength": 10.228818690495881,
+        "score": 0.18341619915011584
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(10,13)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(13,1)",
+        "V(14,0)",
+        "V(15,1)",
+        "V(14,1)",
+        "V(14,2)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [],
+        "negativeAttributes": [
+          "Event\u003e\u003d100.0%",
+          "Nightlife Spot\u003e\u003d60.0%"
+        ],
+        "informationContent": 6.871007477048261,
+        "overalDescLength": 37.807488745993126,
+        "attributesDescLength": 17.1357092861044,
+        "score": 0.18173667982051459
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(14,1)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(5,1)",
+        "V(6,2)",
+        "V(6,0)",
+        "V(6,1)",
+        "V(7,1)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [],
+        "negativeAttributes": [
+          "College \u0026 University\u003e\u003d60.0%",
+          "Event\u003e\u003d100.0%"
+        ],
+        "informationContent": 6.869748378614533,
+        "overalDescLength": 37.807488745993126,
+        "attributesDescLength": 17.1357092861044,
+        "score": 0.1817033769359409
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(6,1)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(14,5)",
+        "V(15,4)",
+        "V(15,5)",
+        "V(16,5)",
+        "V(15,6)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [],
+        "negativeAttributes": [
+          "College \u0026 University\u003e\u003d60.0%",
+          "Event\u003e\u003d100.0%"
+        ],
+        "informationContent": 6.824314288508291,
+        "overalDescLength": 37.807488745993126,
+        "attributesDescLength": 17.1357092861044,
+        "score": 0.18050165495933762
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(15,5)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(14,11)",
+        "V(15,10)",
+        "V(16,11)",
+        "V(15,11)",
+        "V(15,12)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [],
+        "negativeAttributes": [
+          "Event\u003e\u003d100.0%",
+          "Nightlife Spot\u003e\u003d60.0%"
+        ],
+        "informationContent": 6.575365571760628,
+        "overalDescLength": 37.807488745993126,
+        "attributesDescLength": 17.1357092861044,
+        "score": 0.17391701458768513
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(15,11)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(13,3)",
+        "V(15,3)",
+        "V(14,2)",
+        "V(14,3)",
+        "V(14,4)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [],
+        "negativeAttributes": [
+          "Event\u003e\u003d100.0%",
+          "Nightlife Spot\u003e\u003d60.0%",
+          "Arts \u0026 Entertainment\u003e\u003d100.0%"
+        ],
+        "informationContent": 7.752897132389234,
+        "overalDescLength": 44.71437934160164,
+        "attributesDescLength": 24.042599881712917,
+        "score": 0.17338711274867333
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(14,3)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(11,14)",
+        "V(12,14)",
+        "V(12,13)",
+        "V(12,15)",
+        "V(13,14)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [],
+        "negativeAttributes": [
+          "College \u0026 University\u003e\u003d100.0%"
+        ],
+        "informationContent": 5.316954026809081,
+        "overalDescLength": 30.900598150384603,
+        "attributesDescLength": 10.228818690495881,
+        "score": 0.17206637881030482
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(12,14)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(10,5)",
+        "V(11,4)",
+        "V(11,5)",
+        "V(11,6)",
+        "V(12,5)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [],
+        "negativeAttributes": [
+          "Residence\u003e\u003d60.0%"
+        ],
+        "informationContent": 5.2641911420042575,
+        "overalDescLength": 30.900598150384603,
+        "attributesDescLength": 10.228818690495881,
+        "score": 0.17035887513843279
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(11,5)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(10,14)",
+        "V(12,14)",
+        "V(11,13)",
+        "V(11,14)",
+        "V(11,15)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [],
+        "negativeAttributes": [
+          "College \u0026 University\u003e\u003d100.0%",
+          "Event\u003e\u003d100.0%"
+        ],
+        "informationContent": 6.390946194458881,
+        "overalDescLength": 37.807488745993126,
+        "attributesDescLength": 17.1357092861044,
+        "score": 0.16903916145809073
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(11,14)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(13,11)",
+        "V(14,10)",
+        "V(14,11)",
+        "V(14,12)",
+        "V(15,11)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [],
+        "negativeAttributes": [
+          "Event\u003e\u003d100.0%",
+          "Residence\u003e\u003d100.0%"
+        ],
+        "informationContent": 6.3279572328417455,
+        "overalDescLength": 37.807488745993126,
+        "attributesDescLength": 17.1357092861044,
+        "score": 0.1673731168805119
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(14,11)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(14,6)",
+        "V(16,6)",
+        "V(15,5)",
+        "V(15,6)",
+        "V(15,7)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [],
+        "negativeAttributes": [
+          "College \u0026 University\u003e\u003d60.0%",
+          "Event\u003e\u003d100.0%"
+        ],
+        "informationContent": 6.250804849598222,
+        "overalDescLength": 37.807488745993126,
+        "attributesDescLength": 17.1357092861044,
+        "score": 0.16533245282684075
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(15,6)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(5,15)",
+        "V(6,14)",
+        "V(6,16)",
+        "V(6,15)",
+        "V(7,15)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [],
+        "negativeAttributes": [
+          "College \u0026 University\u003e\u003d100.0%",
+          "Event\u003e\u003d100.0%"
+        ],
+        "informationContent": 6.17861773739677,
+        "overalDescLength": 37.807488745993126,
+        "attributesDescLength": 17.1357092861044,
+        "score": 0.16342311913143362
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(6,15)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(14,12)",
+        "V(16,12)",
+        "V(15,11)",
+        "V(15,12)",
+        "V(15,13)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [],
+        "negativeAttributes": [
+          "College \u0026 University\u003e\u003d60.0%",
+          "Event\u003e\u003d100.0%"
+        ],
+        "informationContent": 6.126587697474134,
+        "overalDescLength": 37.807488745993126,
+        "attributesDescLength": 17.1357092861044,
+        "score": 0.16204693569136977
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(15,12)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(10,3)",
+        "V(12,3)",
+        "V(11,2)",
+        "V(11,3)",
+        "V(11,4)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [],
+        "negativeAttributes": [
+          "Professional \u0026 Other Places\u003e\u003d60.0%"
+        ],
+        "informationContent": 4.991396981778833,
+        "overalDescLength": 30.900598150384603,
+        "attributesDescLength": 10.228818690495881,
+        "score": 0.16153075605485354
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(11,3)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(12,10)",
+        "V(14,10)",
+        "V(13,9)",
+        "V(13,10)",
+        "V(13,11)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [],
+        "negativeAttributes": [
+          "Event\u003e\u003d100.0%",
+          "Arts \u0026 Entertainment\u003e\u003d60.0%"
+        ],
+        "informationContent": 6.064602347418747,
+        "overalDescLength": 37.807488745993126,
+        "attributesDescLength": 17.1357092861044,
+        "score": 0.16040743642518387
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(13,10)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(10,15)",
+        "V(12,15)",
+        "V(11,15)",
+        "V(11,16)",
+        "V(11,14)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [],
+        "negativeAttributes": [
+          "College \u0026 University\u003e\u003d100.0%",
+          "Event\u003e\u003d100.0%"
+        ],
+        "informationContent": 5.973359352718767,
+        "overalDescLength": 37.807488745993126,
+        "attributesDescLength": 17.1357092861044,
+        "score": 0.15799407870885976
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(11,15)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(10,2)",
+        "V(11,3)",
+        "V(11,1)",
+        "V(11,2)",
+        "V(12,2)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [],
+        "negativeAttributes": [
+          "Event\u003e\u003d100.0%",
+          "Arts \u0026 Entertainment\u003e\u003d60.0%"
+        ],
+        "informationContent": 5.945437522597774,
+        "overalDescLength": 37.807488745993126,
+        "attributesDescLength": 17.1357092861044,
+        "score": 0.1572555522674824
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(11,2)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(11,4)",
+        "V(12,3)",
+        "V(12,5)",
+        "V(12,4)",
+        "V(13,4)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [],
+        "negativeAttributes": [
+          "College \u0026 University\u003e\u003d100.0%"
+        ],
+        "informationContent": 4.695339593003589,
+        "overalDescLength": 30.900598150384603,
+        "attributesDescLength": 10.228818690495881,
+        "score": 0.15194979625160263
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(12,4)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(13,5)",
+        "V(14,6)",
+        "V(14,4)",
+        "V(15,5)",
+        "V(14,5)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [],
+        "negativeAttributes": [
+          "College \u0026 University\u003e\u003d100.0%",
+          "Event\u003e\u003d100.0%"
+        ],
+        "informationContent": 5.679358376210063,
+        "overalDescLength": 37.807488745993126,
+        "attributesDescLength": 17.1357092861044,
+        "score": 0.15021781569165887
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(14,5)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(3,15)",
+        "V(4,14)",
+        "V(4,15)",
+        "V(4,16)",
+        "V(5,15)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [],
+        "negativeAttributes": [
+          "College \u0026 University\u003e\u003d60.0%"
+        ],
+        "informationContent": 4.573839489590896,
+        "overalDescLength": 30.900598150384603,
+        "attributesDescLength": 10.228818690495881,
+        "score": 0.14801783018345774
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(4,15)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(11,1)",
+        "V(13,1)",
+        "V(12,0)",
+        "V(12,2)",
+        "V(12,1)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [],
+        "negativeAttributes": [
+          "College \u0026 University\u003e\u003d100.0%",
+          "Event\u003e\u003d100.0%"
+        ],
+        "informationContent": 5.560621566489135,
+        "overalDescLength": 37.807488745993126,
+        "attributesDescLength": 17.1357092861044,
+        "score": 0.14707725244191086
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(12,1)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(11,15)",
+        "V(12,14)",
+        "V(12,16)",
+        "V(12,15)",
+        "V(13,15)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [],
+        "negativeAttributes": [
+          "College \u0026 University\u003e\u003d60.0%",
+          "Event\u003e\u003d100.0%"
+        ],
+        "informationContent": 5.5406416245572085,
+        "overalDescLength": 37.807488745993126,
+        "attributesDescLength": 17.1357092861044,
+        "score": 0.1465487872464
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(12,15)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(5,2)",
+        "V(7,2)",
+        "V(6,1)",
+        "V(6,2)",
+        "V(6,3)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [],
+        "negativeAttributes": [
+          "College \u0026 University\u003e\u003d60.0%"
+        ],
+        "informationContent": 4.486431456420415,
+        "overalDescLength": 30.900598150384603,
+        "attributesDescLength": 10.228818690495881,
+        "score": 0.14518914600248845
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(6,2)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(12,15)",
+        "V(14,15)",
+        "V(13,14)",
+        "V(13,16)",
+        "V(13,15)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [],
+        "negativeAttributes": [
+          "College \u0026 University\u003e\u003d60.0%"
+        ],
+        "informationContent": 3.774046300640941,
+        "overalDescLength": 30.900598150384603,
+        "attributesDescLength": 10.228818690495881,
+        "score": 0.12213505648899445
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(13,15)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(11,3)",
+        "V(13,3)",
+        "V(12,3)",
+        "V(12,2)",
+        "V(12,4)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [],
+        "negativeAttributes": [
+          "Shop \u0026 Service\u003e\u003d60.0%",
+          "Event\u003e\u003d100.0%"
+        ],
+        "informationContent": 4.491345367394397,
+        "overalDescLength": 37.807488745993126,
+        "attributesDescLength": 17.1357092861044,
+        "score": 0.11879512541997103
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(12,3)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(10,13)",
+        "V(11,14)",
+        "V(11,12)",
+        "V(11,13)",
+        "V(12,13)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [],
+        "negativeAttributes": [
+          "College \u0026 University\u003e\u003d100.0%"
+        ],
+        "informationContent": 3.3979768168091478,
+        "overalDescLength": 30.900598150384603,
+        "attributesDescLength": 10.228818690495881,
+        "score": 0.1099647586196274
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(11,13)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(14,15)",
+        "V(15,14)",
+        "V(15,16)",
+        "V(15,15)",
+        "V(16,15)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [],
+        "negativeAttributes": [
+          "College \u0026 University\u003e\u003d100.0%",
+          "Event\u003e\u003d100.0%"
+        ],
+        "informationContent": 4.148312710262618,
+        "overalDescLength": 37.807488745993126,
+        "attributesDescLength": 17.1357092861044,
+        "score": 0.10972198492559918
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(15,15)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(3,1)",
+        "V(5,1)",
+        "V(4,0)",
+        "V(4,1)",
+        "V(4,2)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [],
+        "negativeAttributes": [
+          "Event\u003e\u003d100.0%"
+        ],
+        "informationContent": 3.335931546153755,
+        "overalDescLength": 30.900598150384603,
+        "attributesDescLength": 10.228818690495881,
+        "score": 0.10795685992609934
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(4,1)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(6,3)",
+        "V(8,3)",
+        "V(7,4)",
+        "V(7,2)",
+        "V(7,3)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [],
+        "negativeAttributes": [
+          "Event\u003e\u003d100.0%"
+        ],
+        "informationContent": 3.171025892359918,
+        "overalDescLength": 30.900598150384603,
+        "attributesDescLength": 10.228818690495881,
+        "score": 0.10262021068095246
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(7,3)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(10,6)",
+        "V(11,5)",
+        "V(11,6)",
+        "V(11,7)",
+        "V(12,6)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [],
+        "negativeAttributes": [
+          "Event\u003e\u003d100.0%"
+        ],
+        "informationContent": 3.123584477739624,
+        "overalDescLength": 30.900598150384603,
+        "attributesDescLength": 10.228818690495881,
+        "score": 0.10108491953903315
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(11,6)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(7,4)",
+        "V(8,4)",
+        "V(8,3)",
+        "V(8,5)",
+        "V(9,4)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [],
+        "negativeAttributes": [
+          "Event\u003e\u003d100.0%"
+        ],
+        "informationContent": 3.059251652234304,
+        "overalDescLength": 30.900598150384603,
+        "attributesDescLength": 10.228818690495881,
+        "score": 0.09900299137724708
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(8,4)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(5,12)",
+        "V(6,13)",
+        "V(6,11)",
+        "V(6,12)",
+        "V(7,12)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [],
+        "negativeAttributes": [
+          "Event\u003e\u003d100.0%"
+        ],
+        "informationContent": 2.9919087714458943,
+        "overalDescLength": 30.900598150384603,
+        "attributesDescLength": 10.228818690495881,
+        "score": 0.0968236523087711
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(6,12)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(9,2)",
+        "V(10,2)",
+        "V(10,3)",
+        "V(10,1)",
+        "V(11,2)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [],
+        "negativeAttributes": [
+          "Event\u003e\u003d100.0%"
+        ],
+        "informationContent": 2.739552540745218,
+        "overalDescLength": 30.900598150384603,
+        "attributesDescLength": 10.228818690495881,
+        "score": 0.08865694208935954
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(10,2)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(11,10)",
+        "V(13,10)",
+        "V(12,11)",
+        "V(12,9)",
+        "V(12,10)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [],
+        "negativeAttributes": [
+          "Event\u003e\u003d100.0%"
+        ],
+        "informationContent": 2.7276249386819784,
+        "overalDescLength": 30.900598150384603,
+        "attributesDescLength": 10.228818690495881,
+        "score": 0.08827094302211846
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(12,10)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(1,13)",
+        "V(2,14)",
+        "V(2,12)",
+        "V(2,13)",
+        "V(3,13)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [],
+        "negativeAttributes": [
+          "Event\u003e\u003d100.0%"
+        ],
+        "informationContent": 2.7215741693571407,
+        "overalDescLength": 30.900598150384603,
+        "attributesDescLength": 10.228818690495881,
+        "score": 0.0880751290351079
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(2,13)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(0,12)",
+        "V(2,12)",
+        "V(1,11)",
+        "V(1,12)",
+        "V(1,13)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [],
+        "negativeAttributes": [
+          "Event\u003e\u003d100.0%"
+        ],
+        "informationContent": 2.710103198104464,
+        "overalDescLength": 30.900598150384603,
+        "attributesDescLength": 10.228818690495881,
+        "score": 0.08770390737794612
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(1,12)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(1,12)",
+        "V(2,11)",
+        "V(2,12)",
+        "V(2,13)",
+        "V(3,12)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [],
+        "negativeAttributes": [
+          "Event\u003e\u003d100.0%"
+        ],
+        "informationContent": 2.696234588735885,
+        "overalDescLength": 30.900598150384603,
+        "attributesDescLength": 10.228818690495881,
+        "score": 0.08725509375624582
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(2,12)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(9,3)",
+        "V(10,4)",
+        "V(10,2)",
+        "V(10,3)",
+        "V(11,3)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [],
+        "negativeAttributes": [
+          "Event\u003e\u003d100.0%"
+        ],
+        "informationContent": 2.6681414804832544,
+        "overalDescLength": 30.900598150384603,
+        "attributesDescLength": 10.228818690495881,
+        "score": 0.08634594927574389
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(10,3)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(6,13)",
+        "V(8,13)",
+        "V(7,12)",
+        "V(7,13)",
+        "V(7,14)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [],
+        "negativeAttributes": [
+          "Event\u003e\u003d100.0%"
+        ],
+        "informationContent": 2.6167760023686326,
+        "overalDescLength": 30.900598150384603,
+        "attributesDescLength": 10.228818690495881,
+        "score": 0.08468366824595151
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(7,13)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(14,7)",
+        "V(16,7)",
+        "V(15,6)",
+        "V(15,7)",
+        "V(15,8)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [],
+        "negativeAttributes": [
+          "Event\u003e\u003d100.0%"
+        ],
+        "informationContent": 2.5939465495663447,
+        "overalDescLength": 30.900598150384603,
+        "attributesDescLength": 10.228818690495881,
+        "score": 0.08394486530462386
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(15,7)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(14,10)",
+        "V(16,10)",
+        "V(15,9)",
+        "V(15,10)",
+        "V(15,11)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [],
+        "negativeAttributes": [
+          "Event\u003e\u003d100.0%"
+        ],
+        "informationContent": 2.5322604732315517,
+        "overalDescLength": 30.900598150384603,
+        "attributesDescLength": 10.228818690495881,
+        "score": 0.08194859079774913
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(15,10)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(0,11)",
+        "V(1,11)",
+        "V(1,12)",
+        "V(2,11)",
+        "V(1,10)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [],
+        "negativeAttributes": [
+          "Event\u003e\u003d100.0%"
+        ],
+        "informationContent": 2.4102133178292404,
+        "overalDescLength": 30.900598150384603,
+        "attributesDescLength": 10.228818690495881,
+        "score": 0.07799892112441978
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(1,11)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(13,9)",
+        "V(14,9)",
+        "V(14,10)",
+        "V(14,8)",
+        "V(15,9)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [],
+        "negativeAttributes": [
+          "Event\u003e\u003d100.0%"
+        ],
+        "informationContent": 2.3548650292536886,
+        "overalDescLength": 30.900598150384603,
+        "attributesDescLength": 10.228818690495881,
+        "score": 0.07620774904722609
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(14,9)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(4,14)",
+        "V(6,14)",
+        "V(5,13)",
+        "V(5,14)",
+        "V(5,15)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [],
+        "negativeAttributes": [
+          "Event\u003e\u003d100.0%"
+        ],
+        "informationContent": 2.3294947442754825,
+        "overalDescLength": 30.900598150384603,
+        "attributesDescLength": 10.228818690495881,
+        "score": 0.07538672011908898
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(5,14)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(14,9)",
+        "V(15,10)",
+        "V(15,8)",
+        "V(15,9)",
+        "V(16,9)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [],
+        "negativeAttributes": [
+          "Event\u003e\u003d100.0%"
+        ],
+        "informationContent": 2.3088791225824887,
+        "overalDescLength": 30.900598150384603,
+        "attributesDescLength": 10.228818690495881,
+        "score": 0.07471956081062953
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(15,9)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(6,14)",
+        "V(8,14)",
+        "V(7,13)",
+        "V(7,15)",
+        "V(7,14)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [],
+        "negativeAttributes": [
+          "Event\u003e\u003d100.0%"
+        ],
+        "informationContent": 2.245935888779852,
+        "overalDescLength": 30.900598150384603,
+        "attributesDescLength": 10.228818690495881,
+        "score": 0.07268260238360137
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(7,14)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(11,5)",
+        "V(13,5)",
+        "V(12,4)",
+        "V(12,5)",
+        "V(12,6)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [],
+        "negativeAttributes": [
+          "Event\u003e\u003d100.0%"
+        ],
+        "informationContent": 2.2232662671135683,
+        "overalDescLength": 30.900598150384603,
+        "attributesDescLength": 10.228818690495881,
+        "score": 0.0719489718708211
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(12,5)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(11,11)",
+        "V(12,12)",
+        "V(12,11)",
+        "V(12,10)",
+        "V(13,11)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [],
+        "negativeAttributes": [
+          "Event\u003e\u003d100.0%"
+        ],
+        "informationContent": 2.149642832137783,
+        "overalDescLength": 30.900598150384603,
+        "attributesDescLength": 10.228818690495881,
+        "score": 0.06956638255596446
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(12,11)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(4,15)",
+        "V(5,14)",
+        "V(5,15)",
+        "V(5,16)",
+        "V(6,15)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [],
+        "negativeAttributes": [
+          "Event\u003e\u003d100.0%"
+        ],
+        "informationContent": 2.077484422215206,
+        "overalDescLength": 30.900598150384603,
+        "attributesDescLength": 10.228818690495881,
+        "score": 0.0672312041373655
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(5,15)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(13,10)",
+        "V(15,10)",
+        "V(14,9)",
+        "V(14,10)",
+        "V(14,11)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [],
+        "negativeAttributes": [
+          "Event\u003e\u003d100.0%"
+        ],
+        "informationContent": 1.9936080633239621,
+        "overalDescLength": 30.900598150384603,
+        "attributesDescLength": 10.228818690495881,
+        "score": 0.06451681140998071
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(14,10)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(9,15)",
+        "V(10,14)",
+        "V(10,15)",
+        "V(10,16)",
+        "V(11,15)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [],
+        "negativeAttributes": [
+          "Event\u003e\u003d100.0%"
+        ],
+        "informationContent": 1.9667398778440592,
+        "overalDescLength": 30.900598150384603,
+        "attributesDescLength": 10.228818690495881,
+        "score": 0.06364730767580887
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(10,15)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(5,14)",
+        "V(6,14)",
+        "V(6,15)",
+        "V(7,14)",
+        "V(6,13)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [],
+        "negativeAttributes": [
+          "Event\u003e\u003d100.0%"
+        ],
+        "informationContent": 1.9300322696216468,
+        "overalDescLength": 30.900598150384603,
+        "attributesDescLength": 10.228818690495881,
+        "score": 0.06245938218505407
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(6,14)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(12,3)",
+        "V(13,4)",
+        "V(13,2)",
+        "V(13,3)",
+        "V(14,3)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [],
+        "negativeAttributes": [
+          "Event\u003e\u003d100.0%"
+        ],
+        "informationContent": 1.779947523920746,
+        "overalDescLength": 30.900598150384603,
+        "attributesDescLength": 10.228818690495881,
+        "score": 0.05760236469398545
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(13,3)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(12,12)",
+        "V(13,13)",
+        "V(14,12)",
+        "V(13,11)",
+        "V(13,12)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [],
+        "negativeAttributes": [
+          "Event\u003e\u003d100.0%"
+        ],
+        "informationContent": 1.619817605509742,
+        "overalDescLength": 30.900598150384603,
+        "attributesDescLength": 10.228818690495881,
+        "score": 0.05242026700022249
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(13,12)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(14,3)",
+        "V(15,4)",
+        "V(16,3)",
+        "V(15,2)",
+        "V(15,3)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [],
+        "negativeAttributes": [
+          "Event\u003e\u003d100.0%"
+        ],
+        "informationContent": 1.6053935714429721,
+        "overalDescLength": 30.900598150384603,
+        "attributesDescLength": 10.228818690495881,
+        "score": 0.05195347881714033
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(15,3)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(11,13)",
+        "V(12,14)",
+        "V(12,12)",
+        "V(12,13)",
+        "V(13,13)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [],
+        "negativeAttributes": [
+          "Event\u003e\u003d100.0%"
+        ],
+        "informationContent": 1.4987555748989299,
+        "overalDescLength": 30.900598150384603,
+        "attributesDescLength": 10.228818690495881,
+        "score": 0.04850247777097725
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(12,13)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(12,11)",
+        "V(13,10)",
+        "V(14,11)",
+        "V(13,11)",
+        "V(13,12)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [],
+        "negativeAttributes": [
+          "Event\u003e\u003d100.0%"
+        ],
+        "informationContent": 1.482691155067417,
+        "overalDescLength": 30.900598150384603,
+        "attributesDescLength": 10.228818690495881,
+        "score": 0.047982603697558614
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(13,11)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(13,4)",
+        "V(15,4)",
+        "V(14,3)",
+        "V(14,4)",
+        "V(14,5)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [],
+        "negativeAttributes": [
+          "Event\u003e\u003d100.0%"
+        ],
+        "informationContent": 1.472880778210577,
+        "overalDescLength": 30.900598150384603,
+        "attributesDescLength": 10.228818690495881,
+        "score": 0.0476651219190799
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(14,4)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    },
+    {
+      "subgraph": [
+        "V(11,12)",
+        "V(12,11)",
+        "V(12,12)",
+        "V(13,12)",
+        "V(12,13)"
+      ],
+      "characteristic": {
+        "positiveAttributes": [],
+        "negativeAttributes": [
+          "Event\u003e\u003d100.0%"
+        ],
+        "informationContent": 1.2490511775711082,
+        "overalDescLength": 30.900598150384603,
+        "attributesDescLength": 10.228818690495881,
+        "score": 0.04042158574058418
+      },
+      "subgraphRedescription": {
+        "descLength": 20.67,
+        "nbExceptions": 0,
+        "nbCircles": 1,
+        "circles": [
+          {
+            "radius": 1,
+            "center": "V(12,12)"
+          }
+        ],
+        "XMinusP": [],
+        "PMinusX": []
+      }
+    }
+  ]
+}
