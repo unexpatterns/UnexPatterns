@@ -1,0 +1,4 @@
+datasets: wikischools
+s: 8, 7, 6
+patterns_path: results
+gamma: 0.8
