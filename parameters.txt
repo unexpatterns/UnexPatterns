@@ -1,0 +1,5 @@
+datasets: wikivitals
+s: 8
+beta: 8
+delta: 0
+patterns_path: output
