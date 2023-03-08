@@ -18,9 +18,9 @@ if __name__ == '__main__':
     parameter_filename = sys.argv[1]
     parameters = read_parameters(parameter_filename)
     INPATH = os.path.join(os.getcwd(), parameters.get('patterns_path'))
-    MODEL_PATH = os.path.join(get_root_directory(), 'models/new_models')
+    MODEL_PATH = os.path.join(get_root_directory(), 'models')
     
-    informations_excess = defaultdict(list)
+    epxr_excess = defaultdict(list)
     
     for dataset in parameters.get('datasets'):
         print(f'****Dataset: {dataset}')
@@ -38,7 +38,7 @@ if __name__ == '__main__':
             new_biadjacency, words = preprocess_data(biadjacency, names_col, s_param, sort_data=False)
 
             # Load Excess patterns
-            with open(f'{INPATH}/{dataset}/new/retrievedPatterns_{s_param}.json', 'rb') as f:
+            with open(f'{INPATH}/{dataset}/retrievedPatterns_{s_param}.json', 'rb') as f:
                 data = json.load(f)
 
             nb_excess_patterns = len(data.get('patterns'))
@@ -67,22 +67,25 @@ if __name__ == '__main__':
             # Wasserstein distances
             wd_filename = f'wasserstein_distances_{dataset}_5_{s_param}_excess_patterns.pkl'
 
-            if os.path.exists(f'{INPATH}/{dataset}/new/{wd_filename}'):
-                wd_distances_excess = get_pw_distance_matrix(dataset, beta=5, s=s_param, path=os.path.join(INPATH, dataset, 'new'), method='excess_patterns')
+            if os.path.exists(f'{INPATH}/{dataset}/{wd_filename}'):
+                wd_distances_excess = get_pw_distance_matrix(dataset,
+                                                             beta=5,
+                                                             s=s_param,
+                                                             path=os.path.join(INPATH, dataset),
+                                                             method='excess_patterns')
             else:
                 wd_distances_excess = pairwise_wd_distance(excess_patterns_attributes, nb_excess_patterns_filt, model, names_col)
                 # Save distances
-                with open(f'{INPATH}/{dataset}/new/{wd_filename}', 'wb') as f:
+                with open(f'{INPATH}/{dataset}/{wd_filename}', 'wb') as f:
                     np.save(f, wd_distances_excess)
 
-            # Information metric
+            # Expressiveness metric
             div = diversity(wd_distances_excess, gamma=parameters.get('gamma'))
             cov = coverage_excess(excess_patterns_filt, adjacency.shape[0])
-            conc = width_excess(excess_patterns_filt)
-            information = (div * cov) / conc
-            informations_excess[dataset].append(information)
+            width = width_excess(excess_patterns_filt)
+            expr = (div * cov) / width
+            epxr_excess[dataset].append(expr)
             
             # Save results
-            with open(f"{INPATH}/{dataset}/new/information_details_{dataset}_5_{s_param}_{parameters.get('gamma')}_excess.txt", 'w') as f:
-                f.write(f'{div}, {cov}, {conc}, {information}')
-            print(f'{div}, {cov}, {conc}, {information}')
+            with open(f"{INPATH}/{dataset}/expressiveness_{dataset}_5_{s_param}_{parameters.get('gamma')}_excess.txt", 'w') as f:
+                f.write(f'{div}, {cov}, {width}, {expr}')

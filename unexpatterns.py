@@ -30,7 +30,7 @@ if __name__ == '__main__':
             print(f"Parameter s={s}\n{'-'*(len(str(s))+12)}")
 
             # Run algorithm
-            outfilename = f"{dataset}_{str(parameters.get('beta'))}_{str(s)}_orderTrue_delta_{parameters.get('delta')}"
+            outfilename = f"{dataset}_{str(parameters.get('beta'))}_{str(s)}_{parameters.get('delta')}"
             nb_patterns = run_unex_patterns(adjacency=adjacency,
                                             biadjacency=biadjacency,
                                             names_col=names_col,

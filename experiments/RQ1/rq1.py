@@ -96,9 +96,9 @@ if __name__ == '__main__':
 
                 # Filename
                 if without_constraints:
-                    outfilename = f"{dataset}_{str(BETA_PARAMS)}_{str(s)}_orderTrue_delta_{DELTA_PARAMS}_without_constraints"
+                    outfilename = f"{dataset}_{str(BETA_PARAMS)}_{str(s)}_{DELTA_PARAMS}_without_constraints"
                 else:
-                    outfilename = f"{dataset}_{str(BETA_PARAMS)}_{str(s)}_orderTrue_delta_{DELTA_PARAMS}"
+                    outfilename = f"{dataset}_{str(BETA_PARAMS)}_{str(s)}_{DELTA_PARAMS}"
 
                 inpath = os.path.join(get_root_directory(), 'output/patterns')
                 outfilename_long = 'result_' + outfilename + '.bin'

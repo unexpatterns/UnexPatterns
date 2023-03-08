@@ -53,6 +53,9 @@ Patterns are stored in binary format, within `output/patterns/` directory. To ex
 with open(f'output/patterns/<patterns>.bin', 'rb') as data:
     patterns = pickle.load(data)
 ```
+The naming convention of each file is the following: `result_<dataset>_<beta>_<s>_<delta>.bin`.  
+
+The variable `patterns` then contains a list of patterns, each in the form of a tuple (X<sub>i</sub>,Q<sub>i</sub>) where X<sub>i</sub> is the set of node indexes and Q<sub>i</sub> the set of attribute indexes of the i<sup>th</sup> pattern.
 
 ## Experiments
 Code for experiments and comparisons with baseline and state-of-the-art aglorithms are provided in `experiments/` directory.

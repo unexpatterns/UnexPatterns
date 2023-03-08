@@ -18,9 +18,9 @@ if __name__ == '__main__':
     parameter_filename = sys.argv[1]
     parameters = read_parameters(parameter_filename)
     INPATH = os.path.join(os.getcwd(), parameters.get('patterns_path'))
-    MODEL_PATH = os.path.join(get_root_directory(), 'models/new_models')
+    MODEL_PATH = os.path.join(get_root_directory(), 'models')
     
-    informations_cenergetics = defaultdict(list)
+    expr_cenergetics = defaultdict(list)
     
     for dataset in parameters.get('datasets'):
         print(f'****Dataset: {dataset}')
@@ -73,13 +73,12 @@ if __name__ == '__main__':
                 with open(f'{INPATH}/{dataset}/{wd_filename}', 'wb') as f:
                     np.save(f, wd_distances_cenergetics)
 
-            # Information metric
+            # Expressiveness metric
             div = diversity(wd_distances_cenergetics, gamma=parameters.get('gamma'))
             cov = coverage_excess(cenergetics_patterns_filt, adjacency.shape[0])
-            conc = width_excess(cenergetics_patterns_filt)
-            information = (div * cov) / conc
-            informations_cenergetics[dataset].append(information)
+            width = width_excess(cenergetics_patterns_filt)
+            expr = (div * cov) / width
+            expr_cenergetics[dataset].append(expr)
             
-            with open(f"{INPATH}/{dataset}/information_details_{dataset}_5_{s_param}_{parameters.get('gamma')}_cenergetics.txt", 'w') as f:
-                f.write(f'{div}, {cov}, {conc}, {information}')
-            print(f'{div}, {cov}, {conc}, {information}')
+            with open(f"{INPATH}/{dataset}/expressiveness_{dataset}_5_{s_param}_{parameters.get('gamma')}_cenergetics.txt", 'w') as f:
+                f.write(f'{div}, {cov}, {width}, {expr}')

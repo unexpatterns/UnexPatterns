@@ -75,7 +75,7 @@ if __name__ == '__main__':
 
             # Filename
             inpath = os.path.join(get_root_directory(), 'output/patterns')
-            outfilename = f"{dataset}_{str(BETA_PARAMS)}_{str(s)}_orderTrue_delta_{DELTA_PARAMS}"
+            outfilename = f"{dataset}_{str(BETA_PARAMS)}_{str(s)}_{DELTA_PARAMS}"
             outfilename_long = 'result_' + outfilename + '.bin'
 
             # Load patterns if already exist, or mine them otherwise
