@@ -110,13 +110,13 @@ def load_patterns(dataset: str, beta: int, s: int, order: bool, inpath: str, wit
     """
     if with_prob:
         if delta is not None:
-            with open(f"{inpath}/result_{dataset}_{beta}_{s}_order{str(order)}_delta_{delta}.bin", "rb") as data:
+            with open(f"{inpath}/result_{dataset}_{beta}_{s}_{delta}.bin", "rb") as data:
                 patterns = pickle.load(data)
         else:
-            with open(f"{inpath}/result_{dataset}_{beta}_{s}_order{str(order)}_delta_0.bin", "rb") as data:
+            with open(f"{inpath}/result_{dataset}_{beta}_{s}_0.bin", "rb") as data:
                 patterns = pickle.load(data)
     else:
-        with open(f"{inpath}/result_{dataset}_{beta}_{s}_order{str(order)}.bin", "rb") as data:
+        with open(f"{inpath}/result_{dataset}_{beta}_{s}.bin", "rb") as data:
             patterns = pickle.load(data)
 
     return patterns

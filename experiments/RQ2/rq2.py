@@ -1,4 +1,7 @@
 from collections import defaultdict
+from matplotlib import ticker
+import matplotlib.gridspec as gridspec
+import matplotlib.pyplot as plt
 import numpy as np
 import os
 import pickle
@@ -24,7 +27,7 @@ from src.utils import get_gensim_model, get_root_directory, p_s_attributes, save
 # - compare to baselines approaches
 # ******************************************************** #
 
-DATASETS = ['sanFranciscoCrimes', 'ingredients', 'wikischools', 'wikivitals-fr', 'wikischools']
+DATASETS = ['wikivitals', 'wikivitals-fr', 'wikischools', 'sanFranciscoCrimes', 'ingredients']
 S_PARAMS = [8, 7, 6, 5]
 DELTA_PARAMS = 0
 OUTPATH = os.path.join(os.getcwd(), 'output')
@@ -35,6 +38,135 @@ METHODS = ['summaries', 'louvain', 'gnn_kmeans', 'spectral_kmeans', 'd2v_kmeans'
 # If necessary, fill this dictionary with additional values.
 with open(os.path.join(OUTPATH, 'louvain_resolutions.pkl'), 'rb') as f:
     RESOLUTIONS = pickle.load(f)
+
+
+def clip(val):
+    """Utility function to clip zero values."""
+    if val == 0:
+        return 1e-8
+    else:
+        return val
+    
+def plot_expressiveness(**kwargs):
+    """Plot expressiveness of patterns according to parameters."""
+    # Parameters
+    imgpath = kwargs.get('IMGPATH')
+    outpath = kwargs.get('OUTPATH')
+    expath = os.path.join(get_root_directory(), 'experiments')
+    datasets = kwargs.get('DATASETS')
+    s_params = kwargs.get('S_PARAMS')
+    methods = kwargs.get('METHODS')
+    
+    # Image grid
+    formatter = ticker.ScalarFormatter(useMathText=True)
+    formatter.set_scientific(True) 
+    formatter.set_powerlimits((-1,1)) 
+
+    fig = plt.figure(figsize=(30, 15)) 
+    gs = gridspec.GridSpec(2, 6)
+    gs.update(wspace=0.5)
+    ax1 = plt.subplot(gs[0, :2], )
+    ax2 = plt.subplot(gs[0, 2:4])
+    ax3 = plt.subplot(gs[0, 4:])
+    ax4 = plt.subplot(gs[1, 1:3])
+    ax5 = plt.subplot(gs[1, 3:5])
+
+    colors = [plt.cm.Accent(x) for x in range(10)]
+    markers = ['*', 'o', '+', '^', '1', '2', 's', 'p']
+
+    # Result dictionary
+    expr_results = defaultdict(list)
+
+    for i, d in enumerate(datasets):
+        expr_results[d] = defaultdict(list)
+        if d == 'sanFranciscoCrimes':
+            gamma = 0.2
+        elif d == 'ingredients':
+            gamma = 0.05
+        else:
+            gamma = 0.8
+            
+        if d == 'ingredients':
+            beta = 1
+        else:
+            beta = 4
+            
+        for s in s_params:
+
+            # Excess results
+            with open(f'{expath}/Excess/results/{d}/expressiveness_{d}_5_{s}_{gamma}_excess.txt', 'r') as data:
+                info_excess_raw = data.readlines()
+            vals = list(map(float, info_excess_raw[0].split(', ')))
+            expr_results[d]['excess'].append(clip(vals[3]))
+            
+            # Cenergetics results
+            if d == 'sanFranciscoCrimes':
+                with open(f'{expath}/Cenergetics/results/{d}/expressiveness_{d}_5_{s}_{gamma}_cenergetics.txt', 'r') as data:
+                    info_cenergetics_raw = data.readlines()
+                vals = list(map(float, info_cenergetics_raw[0].split(', ')))
+                expr_results[d]['cenergetics'].append(clip(vals[3]))
+            
+            # Unex patterns + baselines
+            for m in methods:
+                if m in ['gnn', 'louvain'] and d == 'ingredients':
+                    pass
+                elif not (m == 'gnn' and d=='sanFranciscoCrimes'):
+                    with open(f'{outpath}/expressiveness/expressiveness_{d}_{beta}_{s}_{m}_{gamma}.txt', 'r') as data:
+                        expr = data.readlines()
+                    vals = list(map(float, expr[0].split(', ')))
+                    expr_results[d][m].append(clip(vals[3]))
+
+        if d in ['sanFranciscoCrimes']:
+            ax4.plot(np.arange(0, 4), expr_results[d]['excess'], label='Excess', color=colors[-2], marker=markers[-2], linestyle='dashed')
+            ax4.plot(np.arange(0, 4), expr_results[d]['cenergetics'], label='Cenergetics', color=colors[-1], marker=markers[-1], linestyle='dashed')
+        elif d in ['ingredients']:
+            ax5.plot(np.arange(0, 4), expr_results[d]['excess'], label='Excess', color=colors[-2], marker=markers[-2], linestyle='dashed')
+        elif d == 'wikivitals':
+            ax1.plot(np.arange(0, 4), expr_results[d]['excess'], label='Excess', color=colors[-2], marker=markers[-2], linestyle='dashed')
+        elif d == 'wikivitals-fr':
+            ax2.plot(np.arange(0, 4), expr_results[d]['excess'], label='Excess', color=colors[-2], marker=markers[-2], linestyle='dashed')
+        elif d == 'wikischools':
+            ax3.plot(np.arange(0, 4), expr_results[d]['excess'], label='Excess', color=colors[-2], marker=markers[-2], linestyle='dashed')
+        
+        for j, m in enumerate(methods):
+            if m in ['gnn', 'louvain'] and d == 'ingredients':
+                pass
+            elif not (m == 'gnn' and d=='sanFranciscoCrimes'):
+                if m == 'summaries':
+                    if d in ['sanFranciscoCrimes']:
+                        ax4.plot(np.arange(0, 4), expr_results[d][m], label=m, marker=markers[j], color=colors[j], linewidth=3)
+                    elif d in ['ingredients']:
+                        ax5.plot(np.arange(0, 4), expr_results[d][m], label=m, marker=markers[j], color=colors[j], linewidth=3)
+                    elif d == 'wikivitals':
+                        ax1.plot(np.arange(0, 4), expr_results[d][m], label=m, marker=markers[j], color=colors[j], linewidth=3)
+                    elif d == 'wikivitals-fr':
+                        ax2.plot(np.arange(0, 4), expr_results[d][m], label=m, marker=markers[j], color=colors[j], linewidth=3)
+                    elif d == 'wikischools':
+                        ax3.plot(np.arange(0, 4), expr_results[d][m], label=m, marker=markers[j], color=colors[j], linewidth=3)
+                else:
+                    if d in ['sanFranciscoCrimes']:
+                        ax4.plot(np.arange(0, 4), expr_results[d][m], label=m, marker=markers[j], color=colors[j], linestyle='dotted')
+                    elif d in ['ingredients']:
+                        ax5.plot(np.arange(0, 4), expr_results[d][m], label=m, marker=markers[j], color=colors[j], linestyle='dotted')
+                    elif d == 'wikivitals':
+                        ax1.plot(np.arange(0, 4), expr_results[d][m], label=m, marker=markers[j], color=colors[j], linestyle='dotted')
+                    elif d == 'wikivitals-fr':
+                        ax2.plot(np.arange(0, 4), expr_results[d][m], label=m, marker=markers[j], color=colors[j], linestyle='dotted')
+                    elif d == 'wikischools':
+                        ax3.plot(np.arange(0, 4), expr_results[d][m], label=m, marker=markers[j], color=colors[j], linestyle='dotted')
+    
+    # Axes information
+    axes = [ax1, ax2, ax3, ax4, ax5]
+    for i, ax in enumerate(axes):
+        ax.legend(loc='upper right', fontsize=12)
+        ax.set_xticks(np.arange(0, 4), s_params, fontsize=12)
+        ax.set_xlabel(r'$s$', fontsize=12)
+        ax.set_ylabel(rf'$E$', fontsize=12)
+        ax.yaxis.set_major_formatter(formatter) 
+        ax.set_title(rf'{datasets[i]}', fontsize=12)
+
+    # Save figure
+    plt.savefig(os.path.join(imgpath, 'rq2.png'), dpi=200)
 
 
 if __name__ == '__main__':
@@ -163,6 +295,7 @@ if __name__ == '__main__':
             pw_distances_dict = {}
             dist_path_dir = os.path.join(OUTPATH, 'distances')
 
+            print(f'Computing pairwise distances...')
             for i, method in enumerate(METHODS):
                 dist_filename = f'wasserstein_distances_{dataset}_{BETA_PARAMS}_{s}_{method}.pkl'
 
@@ -192,8 +325,9 @@ if __name__ == '__main__':
             # --------------------------------------------------------------------
             expr_path = os.path.join(OUTPATH, 'expressiveness')
 
+            print(f'Computing expressiveness...')
             for method in METHODS:
-                filename = f'expressiveness_details_{dataset}_{BETA_PARAMS}_{s}_{method}_{GAMMA_PARAMS}.txt'
+                filename = f'expressiveness_{dataset}_{BETA_PARAMS}_{s}_{method}_{GAMMA_PARAMS}.txt'
 
                 if method == 'summaries':
                     div, cov, wid, expr = expressiveness(summarized_adjacency, pw_distances_dict.get(method),
@@ -228,3 +362,13 @@ if __name__ == '__main__':
                 # Save result
                 with open(os.path.join(expr_path, filename), 'w') as f:
                     f.write(f'{div}, {cov}, {wid}, {expr}')
+
+    print(f'Done!')
+
+    # Plot results
+    plot_expressiveness(IMGPATH=os.path.join(OUTPATH, 'img'),
+                        OUTPATH=OUTPATH,
+                        DATASETS=DATASETS,
+                        S_PARAMS=S_PARAMS,
+                        METHODS=METHODS)
+    print(f"Image saved in {os.path.join(OUTPATH, 'img')}.")

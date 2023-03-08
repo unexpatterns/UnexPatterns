@@ -66,7 +66,8 @@ def plot_nb_patterns(data_dict: dict, **kwargs):
         ax.set_title(f'{datasets[i]}')
         ax.legend(loc=('upper left'))
 
-    plt.savefig(os.path.join(imgpath, 'rq1.png'), dpi=800)
+    # Save figure
+    plt.savefig(os.path.join(imgpath, 'rq1.png'), dpi=200)
 
 
 if __name__ == '__main__':
