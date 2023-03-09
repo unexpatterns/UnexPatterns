@@ -18,24 +18,24 @@ def is_cannonical(context: sparse.csr_matrix, extents: list, intents: list,
                   r: int, y: int):
     """Verify if an extent has already been seen (part of InClose original algorithm)."""
 
-    global R_NEW
+    global r_new
 
     for k in range(len(intents[r]) - 1, -1, -1):
         for j in range(y, intents[r][k], -1):
-            for h in range(len(extents[R_NEW])):
-                if context[extents[R_NEW][h], j] == 0:
+            for h in range(len(extents[r_new])):
+                if context[extents[r_new][h], j] == 0:
                     h -= 1  # Necessary for next test in case last interaction of h for-loop returns False
                     break
-            if h == len(extents[R_NEW]) - 1:
+            if h == len(extents[r_new]) - 1:
                 return False
         y = intents[r][k] - 1
 
     for j in reversed(range(y, -1, -1)):
-        for h in range(len(extents[R_NEW])):
-            if context[extents[R_NEW][h], j] == 0:
+        for h in range(len(extents[r_new])):
+            if context[extents[r_new][h], j] == 0:
                 h -= 1  # Necessary for next test in case last interaction of h for-loop returns False
                 break
-        if h == len(extents[R_NEW]) - 1:
+        if h == len(extents[r_new]) - 1:
             return False
 
     return True
