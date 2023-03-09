@@ -1,3 +1,4 @@
+"""Baselines"""
 import numpy as np
 from scipy import sparse
 
@@ -6,9 +7,11 @@ from sknetwork.gnn import GNNClassifier
 from sknetwork.utils import KMeansDense
 
 
-def get_louvain(dataset: str, adjacency: sparse.csr_matrix, nb_cc: int, resolutions: dict) -> np.ndarray:
-    """Louvain algorithm for clustering graphs by maximization of modularity. Return labels of the nodes.
-    
+def get_louvain(dataset: str, adjacency: sparse.csr_matrix, nb_cc: int,
+                resolutions: dict) -> np.ndarray:
+    """Louvain algorithm for clustering graphs by maximization of modularity.
+    Return labels of the nodes.
+
     Parameters
     ----------
     dataset: str
@@ -19,21 +22,21 @@ def get_louvain(dataset: str, adjacency: sparse.csr_matrix, nb_cc: int, resoluti
         Number of communities
     resolutions: dict
         Resolution values for each value of nb_cc
-    
+
     Returns
     -------
         Array of node labels.
     """
-    louvain = Louvain(resolution=resolutions.get(dataset).get(nb_cc)) 
+    louvain = Louvain(resolution=resolutions.get(dataset).get(nb_cc))
     labels_louvain = louvain.fit_transform(adjacency)
 
     return labels_louvain
 
 
-def get_gnn(adjacency: sparse.csr_matrix, biadjacency: sparse.csr_matrix, labels: np.ndarray, hidden_dim: int, 
-            nb_cc: int) -> np.ndarray:
+def get_gnn(adjacency: sparse.csr_matrix, biadjacency: sparse.csr_matrix,
+            labels: np.ndarray, hidden_dim: int, nb_cc: int) -> np.ndarray:
     """GNN embedding + KMeans clustering. Return labels of the nodes.
-    
+
     Parameters
     ----------
     adjacency: sparse.csr_matrix
@@ -46,7 +49,7 @@ def get_gnn(adjacency: sparse.csr_matrix, biadjacency: sparse.csr_matrix, labels
         Hidden layer dimension
     nb_cc: int
         Number of communities (for KMeans clustering)
-    
+
     Returns
     -------
         Array of node labels.
@@ -59,8 +62,9 @@ def get_gnn(adjacency: sparse.csr_matrix, biadjacency: sparse.csr_matrix, labels
                         verbose=False)
 
     # Train GNN model
-    gnn.fit(adjacency, features, labels, train_size=0.8, val_size=0.1, test_size=0.1, n_epochs=50)
-    
+    gnn.fit(adjacency, features, labels, train_size=0.8, val_size=0.1,
+            test_size=0.1, n_epochs=50)
+
     # KMeans on GNN node embedding
     gnn_embedding = gnn.layers[-1].embedding
     kmeans = KMeansDense(n_clusters=nb_cc)  # k = number of connected components in summarized graph
@@ -69,16 +73,16 @@ def get_gnn(adjacency: sparse.csr_matrix, biadjacency: sparse.csr_matrix, labels
     return kmeans_gnn_labels
 
 
-def get_spectral(adjacency: sparse.csr_matrix,  nb_cc: int) -> np.ndarray:
+def get_spectral(adjacency: sparse.csr_matrix, nb_cc: int) -> np.ndarray:
     """Spectral embedding + KMeans clustering. Return labels of the nodes.
-    
+
     Parameters
     ----------
     adjacency: sparse.csr_matrix
         Adjacency matrix of the graph
     nb_cc: int
         Number of communities (for KMeans clustering)
-    
+
     Returns
     -------
         Array of node labels.
@@ -92,14 +96,14 @@ def get_spectral(adjacency: sparse.csr_matrix,  nb_cc: int) -> np.ndarray:
 
 def get_doc2vec(model, nb_cc: int) -> np.ndarray:
     """Doc2Vec embedding + KMeans clustering. Return labels of the nodes.
-    
+
     Parameters
     ----------
     model:
         Pre-trained gensim model.
     nb_cc: int
         Number of communities (for KMeans clustering)
-    
+
     Returns
     -------
         Array of node labels.
@@ -111,16 +115,18 @@ def get_doc2vec(model, nb_cc: int) -> np.ndarray:
     return kmeans_doc2vec_labels
 
 
-def get_community_graph(adjacency: sparse.csr_matrix, labels_communities: np.ndarray) -> sparse.csr_matrix:
-    """Equivalent of summarized graph but for community-based methods. Return the adjacency matrix of the graph
-    made of the union of all communities. 
-    
+def get_community_graph(adjacency: sparse.csr_matrix,
+                        labels_communities: np.ndarray) -> sparse.csr_matrix:
+    """Equivalent of summarized graph but for community-based methods.
+    Return the adjacency matrix of the graph
+    made of the union of all communities.
+
     Parameters
     ----------
     adjacency: sparse.csr_matrix
         Adjacency matrix of the graph
     labels_communities: np.ndarray
-        Array of node community labels 
+        Array of node community labels
 
     Returns
     ------
@@ -144,5 +150,6 @@ def get_community_graph(adjacency: sparse.csr_matrix, labels_communities: np.nda
         reindex_cols = [int(idx_nodes[dst]) for dst in adj_com.col]
         rows += reindex_rows
         cols += reindex_cols
-        
-    return sparse.coo_matrix((np.ones(len(rows)), (rows, cols)), shape=adjacency.shape).tocsr()
+
+    return sparse.coo_matrix((np.ones(len(rows)), (rows, cols)),
+                             shape=adjacency.shape).tocsr()

@@ -1,17 +1,19 @@
+"""Corpus"""
 import gensim
 import numpy as np
 from scipy import sparse
 
 
 class MyCorpus:
-    """A memory-friendly iterator that yields documents as TaggedDocument objects, i.e. tokens associated
+    """A memory-friendly iterator that yields documents as TaggedDocument
+    objects, i.e. tokens associated
     with index of document."""
-    
+
     def __init__(self, data, vocab, tokens_only=False):
         self.data = data
         self.vocab = vocab
         self.tokens_only = tokens_only
-    
+
     def __iter__(self):
         if isinstance(self.data, sparse.csr_matrix):
             for i, x in enumerate(self.data):

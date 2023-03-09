@@ -1,3 +1,4 @@
+"""Mine unexpected patterns."""
 import os
 import sys
 
@@ -13,8 +14,8 @@ from src.data import load_data, read_parameters
 if __name__ == '__main__':
 
     # Get parameters
-    parameter_filename = sys.argv[1]
-    parameters = read_parameters(parameter_filename)
+    FILENAME = sys.argv[1]
+    parameters = read_parameters(FILENAME)
     OUTPATH = os.path.join(os.getcwd(), parameters.get('patterns_path'))
 
     for dataset in parameters.get('datasets'):
@@ -24,7 +25,8 @@ if __name__ == '__main__':
         adjacency, biadjacency, names, names_col, labels = load_data(dataset)
 
         # Compute generation complexities
-        complexity_gen_graphs = generation_complexity(adjacency, biadjacency, n_attrs=15, n_iter=300)
+        complexity_gen_graphs = generation_complexity(adjacency, biadjacency,
+                                                      n_attrs=15, n_iter=300)
 
         for s in parameters.get('s'):
             print(f"Parameter s={s}\n{'-'*(len(str(s))+12)}")

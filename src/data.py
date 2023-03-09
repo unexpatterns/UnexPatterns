@@ -1,7 +1,7 @@
-from typing import Optional
-
-import numpy as np
+"""Data"""
 import pickle
+from typing import Optional
+import numpy as np
 from scipy import sparse
 
 from sknetwork.data import load_netset
@@ -12,7 +12,7 @@ from src.utils import get_root_directory
 
 def load_data(dataset: str):
     """Load data and return loaded elements as a tuple.
-    
+
     Parameters
     ----------
     dataset: str
@@ -27,22 +27,22 @@ def load_data(dataset: str):
             labels = graph.labels
 
     else:
-        ROOT_DIR = get_root_directory()
-        with open(f'{ROOT_DIR}/data/{dataset}Graph', 'br') as f:
-            graph = pickle.load(f)
+        root_dir = get_root_directory()
+        with open(f'{root_dir}/data/{dataset}Graph', 'br') as data:
+            graph = pickle.load(data)
 
     adjacency = graph.adjacency
     biadjacency = graph.biadjacency
     names = graph.names
     names_col = graph.names_col
-    
+
     return adjacency, biadjacency, names, names_col, labels
 
 
-def preprocess_data(biadjacency: sparse.csr_matrix, names_col: np.ndarray, s: int, sort_data: bool = True,
-                    return_degs: bool = False):
+def preprocess_data(biadjacency: sparse.csr_matrix, names_col: np.ndarray,
+                    s: int, sort_data: bool = True, return_degs: bool = False):
     """Filter and sort features according to support s.
-    
+
     Parameters
     ----------
     biadjacency: sparse.csr_matrix
@@ -79,14 +79,14 @@ def preprocess_data(biadjacency: sparse.csr_matrix, names_col: np.ndarray, s: in
 
     if return_degs:
         return sorted_biadjacency, words, freq_attribute
-    else:
-        return sorted_biadjacency, words
+
+    return sorted_biadjacency, words
 
 
-def load_patterns(dataset: str, beta: int, s: int, order: bool, inpath: str, with_prob: bool,
-                  delta: Optional[float] = None) -> list:
+def load_patterns(dataset: str, beta: int, s: int, inpath: str,
+                  with_prob: bool, delta: Optional[float] = None) -> list:
     """Load patterns.
-    
+
     Parameters
     ----------
     dataset: str
@@ -95,18 +95,17 @@ def load_patterns(dataset: str, beta: int, s: int, order: bool, inpath: str, wit
         Minimum support value for intent.
     s: int
         Minimum support value for extent.
-    order: bool
-        Ordering of attributes.
     inpath: str
         Path for patterns.
     with_prob: bool
-        If True, use probability output with probability of reordering attributes.
+        If True, use probability output with probability of reordering
+        attributes.
     delta: int (default=None)
         Delta threshold for unexpectedness difference.
-        
+
     Returns
     -------
-        List of patterns. 
+        List of patterns.
     """
     if with_prob:
         if delta is not None:
@@ -122,10 +121,11 @@ def load_patterns(dataset: str, beta: int, s: int, order: bool, inpath: str, wit
     return patterns
 
 
-def get_pw_distance_matrix(dataset: str, beta: int, s: int, path: str, method: str = 'summaries',
+def get_pw_distance_matrix(dataset: str, beta: int, s: int, path: str,
+                           method: str = 'summaries',
                            delta: Optional[float] = None) -> np.ndarray:
     """Load distances matrices.
-    
+
     Parameters
     ----------
     dataset: str:
@@ -140,7 +140,7 @@ def get_pw_distance_matrix(dataset: str, beta: int, s: int, path: str, method: s
         Name of baseline method.
     delta: int (default=None)
         Delta threshold for unexpectedness difference.
-        
+
     Returns
     -------
         Matrix of pairwise distances.
@@ -151,13 +151,13 @@ def get_pw_distance_matrix(dataset: str, beta: int, s: int, path: str, method: s
     else:
         with open(f'{path}/wasserstein_distances_{dataset}_{beta}_{s}_{method}.pkl', 'rb') as data:
             pw_distances = np.load(data)
-    
+
     return pw_distances
 
 
 def read_parameters(filename: str) -> dict:
     """Read parameters from parameter file.
-    
+
     Parameters
     ----------
     filename: str
@@ -171,7 +171,7 @@ def read_parameters(filename: str) -> dict:
 
     with open(filename, 'r') as f:
         lines = f.read().splitlines()
-    
+
     for line in lines:
         name = line.split(':')[0]
         values = line.split(':')[1].split(',')
@@ -192,9 +192,10 @@ def read_parameters(filename: str) -> dict:
     return parameters
 
 
-def get_sias_pattern(pattern: dict, names: Optional[np.ndarray] = None, names_col: Optional[np.ndarray] = None) \
-        -> tuple:
-    """Convert result from SIAS paper format to pattern, i.e. tuple of nodes and attributes.
+def get_sias_pattern(pattern: dict, names: Optional[np.ndarray] = None,
+                     names_col: Optional[np.ndarray] = None) -> tuple:
+    """Convert result from SIAS paper format to pattern, i.e. tuple of nodes
+    and attributes.
 
     Parameters
     ----------
@@ -216,11 +217,11 @@ def get_sias_pattern(pattern: dict, names: Optional[np.ndarray] = None, names_co
             np.asarray(list(map(int, [np.where(names == x)[0][0] for x in pattern.get('subgraph') if x in names])))
     else:
         subgraph_nodes = np.asarray(list(map(int, pattern.get('subgraph'))))
-    
+
     # get attributes
     pos_attrs = set(pattern.get('characteristic').get('positiveAttributes'))
     neg_attrs = set(pattern.get('characteristic').get('negativeAttributes'))
-    
+
     attrs_list = []
     for x in pos_attrs.union(neg_attrs):
         if '>=' in x:
@@ -238,8 +239,10 @@ def get_sias_pattern(pattern: dict, names: Optional[np.ndarray] = None, names_co
     return subgraph_nodes, attrs
 
 
-def get_excess_pattern(pattern: dict, names: np.ndarray, names_col: np.ndarray) -> tuple:
-    """Convert result from Excess paper format to pattern, i.e. tuple of nodes and attributes.
+def get_excess_pattern(pattern: dict, names: np.ndarray,
+                       names_col: np.ndarray) -> tuple:
+    """Convert result from Excess paper format to pattern, i.e. tuple of nodes
+    and attributes.
 
     Parameters
     ----------
@@ -255,16 +258,15 @@ def get_excess_pattern(pattern: dict, names: np.ndarray, names_col: np.ndarray) 
     tuple
         Arrays of nodes and attributes
     """
-    
     # get subgraph
     try:
         subgraph_nodes = np.asarray([np.where(names == x)[0][0] for x in pattern.get('subgraph') if '?' not in x])
     except IndexError:
         print(pattern.get('subgraph'))
-    
+
     # get attributes
     pos_attrs = set(pattern.get('characteristic').get('positiveAttributes'))
     neg_attrs = set(pattern.get('characteristic').get('negativeAttributes'))
     attrs = np.asarray([np.where(names_col == x)[0][0] for x in pos_attrs.union(neg_attrs)])
-    
+
     return subgraph_nodes, attrs

@@ -1,3 +1,4 @@
+"""RQ1"""
 from collections import defaultdict
 import matplotlib.pyplot as plt
 import numpy as np
@@ -15,8 +16,8 @@ from src.utils import get_root_directory
 
 # ******************************************************** #
 # Mine unexpected patterns
-# - with constraints on unexpectedness 
-# - without constraints 
+# - with constraints on unexpectedness
+# - without constraints
 # ******************************************************** #
 
 DATASETS = ['wikivitals', 'wikivitals-fr', 'wikischools', 'sanFranciscoCrimes', 'ingredients']
@@ -45,7 +46,7 @@ def plot_nb_patterns(data_dict: dict, **kwargs):
     imgpath = kwargs.get('IMGPATH')
     datasets = list(data_dict.keys())
 
-    fig, axes = plt.subplots(1, len(datasets), figsize=(3*len(datasets), 5))
+    fig, axes = plt.subplots(1, len(datasets), figsize=(3 * len(datasets), 5))
 
     if len(datasets) == 1:
         axes = [axes]
@@ -120,7 +121,7 @@ if __name__ == '__main__':
                     nb_patterns = run_unex_patterns(adjacency, biadjacency, names_col, complexity_gen_graphs, True, s,
                                                     BETA_PARAMS, DELTA_PARAMS, without_constraints, outfilename,
                                                     OUTPATH)
-                
+
                 # Save number of patterns
                 results[dataset][without_constraints].append(nb_patterns)
 
@@ -133,5 +134,3 @@ if __name__ == '__main__':
                      S_PARAMS=S_PARAMS,
                      without_constraints=WITHOUT_CONSTRAINTS,
                      IMGPATH=os.path.join(OUTPATH, 'img'))
-
-

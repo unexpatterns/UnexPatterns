@@ -1,8 +1,9 @@
+"""Excess"""
 from collections import defaultdict
 import json
 import os
-import numpy as np
 import sys
+import numpy as np
 
 sys.path.append('../..')
 from src.data import get_pw_distance_matrix, load_data, preprocess_data, read_parameters, get_excess_pattern, \
@@ -13,15 +14,15 @@ from src.utils import get_gensim_model, get_root_directory
 
 
 if __name__ == '__main__':
-    
+
     # Get parameters
-    parameter_filename = sys.argv[1]
-    parameters = read_parameters(parameter_filename)
+    PARAM_FILENAME = sys.argv[1]
+    parameters = read_parameters(PARAM_FILENAME)
     INPATH = os.path.join(os.getcwd(), parameters.get('patterns_path'))
     MODEL_PATH = os.path.join(get_root_directory(), 'models')
-    
+
     epxr_excess = defaultdict(list)
-    
+
     for dataset in parameters.get('datasets'):
         print(f'****Dataset: {dataset}')
 
@@ -29,13 +30,15 @@ if __name__ == '__main__':
         adjacency, biadjacency, names, names_col, labels = load_data(dataset)
 
         # Gensim model
-        model = get_gensim_model(MODEL_PATH, f'gensim_model_{dataset}', biadjacency, names_col)
-        
+        model = get_gensim_model(MODEL_PATH, f'gensim_model_{dataset}',
+                                 biadjacency, names_col)
+
         for s_param in parameters.get('s'):
             print(f'--s={s_param}')
 
             # Preprocess data (get same attribute order as in UnexPattern)
-            new_biadjacency, words = preprocess_data(biadjacency, names_col, s_param, sort_data=False)
+            new_biadjacency, words = preprocess_data(biadjacency, names_col,
+                                                     s_param, sort_data=False)
 
             # Load Excess patterns
             with open(f'{INPATH}/{dataset}/retrievedPatterns_{s_param}.json', 'rb') as f:
@@ -45,7 +48,7 @@ if __name__ == '__main__':
 
             # Preprocess Excess patterns
             if dataset != 'sanFranciscoCrimes':
-                if dataset == 'london' or dataset == 'ingredients':
+                if dataset in ['london', 'ingredients']:
                     excess_patterns = [get_excess_pattern(data.get('patterns')[idx], names, names_col) for idx in range(nb_excess_patterns)]
                     excess_patterns_filt = [p for p in excess_patterns if len(p[0]) >= s_param]
                 else:
@@ -54,16 +57,16 @@ if __name__ == '__main__':
             else:
                 excess_patterns = [get_excess_pattern(data.get('patterns')[idx], names, names_col) for idx in range(nb_excess_patterns)]
                 excess_patterns_filt = [p for p in excess_patterns if len(p[0]) >= s_param]
-            
+
             # Pattern x attributes matrix
             nb_excess_patterns_filt = len(excess_patterns_filt)
-            if dataset != 'sanFranciscoCrimes' and dataset != 'ingredients':
+            if dataset not in ['sanFranciscoCrimes', 'ingredients']:
                 excess_patterns_attributes = np.zeros((nb_excess_patterns_filt, new_biadjacency.shape[1]))
             else:
                 excess_patterns_attributes = np.zeros((nb_excess_patterns_filt, biadjacency.shape[1]))
             for i, p in enumerate(excess_patterns_filt):
                 excess_patterns_attributes[i, p[1]] = 1
-                    
+
             # Wasserstein distances
             wd_filename = f'wasserstein_distances_{dataset}_5_{s_param}_excess_patterns.pkl'
 
@@ -85,7 +88,7 @@ if __name__ == '__main__':
             width = width_excess(excess_patterns_filt)
             expr = (div * cov) / width
             epxr_excess[dataset].append(expr)
-            
+
             # Save results
             with open(f"{INPATH}/{dataset}/expressiveness_{dataset}_5_{s_param}_{parameters.get('gamma')}_excess.txt", 'w') as f:
                 f.write(f'{div}, {cov}, {width}, {expr}')

@@ -1,8 +1,9 @@
+"""Cenergetics"""
 from collections import defaultdict
 import json
 import os
-import numpy as np
 import sys
+import numpy as np
 
 sys.path.append('../..')
 from src.data import get_pw_distance_matrix, load_data, preprocess_data, read_parameters, get_excess_pattern, \
@@ -13,15 +14,15 @@ from src.utils import get_gensim_model, get_root_directory
 
 
 if __name__ == '__main__':
-    
+
     # Get parameters
-    parameter_filename = sys.argv[1]
-    parameters = read_parameters(parameter_filename)
+    PARAM_FILENAME = sys.argv[1]
+    parameters = read_parameters(PARAM_FILENAME)
     INPATH = os.path.join(os.getcwd(), parameters.get('patterns_path'))
     MODEL_PATH = os.path.join(get_root_directory(), 'models')
-    
+
     expr_cenergetics = defaultdict(list)
-    
+
     for dataset in parameters.get('datasets'):
         print(f'****Dataset: {dataset}')
 
@@ -35,7 +36,8 @@ if __name__ == '__main__':
             print(f'--s={s_param}')
 
             # Preprocess data (get same attribute order as in UnexPattern)
-            new_biadjacency, words = preprocess_data(biadjacency, names_col, s_param, sort_data=False)
+            new_biadjacency, words = preprocess_data(biadjacency, names_col,
+                                                     s_param, sort_data=False)
 
             # Load Cenergetics patterns
             with open(f'{INPATH}/{dataset}/retrievedPatterns_{s_param}.json', 'rb') as f:
@@ -50,7 +52,7 @@ if __name__ == '__main__':
             else:
                 cenergetics_patterns = [get_excess_pattern(data.get('patterns')[idx], names, names_col) for idx in range(nb_cenergetics_patterns)]
                 cenergetics_patterns_filt = [p for p in cenergetics_patterns if len(p[0]) >= s_param]
-            
+
             # Pattern x attributes matrix
             nb_cenergetics_patterns_filt = len(cenergetics_patterns_filt)
             if dataset != 'sanFranciscoCrimes':
@@ -79,6 +81,6 @@ if __name__ == '__main__':
             width = width_excess(cenergetics_patterns_filt)
             expr = (div * cov) / width
             expr_cenergetics[dataset].append(expr)
-            
+
             with open(f"{INPATH}/{dataset}/expressiveness_{dataset}_5_{s_param}_{parameters.get('gamma')}_cenergetics.txt", 'w') as f:
                 f.write(f'{div}, {cov}, {width}, {expr}')
