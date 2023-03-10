@@ -65,6 +65,7 @@ def plot_expressiveness(**kwargs):
     datasets = kwargs.get('DATASETS')
     s_params = kwargs.get('S_PARAMS')
     methods = kwargs.get('METHODS')
+    methods_renamed = [method.split('_')[0] for method in methods]
 
     # Image grid
     formatter = ticker.ScalarFormatter(useMathText=True)
@@ -116,14 +117,66 @@ def plot_expressiveness(**kwargs):
                 expr_results[d]['cenergetics'].append(clip(vals[3]))
 
             # Unex patterns + baselines
-            for m in methods:
-                if m in ['gnn', 'louvain'] and d == 'ingredients':
+            for i, m in enumerate(methods):
+                if m in ['gnn_kmeans', 'louvain'] and d == 'ingredients':
                     pass
-                elif not (m == 'gnn' and d == 'sanFranciscoCrimes'):
+                elif not (m == 'gnn_kmeans' and d == 'sanFranciscoCrimes'):
                     with open(f'{outpath}/expressiveness/expressiveness_{d}_{beta}_{s}_{m}_{gamma}.txt', 'r') as data:
                         expr = data.readlines()
                     vals = list(map(float, expr[0].split(', ')))
-                    expr_results[d][m].append(clip(vals[3]))
+                    expr_results[d][methods_renamed[i]].append(clip(vals[3]))
+
+        for j, m in enumerate(methods_renamed):
+            if m in ['gnn', 'louvain'] and d == 'ingredients':
+                pass
+            elif not (m == 'gnn' and d == 'sanFranciscoCrimes'):
+                if m == 'summaries':
+                    if d in ['sanFranciscoCrimes']:
+                        ax4.plot(np.arange(0, 4), expr_results[d][m],
+                                 label=m + ' (our)',
+                                 marker=markers[j], color=colors[j],
+                                 linewidth=3)
+                    elif d in ['ingredients']:
+                        ax5.plot(np.arange(0, 4), expr_results[d][m],
+                                 label=m + ' (our)',
+                                 marker=markers[j], color=colors[j],
+                                 linewidth=3)
+                    elif d == 'wikivitals':
+                        ax1.plot(np.arange(0, 4), expr_results[d][m],
+                                 label=m + ' (our)',
+                                 marker=markers[j], color=colors[j],
+                                 linewidth=3)
+                    elif d == 'wikivitals-fr':
+                        ax2.plot(np.arange(0, 4), expr_results[d][m],
+                                 label=m + ' (our)',
+                                 marker=markers[j], color=colors[j],
+                                 linewidth=3)
+                    elif d == 'wikischools':
+                        ax3.plot(np.arange(0, 4), expr_results[d][m],
+                                 label=m + ' (our)',
+                                 marker=markers[j], color=colors[j],
+                                 linewidth=3)
+                else:
+                    if d in ['sanFranciscoCrimes']:
+                        ax4.plot(np.arange(0, 4), expr_results[d][m], label=m,
+                                 marker=markers[j], color=colors[j],
+                                 linestyle='dotted')
+                    elif d in ['ingredients']:
+                        ax5.plot(np.arange(0, 4), expr_results[d][m], label=m,
+                                 marker=markers[j], color=colors[j],
+                                 linestyle='dotted')
+                    elif d == 'wikivitals':
+                        ax1.plot(np.arange(0, 4), expr_results[d][m], label=m,
+                                 marker=markers[j], color=colors[j],
+                                 linestyle='dotted')
+                    elif d == 'wikivitals-fr':
+                        ax2.plot(np.arange(0, 4), expr_results[d][m], label=m,
+                                 marker=markers[j], color=colors[j],
+                                 linestyle='dotted')
+                    elif d == 'wikischools':
+                        ax3.plot(np.arange(0, 4), expr_results[d][m], label=m,
+                                 marker=markers[j], color=colors[j],
+                                 linestyle='dotted')
 
         if d in ['sanFranciscoCrimes']:
             ax4.plot(np.arange(0, 4), expr_results[d]['excess'],
@@ -149,53 +202,6 @@ def plot_expressiveness(**kwargs):
                      label='Excess', color=colors[-2], marker=markers[-2],
                      linestyle='dashed')
 
-        for j, m in enumerate(methods):
-            if m in ['gnn', 'louvain'] and d == 'ingredients':
-                pass
-            elif not (m == 'gnn' and d=='sanFranciscoCrimes'):
-                if m == 'summaries':
-                    if d in ['sanFranciscoCrimes']:
-                        ax4.plot(np.arange(0, 4), expr_results[d][m], label=m,
-                                 marker=markers[j], color=colors[j],
-                                 linewidth=3)
-                    elif d in ['ingredients']:
-                        ax5.plot(np.arange(0, 4), expr_results[d][m], label=m,
-                                 marker=markers[j], color=colors[j],
-                                 linewidth=3)
-                    elif d == 'wikivitals':
-                        ax1.plot(np.arange(0, 4), expr_results[d][m], label=m,
-                                 marker=markers[j], color=colors[j],
-                                 linewidth=3)
-                    elif d == 'wikivitals-fr':
-                        ax2.plot(np.arange(0, 4), expr_results[d][m], label=m,
-                                 marker=markers[j], color=colors[j],
-                                 linewidth=3)
-                    elif d == 'wikischools':
-                        ax3.plot(np.arange(0, 4), expr_results[d][m], label=m,
-                                 marker=markers[j], color=colors[j],
-                                 linewidth=3)
-                else:
-                    if d in ['sanFranciscoCrimes']:
-                        ax4.plot(np.arange(0, 4), expr_results[d][m], label=m,
-                                 marker=markers[j], color=colors[j],
-                                 linestyle='dotted')
-                    elif d in ['ingredients']:
-                        ax5.plot(np.arange(0, 4), expr_results[d][m], label=m,
-                                 marker=markers[j], color=colors[j],
-                                 linestyle='dotted')
-                    elif d == 'wikivitals':
-                        ax1.plot(np.arange(0, 4), expr_results[d][m], label=m,
-                                 marker=markers[j], color=colors[j],
-                                 linestyle='dotted')
-                    elif d == 'wikivitals-fr':
-                        ax2.plot(np.arange(0, 4), expr_results[d][m], label=m,
-                                 marker=markers[j], color=colors[j],
-                                 linestyle='dotted')
-                    elif d == 'wikischools':
-                        ax3.plot(np.arange(0, 4), expr_results[d][m], label=m,
-                                 marker=markers[j], color=colors[j],
-                                 linestyle='dotted')
-
     # Axes information
     axes = [ax1, ax2, ax3, ax4, ax5]
     for i, ax in enumerate(axes):
@@ -207,7 +213,7 @@ def plot_expressiveness(**kwargs):
         ax.set_title(rf'{datasets[i]}', fontsize=12)
 
     # Save figure
-    plt.savefig(os.path.join(imgpath, 'rq2.png'), dpi=200)
+    plt.savefig(os.path.join(imgpath, 'rq2.eps'), dpi=800)
 
 
 if __name__ == '__main__':
