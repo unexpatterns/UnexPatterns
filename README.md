@@ -4,7 +4,7 @@ UnexPatterns is a an algorithm that mines unexpected patterns from large attribu
 
 It relies on the combination of information-theoretic based measure of *Unexpectedness* [1] as an interestingness measure to select relevant patterns and pruning techniques to reduce the search space.
 
-[1] Dessalles, J.L.: Coincidences and the encounter problem: A formal account. arXiv preprint arXiv:1106.3932 (2011)
+[1] Dessalles, J.L.: [Algorithmic simplicity and relevance.](https://perso.telecom-paristech.fr/jld/papers/Dessalles_11061001.pdf) *Algorithmic Probability and Friends - LNAI 7070*, pp. 119–130, Springer (2013).
 
 ## Install
 
