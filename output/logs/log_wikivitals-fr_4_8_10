@@ -1,0 +1,2500 @@
+starts profiling...
+NEW ITERATION 
+ --------
+r: 0 - r_new: 1
+|extents[r]|: 9945 - intents[r]: []
+  Extent size 8 - intent [216]
+# nodes in X_prev: 8 - # nodes in X: 8
+cw_a: 16.066549106560185 - cd_a: 10.280915728185574
+Unex a: 5.785633378374611 - unex_a prec: 0
+  U(G): -10.116917152926696
+  U(A): 5.785633378374611
+  U: -4.331283774552086
+unexs: [0] r_new: 1 - r: 0 - ptr: 0
+extents [   0    1    2 ... 9942 9943 9944] intents [] r 0 rnew 1
+  Extent size DID change. IsCannonical: True
+r:0 rnew:1
+ ISCANNO comparing unex=-4.331283774552086 and unexs[0]==0
+  --> Enter recursion with Intent: ['Tianjin']...
+NEW ITERATION 
+ --------
+r: 1 - r_new: 2
+|extents[r]|: 8 - intents[r]: ['Tianjin']
+  Extent size 8 - intent [216, 6950]
+# nodes in X_prev: 8 - # nodes in X: 8
+cw_a: 13.338628651996986 - cd_a: 1.0
+Unex a: 12.338628651996986 - unex_a prec: 5.785633378374611
+  U(G): -10.116917152926696
+  U(A): 18.124262030371597
+  U: 8.0073448774449
+unexs: [0, -4.331283774552086] r_new: 2 - r: 1 - ptr: 1
+ == comparing unex=8.0073448774449 and unexs[1]=-4.331283774552086
+ == comparing unex_a=18.124262030371597 and unexs_a[1]=5.785633378374611
+[0, 5.785633378374611]
+  Extent size did not change -> attribute Pékin is added to intent.
+  Extent size 8 - intent [216, 6950, 8693]
+# nodes in X_prev: 8 - # nodes in X: 8
+cw_a: 11.338628651996986 - cd_a: 1.0
+Unex a: 10.338628651996986 - unex_a prec: 18.124262030371597
+  U(G): -10.116917152926696
+  U(A): 28.46289068236858
+  U: 18.345973529441885
+unexs: [0, 8.0073448774449] r_new: 2 - r: 1 - ptr: 1
+ == comparing unex=18.345973529441885 and unexs[1]=8.0073448774449
+ == comparing unex_a=28.46289068236858 and unexs_a[1]=18.124262030371597
+[0, 18.124262030371597]
+  Extent size did not change -> attribute pinyin is added to intent.
+  Extent size 8 - intent [216, 6950, 8693, 9058]
+# nodes in X_prev: 8 - # nodes in X: 8
+cw_a: 10.315005047471088 - cd_a: 1.0
+Unex a: 9.315005047471088 - unex_a prec: 28.46289068236858
+  U(G): -10.116917152926696
+  U(A): 37.77789572983967
+  U: 27.660978576912974
+unexs: [0, 18.345973529441885] r_new: 2 - r: 1 - ptr: 1
+ == comparing unex=27.660978576912974 and unexs[1]=18.345973529441885
+ == comparing unex_a=37.77789572983967 and unexs_a[1]=28.46289068236858
+[0, 28.46289068236858]
+STOP rec, unexpectedness difference is 9.31500504747109
+Attribute Chine (9058) does not add any unexpectedness to pattern
+r:1 - r_new:2
+Taille extent: 2 - taille intent: 2
+**END FUNCTION
+  Extent size 8 - intent [633]
+# nodes in X_prev: 8 - # nodes in X: 8
+cw_a: 16.066549106560185 - cd_a: 10.280915728185574
+Unex a: 5.785633378374611 - unex_a prec: 0
+  U(G): -16.24620016987165
+  U(A): 5.785633378374611
+  U: -10.460566791497039
+unexs: [0] r_new: 1 - r: 0 - ptr: 0
+extents [   0    1    2 ... 9942 9943 9944] intents [] r 0 rnew 1
+  Extent size DID change. IsCannonical: True
+r:0 rnew:1
+ ISCANNO comparing unex=-10.460566791497039 and unexs[0]==0
+  --> Enter recursion with Intent: ['anche']...
+NEW ITERATION 
+ --------
+r: 2 - r_new: 3
+|extents[r]|: 8 - intents[r]: ['anche']
+  Extent size 8 - intent [633, 8149]
+# nodes in X_prev: 8 - # nodes in X: 8
+cw_a: 12.183906057198344 - cd_a: 1.0
+Unex a: 11.183906057198344 - unex_a prec: 5.785633378374611
+  U(G): -16.24620016987165
+  U(A): 16.969539435572955
+  U: 0.7233392657013056
+unexs: [0, -10.460566791497039] r_new: 3 - r: 2 - ptr: 1
+ == comparing unex=0.7233392657013056 and unexs[1]=-10.460566791497039
+ == comparing unex_a=16.969539435572955 and unexs_a[1]=5.785633378374611
+[0, 5.785633378374611]
+  Extent size did not change -> attribute vent is added to intent.
+  Extent size 8 - intent [633, 8149, 8514]
+# nodes in X_prev: 8 - # nodes in X: 8
+cw_a: 11.674231683781425 - cd_a: 1.0
+Unex a: 10.674231683781425 - unex_a prec: 16.969539435572955
+  U(G): -16.24620016987165
+  U(A): 27.64377111935438
+  U: 11.39757094948273
+unexs: [0, 0.7233392657013056] r_new: 3 - r: 2 - ptr: 1
+ == comparing unex=11.39757094948273 and unexs[1]=0.7233392657013056
+ == comparing unex_a=27.64377111935438 and unexs_a[1]=16.969539435572955
+[0, 16.969539435572955]
+  Extent size did not change -> attribute instrument is added to intent.
+  Extent size 8 - intent [633, 8149, 8514, 8904]
+# nodes in X_prev: 8 - # nodes in X: 8
+cw_a: 10.837730416064304 - cd_a: 1.0
+Unex a: 9.837730416064304 - unex_a prec: 27.64377111935438
+  U(G): -16.24620016987165
+  U(A): 37.48150153541869
+  U: 21.235301365547038
+unexs: [0, 11.39757094948273] r_new: 3 - r: 2 - ptr: 1
+ == comparing unex=21.235301365547038 and unexs[1]=11.39757094948273
+ == comparing unex_a=37.48150153541869 and unexs_a[1]=27.64377111935438
+[0, 27.64377111935438]
+STOP rec, unexpectedness difference is 9.837730416064307
+Attribute musique (8904) does not add any unexpectedness to pattern
+r:2 - r_new:3
+Taille extent: 3 - taille intent: 3
+**END FUNCTION
+  Extent size 8 - intent [665]
+# nodes in X_prev: 8 - # nodes in X: 8
+cw_a: 16.066549106560185 - cd_a: 10.280915728185574
+Unex a: 5.785633378374611 - unex_a prec: 0
+  U(G): -17.59624750749645
+  U(A): 5.785633378374611
+  U: -11.81061412912184
+unexs: [0] r_new: 1 - r: 0 - ptr: 0
+extents [   0    1    2 ... 9942 9943 9944] intents [] r 0 rnew 1
+  Extent size DID change. IsCannonical: True
+r:0 rnew:1
+ ISCANNO comparing unex=-11.81061412912184 and unexs[0]==0
+  --> Enter recursion with Intent: ['Sirius']...
+NEW ITERATION 
+ --------
+r: 3 - r_new: 4
+|extents[r]|: 8 - intents[r]: ['Sirius']
+  Extent size 8 - intent [665, 7645]
+# nodes in X_prev: 8 - # nodes in X: 8
+cw_a: 12.744621011672823 - cd_a: 1.0
+Unex a: 11.744621011672823 - unex_a prec: 5.785633378374611
+  U(G): -17.59624750749645
+  U(A): 17.530254390047432
+  U: -0.06599311744901826
+unexs: [0, -11.81061412912184] r_new: 4 - r: 3 - ptr: 1
+ == comparing unex=-0.06599311744901826 and unexs[1]=-11.81061412912184
+ == comparing unex_a=17.530254390047432 and unexs_a[1]=5.785633378374611
+[0, 5.785633378374611]
+  Extent size did not change -> attribute brillant is added to intent.
+  Extent size 8 - intent [665, 7645, 7783]
+# nodes in X_prev: 8 - # nodes in X: 8
+cw_a: 12.590815675593788 - cd_a: 1.0
+Unex a: 11.590815675593788 - unex_a prec: 17.530254390047432
+  U(G): -17.59624750749645
+  U(A): 29.12107006564122
+  U: 11.52482255814477
+unexs: [0, -0.06599311744901826] r_new: 4 - r: 3 - ptr: 1
+ == comparing unex=11.52482255814477 and unexs[1]=-0.06599311744901826
+ == comparing unex_a=29.12107006564122 and unexs_a[1]=17.530254390047432
+[0, 17.530254390047432]
+  Extent size did not change -> attribute ciel is added to intent.
+  Extent size 8 - intent [665, 7645, 7783, 8502]
+# nodes in X_prev: 8 - # nodes in X: 8
+cw_a: 11.682844814086133 - cd_a: 1.0
+Unex a: 10.682844814086133 - unex_a prec: 29.12107006564122
+  U(G): -17.59624750749645
+  U(A): 39.80391487972735
+  U: 22.2076673722309
+unexs: [0, 11.52482255814477] r_new: 4 - r: 3 - ptr: 1
+ == comparing unex=22.2076673722309 and unexs[1]=11.52482255814477
+ == comparing unex_a=39.80391487972735 and unexs_a[1]=29.12107006564122
+[0, 29.12107006564122]
+  Extent size did not change -> attribute étoile is added to intent.
+r:3 - r_new:4
+Taille extent: 4 - taille intent: 4
+**END FUNCTION
+  Extent size 9 - intent [995]
+# nodes in X_prev: 9 - # nodes in X: 9
+cw_a: 15.896624105117873 - cd_a: 10.111135670234708
+Unex a: 5.785488434883165 - unex_a prec: 0
+  U(G): -31.68382703934917
+  U(A): 5.785488434883165
+  U: -25.898338604466005
+unexs: [0] r_new: 1 - r: 0 - ptr: 0
+extents [   0    1    2 ... 9942 9943 9944] intents [] r 0 rnew 1
+  Extent size DID change. IsCannonical: True
+r:0 rnew:1
+ ISCANNO comparing unex=-25.898338604466005 and unexs[0]==0
+  --> Enter recursion with Intent: ['Wudi']...
+NEW ITERATION 
+ --------
+r: 4 - r_new: 5
+|extents[r]|: 9 - intents[r]: ['Wudi']
+  Extent size 9 - intent [995, 6862]
+# nodes in X_prev: 9 - # nodes in X: 9
+cw_a: 13.39412376458869 - cd_a: 1.0
+Unex a: 12.39412376458869 - unex_a prec: 5.785488434883165
+  U(G): -31.68382703934917
+  U(A): 18.179612199471855
+  U: -13.504214839877314
+unexs: [0, -25.898338604466005] r_new: 5 - r: 4 - ptr: 1
+ == comparing unex=-13.504214839877314 and unexs[1]=-25.898338604466005
+ == comparing unex_a=18.179612199471855 and unexs_a[1]=5.785488434883165
+[0, 5.785488434883165]
+  Extent size did not change -> attribute Han is added to intent.
+  Extent size 9 - intent [995, 6862, 8862]
+# nodes in X_prev: 9 - # nodes in X: 9
+cw_a: 10.963261298148163 - cd_a: 1.0
+Unex a: 9.963261298148163 - unex_a prec: 18.179612199471855
+  U(G): -31.68382703934917
+  U(A): 28.142873497620016
+  U: -3.540953541729152
+unexs: [0, -13.504214839877314] r_new: 5 - r: 4 - ptr: 1
+ == comparing unex=-3.540953541729152 and unexs[1]=-13.504214839877314
+ == comparing unex_a=28.142873497620016 and unexs_a[1]=18.179612199471855
+[0, 18.179612199471855]
+STOP rec, unexpectedness difference is 9.963261298148161
+Attribute empereur (8862) does not add any unexpectedness to pattern
+r:4 - r_new:5
+Taille extent: 5 - taille intent: 5
+**END FUNCTION
+  Extent size 9 - intent [999]
+# nodes in X_prev: 9 - # nodes in X: 9
+cw_a: 15.896624105117873 - cd_a: 10.111135670234708
+Unex a: 5.785488434883165 - unex_a prec: 0
+  U(G): -22.61180961080116
+  U(A): 5.785488434883165
+  U: -16.826321175917997
+unexs: [0] r_new: 1 - r: 0 - ptr: 0
+extents [   0    1    2 ... 9942 9943 9944] intents [] r 0 rnew 1
+  Extent size DID change. IsCannonical: True
+r:0 rnew:1
+ ISCANNO comparing unex=-16.826321175917997 and unexs[0]==0
+  --> Enter recursion with Intent: ['Mostra']...
+NEW ITERATION 
+ --------
+r: 5 - r_new: 6
+|extents[r]|: 9 - intents[r]: ['Mostra']
+  Extent size 9 - intent [999, 6965]
+# nodes in X_prev: 9 - # nodes in X: 9
+cw_a: 13.311661604396717 - cd_a: 1.0
+Unex a: 12.311661604396717 - unex_a prec: 5.785488434883165
+  U(G): -22.61180961080116
+  U(A): 18.09715003927988
+  U: -4.514659571521278
+unexs: [0, -16.826321175917997] r_new: 6 - r: 5 - ptr: 1
+ == comparing unex=-4.514659571521278 and unexs[1]=-16.826321175917997
+ == comparing unex_a=18.09715003927988 and unexs_a[1]=5.785488434883165
+[0, 5.785488434883165]
+  Extent size did not change -> attribute Venise is added to intent.
+  Extent size 9 - intent [999, 6965, 8078]
+# nodes in X_prev: 9 - # nodes in X: 9
+cw_a: 12.27213324021008 - cd_a: 1.0
+Unex a: 11.27213324021008 - unex_a prec: 18.09715003927988
+  U(G): -22.61180961080116
+  U(A): 29.369283279489963
+  U: 6.757473668688803
+unexs: [0, -4.514659571521278] r_new: 6 - r: 5 - ptr: 1
+ == comparing unex=6.757473668688803 and unexs[1]=-4.514659571521278
+ == comparing unex_a=29.369283279489963 and unexs_a[1]=18.09715003927988
+[0, 18.09715003927988]
+  Extent size did not change -> attribute réalisateur is added to intent.
+  Extent size 8 - intent [999, 6965, 8078, 8774]
+# nodes in X_prev: 8 - # nodes in X: 8
+cw_a: 11.153659770330224 - cd_a: 1.0874628412503393
+Unex a: 10.066196929079885 - unex_a prec: 29.369283279489963
+  U(G): -10.614228010877106
+  U(A): 39.43548020856985
+  U: 28.821252197692743
+unexs: [0, 6.757473668688803] r_new: 6 - r: 5 - ptr: 1
+extents [184, 415, 2303, 3006, 4495, 4512, 5099, 5562, 7745] intents [999, 6965, 8078] r 5 rnew 6
+  Extent size DID change. IsCannonical: True
+r:5 rnew:6
+ ISCANNO comparing unex=28.821252197692743 and unexs[1]==6.757473668688803
+  --> Enter recursion with Intent: ['Mostra' 'Venise' 'réalisateur' 'cinéma']...
+NEW ITERATION 
+ --------
+r: 6 - r_new: 7
+|extents[r]|: 8 - intents[r]: ['Mostra' 'Venise' 'réalisateur' 'cinéma']
+  Extent size 8 - intent [999, 6965, 8078, 8774, 8807]
+# nodes in X_prev: 8 - # nodes in X: 8
+cw_a: 11.072195669701328 - cd_a: 1.0
+Unex a: 10.072195669701328 - unex_a prec: 39.43548020856985
+  U(G): -10.614228010877106
+  U(A): 49.50767587827118
+  U: 38.89344786739407
+unexs: [0, 6.757473668688803, 28.821252197692743] r_new: 7 - r: 6 - ptr: 2
+ == comparing unex=38.89344786739407 and unexs[2]=28.821252197692743
+ == comparing unex_a=49.50767587827118 and unexs_a[2]=39.43548020856985
+[0, 29.369283279489963, 39.43548020856985]
+  Extent size did not change -> attribute film is added to intent.
+r:6 - r_new:7
+Taille extent: 7 - taille intent: 7
+**END FUNCTION
+  Extent size 9 - intent [999, 6965, 8078, 8807]
+# nodes in X_prev: 9 - # nodes in X: 9
+cw_a: 11.072195669701328 - cd_a: 1.0
+Unex a: 10.072195669701328 - unex_a prec: 29.369283279489963
+  U(G): -22.61180961080116
+  U(A): 39.44147894919129
+  U: 16.829669338390133
+unexs: [0, 6.757473668688803] r_new: 6 - r: 5 - ptr: 1
+ == comparing unex=16.829669338390133 and unexs[1]=6.757473668688803
+ == comparing unex_a=39.44147894919129 and unexs_a[1]=29.369283279489963
+[0, 29.369283279489963]
+  Extent size did not change -> attribute film is added to intent.
+r:5 - r_new:6
+Taille extent: 7 - taille intent: 7
+**END FUNCTION
+  Extent size 10 - intent [1360]
+# nodes in X_prev: 10 - # nodes in X: 10
+cw_a: 15.744621011672823 - cd_a: 9.959277505720502
+Unex a: 5.785343505952321 - unex_a prec: 0
+  U(G): -29.34721921661651
+  U(A): 5.785343505952321
+  U: -23.56187571066419
+unexs: [0] r_new: 1 - r: 0 - ptr: 0
+extents [   0    1    2 ... 9942 9943 9944] intents [] r 0 rnew 1
+  Extent size DID change. IsCannonical: True
+r:0 rnew:1
+ ISCANNO comparing unex=-23.56187571066419 and unexs[0]==0
+  --> Enter recursion with Intent: ['Xiaoping']...
+NEW ITERATION 
+ --------
+r: 7 - r_new: 8
+|extents[r]|: 10 - intents[r]: ['Xiaoping']
+  Extent size 10 - intent [1360, 1657]
+# nodes in X_prev: 10 - # nodes in X: 10
+cw_a: 15.744621011672823 - cd_a: 1.0
+Unex a: 14.744621011672823 - unex_a prec: 5.785343505952321
+  U(G): -29.34721921661651
+  U(A): 20.529964517625146
+  U: -8.817254698991363
+unexs: [0, -23.56187571066419] r_new: 8 - r: 7 - ptr: 1
+ == comparing unex=-8.817254698991363 and unexs[1]=-23.56187571066419
+ == comparing unex_a=20.529964517625146 and unexs_a[1]=5.785343505952321
+[0, 5.785343505952321]
+  Extent size did not change -> attribute Deng is added to intent.
+  Extent size 8 - intent [1360, 1657, 8223]
+# nodes in X_prev: 8 - # nodes in X: 8
+cw_a: 12.089269183060269 - cd_a: 1.1699250014423124
+Unex a: 10.919344181617957 - unex_a prec: 20.529964517625146
+  U(G): -9.631490325756452
+  U(A): 31.449308699243105
+  U: 21.817818373486652
+unexs: [0, -8.817254698991363] r_new: 8 - r: 7 - ptr: 1
+extents [1535, 2317, 3992, 5476, 5490, 7918, 8186, 8192, 9636, 9705] intents [1360, 1657] r 7 rnew 8
+  Extent size DID change. IsCannonical: True
+r:7 rnew:8
+ ISCANNO comparing unex=21.817818373486652 and unexs[1]==-8.817254698991363
+  --> Enter recursion with Intent: ['Xiaoping' 'Deng' 'communiste']...
+NEW ITERATION 
+ --------
+r: 8 - r_new: 9
+|extents[r]|: 8 - intents[r]: ['Xiaoping' 'Deng' 'communiste']
+  Extent size 8 - intent [1360, 1657, 8223, 8421]
+# nodes in X_prev: 8 - # nodes in X: 8
+cw_a: 11.799762565865285 - cd_a: 1.0
+Unex a: 10.799762565865285 - unex_a prec: 31.449308699243105
+  U(G): -9.631490325756452
+  U(A): 42.24907126510839
+  U: 32.61758093935194
+unexs: [0, -8.817254698991363, 21.817818373486652] r_new: 9 - r: 8 - ptr: 2
+ == comparing unex=32.61758093935194 and unexs[2]=21.817818373486652
+ == comparing unex_a=42.24907126510839 and unexs_a[2]=31.449308699243105
+[0, 20.529964517625146, 31.449308699243105]
+  Extent size did not change -> attribute parti is added to intent.
+  Extent size 8 - intent [1360, 1657, 8223, 8421, 8994]
+# nodes in X_prev: 8 - # nodes in X: 8
+cw_a: 10.523517286304948 - cd_a: 1.0
+Unex a: 9.523517286304948 - unex_a prec: 42.24907126510839
+  U(G): -9.631490325756452
+  U(A): 51.772588551413335
+  U: 42.14109822565688
+unexs: [0, -8.817254698991363, 32.61758093935194] r_new: 9 - r: 8 - ptr: 2
+ == comparing unex=42.14109822565688 and unexs[2]=32.61758093935194
+ == comparing unex_a=51.772588551413335 and unexs_a[2]=42.24907126510839
+[0, 20.529964517625146, 42.24907126510839]
+STOP rec, unexpectedness difference is 9.523517286304944
+Attribute chinois (8994) does not add any unexpectedness to pattern
+r:8 - r_new:9
+Taille extent: 9 - taille intent: 9
+**END FUNCTION
+  Extent size 8 - intent [1360, 1657, 8421]
+# nodes in X_prev: 8 - # nodes in X: 8
+cw_a: 11.799762565865285 - cd_a: 1.1699250014423124
+Unex a: 10.629837564422973 - unex_a prec: 20.529964517625146
+  U(G): -9.631490325756452
+  U(A): 31.159802082048117
+  U: 21.528311756291664
+unexs: [0, -8.817254698991363] r_new: 8 - r: 7 - ptr: 1
+IsCannonical: False --> do not enter recursion.
+  Extent size 10 - intent [1360, 1657, 8994]
+# nodes in X_prev: 10 - # nodes in X: 10
+cw_a: 10.523517286304948 - cd_a: 1.0
+Unex a: 9.523517286304948 - unex_a prec: 20.529964517625146
+  U(G): -29.34721921661651
+  U(A): 30.053481803930094
+  U: 0.706262587313585
+unexs: [0, -8.817254698991363] r_new: 8 - r: 7 - ptr: 1
+ == comparing unex=0.706262587313585 and unexs[1]=-8.817254698991363
+ == comparing unex_a=30.053481803930094 and unexs_a[1]=20.529964517625146
+[0, 20.529964517625146]
+STOP rec, unexpectedness difference is 9.523517286304948
+Attribute chinois (8994) does not add any unexpectedness to pattern
+r:7 - r_new:8
+Taille extent: 9 - taille intent: 9
+**END FUNCTION
+  Extent size 10 - intent [1657]
+# nodes in X_prev: 10 - # nodes in X: 10
+cw_a: 15.744621011672823 - cd_a: 9.959277505720502
+Unex a: 5.785343505952321 - unex_a prec: 0
+  U(G): -29.34721921661651
+  U(A): 5.785343505952321
+  U: -23.56187571066419
+unexs: [0] r_new: 1 - r: 0 - ptr: 0
+IsCannonical: False --> do not enter recursion.
+  Extent size 12 - intent [2575]
+# nodes in X_prev: 12 - # nodes in X: 12
+cw_a: 15.481586605839029 - cd_a: 9.6965329140783
+Unex a: 5.785053691760728 - unex_a prec: 0
+  U(G): 10.880368617974142
+  U(A): 5.785053691760728
+  U: 16.665422309734872
+unexs: [0] r_new: 1 - r: 0 - ptr: 0
+extents [   0    1    2 ... 9942 9943 9944] intents [] r 0 rnew 1
+  Extent size DID change. IsCannonical: True
+r:0 rnew:1
+ ISCANNO comparing unex=16.665422309734872 and unexs[0]==0
+  --> Enter recursion with Intent: ['shì']...
+NEW ITERATION 
+ --------
+r: 9 - r_new: 10
+|extents[r]|: 12 - intents[r]: ['shì']
+  Extent size 12 - intent [2575, 8693]
+# nodes in X_prev: 12 - # nodes in X: 12
+cw_a: 11.338628651996986 - cd_a: 1.0
+Unex a: 10.338628651996986 - unex_a prec: 5.785053691760728
+  U(G): 10.880368617974142
+  U(A): 16.123682343757714
+  U: 27.004050961731856
+unexs: [0, 16.665422309734872] r_new: 10 - r: 9 - ptr: 1
+ == comparing unex=27.004050961731856 and unexs[1]=16.665422309734872
+ == comparing unex_a=16.123682343757714 and unexs_a[1]=5.785053691760728
+[0, 5.785053691760728]
+  Extent size did not change -> attribute pinyin is added to intent.
+  Extent size 12 - intent [2575, 8693, 8994]
+# nodes in X_prev: 12 - # nodes in X: 12
+cw_a: 10.523517286304948 - cd_a: 1.0
+Unex a: 9.523517286304948 - unex_a prec: 16.123682343757714
+  U(G): 10.880368617974142
+  U(A): 25.647199630062662
+  U: 36.5275682480368
+unexs: [0, 27.004050961731856] r_new: 10 - r: 9 - ptr: 1
+ == comparing unex=36.5275682480368 and unexs[1]=27.004050961731856
+ == comparing unex_a=25.647199630062662 and unexs_a[1]=16.123682343757714
+[0, 16.123682343757714]
+STOP rec, unexpectedness difference is 9.523517286304944
+Attribute chinois (8994) does not add any unexpectedness to pattern
+r:9 - r_new:10
+Taille extent: 10 - taille intent: 10
+**END FUNCTION
+  Extent size 13 - intent [2716]
+# nodes in X_prev: 13 - # nodes in X: 13
+cw_a: 15.366109388419092 - cd_a: 9.581200581924957
+Unex a: 5.784908806494135 - unex_a prec: 0
+  U(G): -61.35412302390161
+  U(A): 5.784908806494135
+  U: -55.56921421740747
+unexs: [0] r_new: 1 - r: 0 - ptr: 0
+extents [   0    1    2 ... 9942 9943 9944] intents [] r 0 rnew 1
+  Extent size DID change. IsCannonical: True
+r:0 rnew:1
+ ISCANNO comparing unex=-55.56921421740747 and unexs[0]==0
+  --> Enter recursion with Intent: ['Roll']...
+NEW ITERATION 
+ --------
+r: 10 - r_new: 11
+|extents[r]|: 13 - intents[r]: ['Roll']
+  Extent size 11 - intent [2716, 5454]
+# nodes in X_prev: 11 - # nodes in X: 11
+cw_a: 14.311661604396717 - cd_a: 1.1255308820838588
+Unex a: 13.186130722312857 - unex_a prec: 5.784908806494135
+  U(G): -39.655989127484645
+  U(A): 18.97103952880699
+  U: -20.684949598677655
+unexs: [0, -55.56921421740747] r_new: 11 - r: 10 - ptr: 1
+extents [602, 1691, 1794, 2297, 2691, 5057, 5185, 5391, 5566, 7231, 8807, 8812, 8815] intents [2716] r 10 rnew 11
+  Extent size DID change. IsCannonical: True
+r:10 rnew:11
+ ISCANNO comparing unex=-20.684949598677655 and unexs[1]==-55.56921421740747
+  --> Enter recursion with Intent: ['Roll' 'Fame']...
+NEW ITERATION 
+ --------
+r: 11 - r_new: 12
+|extents[r]|: 11 - intents[r]: ['Roll' 'Fame']
+  Extent size 11 - intent [2716, 5454, 6420]
+# nodes in X_prev: 11 - # nodes in X: 11
+cw_a: 13.744621011672823 - cd_a: 1.0
+Unex a: 12.744621011672823 - unex_a prec: 18.97103952880699
+  U(G): -39.655989127484645
+  U(A): 31.715660540479814
+  U: -7.9403285870048315
+unexs: [0, -55.56921421740747, -20.684949598677655] r_new: 12 - r: 11 - ptr: 2
+ == comparing unex=-7.9403285870048315 and unexs[2]=-20.684949598677655
+ == comparing unex_a=31.715660540479814 and unexs_a[2]=18.97103952880699
+[0, 5.784908806494135, 18.97103952880699]
+  Extent size did not change -> attribute Hall is added to intent.
+  Extent size 11 - intent [2716, 5454, 6420, 6638]
+# nodes in X_prev: 11 - # nodes in X: 11
+cw_a: 13.574696010230511 - cd_a: 1.0
+Unex a: 12.574696010230511 - unex_a prec: 31.715660540479814
+  U(G): -39.655989127484645
+  U(A): 44.29035655071033
+  U: 4.634367423225683
+unexs: [0, -55.56921421740747, -7.9403285870048315] r_new: 12 - r: 11 - ptr: 2
+ == comparing unex=4.634367423225683 and unexs[2]=-7.9403285870048315
+ == comparing unex_a=44.29035655071033 and unexs_a[2]=31.715660540479814
+[0, 5.784908806494135, 31.715660540479814]
+  Extent size did not change -> attribute rock is added to intent.
+  Extent size 9 - intent [2716, 5454, 6420, 6638, 6901]
+# nodes in X_prev: 9 - # nodes in X: 9
+cw_a: 13.366109388419092 - cd_a: 1.15200309344505
+Unex a: 12.214106294974043 - unex_a prec: 44.29035655071033
+  U(G): -21.80598648077158
+  U(A): 56.50446284568437
+  U: 34.69847636491279
+unexs: [0, -55.56921421740747, 4.634367423225683] r_new: 12 - r: 11 - ptr: 2
+extents [602, 1794, 2297, 5057, 5185, 5391, 5566, 7231, 8807, 8812, 8815] intents [2716, 5454, 6420, 6638] r 11 rnew 12
+  Extent size DID change. IsCannonical: True
+r:11 rnew:12
+ ISCANNO comparing unex=34.69847636491279 and unexs[2]==4.634367423225683
+  --> Enter recursion with Intent: ['Roll' 'Fame' 'Hall' 'rock' 'album']...
+NEW ITERATION 
+ --------
+r: 12 - r_new: 13
+|extents[r]|: 9 - intents[r]: ['Roll' 'Fame' 'Hall' 'rock' 'album']
+  Extent size 8 - intent [2716, 5454, 6420, 6638, 6901, 7909]
+# nodes in X_prev: 8 - # nodes in X: 8
+cw_a: 12.466636264373058 - cd_a: 1.0874628412503393
+Unex a: 11.379173423122719 - unex_a prec: 56.50446284568437
+  U(G): -12.33768147360653
+  U(A): 67.8836362688071
+  U: 55.545954795200565
+unexs: [0, -55.56921421740747, 4.634367423225683, 34.69847636491279] r_new: 13 - r: 12 - ptr: 3
+extents [602, 2297, 5057, 5391, 5566, 7231, 8807, 8812, 8815] intents [2716, 5454, 6420, 6638, 6901] r 12 rnew 13
+  Extent size DID change. IsCannonical: True
+r:12 rnew:13
+ ISCANNO comparing unex=55.545954795200565 and unexs[3]==34.69847636491279
+  --> Enter recursion with Intent: ['Roll' 'Fame' 'Hall' 'rock' 'album' 'chanteur']...
+Entering smoothing, val=0.07585818002124355
+7910 9259
+1349 [9163 8272 9237 ... 8835 8112 8884] 7909
+['revenir' 'chanteur' 'divers' 'autonome' 'mondial' 'si'] ['revenir' 'chanteur' 'sanskrit' 'sauf' 'pur' 'implique']
+Next attr will be: divers instead of sanskrit
+degs: [ 97  97  97 602 133 851 715 141 524 248 301 156]
+NEW ITERATION 
+ --------
+r: 13 - r_new: 14
+|extents[r]|: 8 - intents[r]: ['Roll' 'Fame' 'Hall' 'rock' 'album' 'chanteur']
+  Extent size 8 - intent [2716, 5454, 6420, 6638, 6901, 7909, 8098]
+# nodes in X_prev: 8 - # nodes in X: 8
+cw_a: 9.338628651996986 - cd_a: 1.0
+Unex a: 8.338628651996986 - unex_a prec: 67.8836362688071
+  U(G): -12.33768147360653
+  U(A): 76.22226492080408
+  U: 63.88458344719755
+unexs: [0, -55.56921421740747, 4.634367423225683, 34.69847636491279, 55.545954795200565] r_new: 14 - r: 13 - ptr: 4
+ == comparing unex=63.88458344719755 and unexs[4]=55.545954795200565
+ == comparing unex_a=76.22226492080408 and unexs_a[4]=67.8836362688071
+[0, 5.784908806494135, 44.29035655071033, 56.50446284568437, 67.8836362688071]
+STOP rec, unexpectedness difference is 8.338628651996984
+Attribute américain (8098) does not add any unexpectedness to pattern
+r:13 - r_new:14
+Taille extent: 14 - taille intent: 14
+**END FUNCTION
+  Extent size 9 - intent [2716, 5454, 6420, 6638, 6901, 8098]
+# nodes in X_prev: 9 - # nodes in X: 9
+cw_a: 9.338628651996986 - cd_a: 1.0
+Unex a: 8.338628651996986 - unex_a prec: 56.50446284568437
+  U(G): -21.80598648077158
+  U(A): 64.84309149768136
+  U: 43.03710501690978
+unexs: [0, -55.56921421740747, 4.634367423225683, 34.69847636491279] r_new: 13 - r: 12 - ptr: 3
+ == comparing unex=43.03710501690978 and unexs[3]=34.69847636491279
+ == comparing unex_a=64.84309149768136 and unexs_a[3]=56.50446284568437
+[0, 5.784908806494135, 44.29035655071033, 56.50446284568437]
+STOP rec, unexpectedness difference is 8.338628651996984
+Attribute américain (8098) does not add any unexpectedness to pattern
+r:12 - r_new:13
+Taille extent: 14 - taille intent: 14
+**END FUNCTION
+  Extent size 9 - intent [2716, 5454, 6420, 6638, 7909]
+# nodes in X_prev: 9 - # nodes in X: 9
+cw_a: 12.466636264373058 - cd_a: 1.15200309344505
+Unex a: 11.314633170928008 - unex_a prec: 44.29035655071033
+  U(G): -25.02837890210803
+  U(A): 55.60498972163833
+  U: 30.576610819530302
+unexs: [0, -55.56921421740747, 4.634367423225683] r_new: 12 - r: 11 - ptr: 2
+extents [602, 1794, 2297, 5057, 5185, 5391, 5566, 7231, 8807, 8812, 8815] intents [2716, 5454, 6420, 6638] r 11 rnew 12
+  Extent size DID change. IsCannonical: True
+r:11 rnew:12
+ ISCANNO comparing unex=30.576610819530302 and unexs[2]==4.634367423225683
+  --> Enter recursion with Intent: ['Roll' 'Fame' 'Hall' 'rock' 'chanteur']...
+Entering smoothing, val=0.04742587317756678
+7910 9259
+1349 [8290 8016 8757 ... 8884 9217 8373] 7909
+['revenir' 'chanteur' 'domination' 'entrée' 'utilise' 'créer'] ['revenir' 'chanteur' 'sanskrit' 'sauf' 'pur' 'implique']
+Next attr will be: domination instead of sanskrit
+degs: [ 97  97  97 135 105 235 579 201 621 109 209 113]
+NEW ITERATION 
+ --------
+r: 14 - r_new: 15
+|extents[r]|: 9 - intents[r]: ['Roll' 'Fame' 'Hall' 'rock' 'chanteur']
+  Extent size 8 - intent [2716, 5454, 6420, 6638, 7909, 8496]
+# nodes in X_prev: 8 - # nodes in X: 8
+cw_a: 9.388829464919176 - cd_a: 1.0874628412503393
+Unex a: 8.301366623668837 - unex_a prec: 55.60498972163833
+  U(G): -16.14503639566413
+  U(A): 63.906356345307174
+  U: 47.761319949643045
+unexs: [0, -55.56921421740747, 4.634367423225683, 30.576610819530302] r_new: 15 - r: 14 - ptr: 3
+extents [602, 2297, 5057, 5185, 5391, 5566, 8807, 8812, 8815] intents [2716, 5454, 6420, 6638, 7909] r 14 rnew 15
+  Extent size DID change. IsCannonical: True
+r:14 rnew:15
+ ISCANNO comparing unex=47.761319949643045 and unexs[3]==30.576610819530302
+  --> Enter recursion with Intent: ['Roll' 'Fame' 'Hall' 'rock' 'chanteur' 'temps']...
+no smoothing, Reorder attributes according to degrees
+degs: [165 166 166 166 166 167 167]
+NEW ITERATION 
+ --------
+r: 15 - r_new: 16
+|extents[r]|: 8 - intents[r]: ['épaisse' 'progresser' 'sagesse' 'oxyde' 'sec' 'matériel']
+  Extent size 8 - intent [2716, 5454, 6420, 6638, 7909, 8496, 8937]
+# nodes in X_prev: 8 - # nodes in X: 8
+cw_a: 10.700226892314369 - cd_a: 1.0
+Unex a: 9.700226892314369 - unex_a prec: 63.906356345307174
+  U(G): -16.14503639566413
+  U(A): 73.60658323762155
+  U: 57.46154684195742
+unexs: [0, -55.56921421740747, 4.634367423225683, 30.576610819530302, 47.761319949643045] r_new: 16 - r: 15 - ptr: 4
+ == comparing unex=57.46154684195742 and unexs[4]=47.761319949643045
+ == comparing unex_a=73.60658323762155 and unexs_a[4]=63.906356345307174
+[0, 5.784908806494135, 44.29035655071033, 55.60498972163833, 63.906356345307174]
+STOP rec, unexpectedness difference is 9.700226892314376
+Attribute of (8937) does not add any unexpectedness to pattern
+r:15 - r_new:16
+Taille extent: 16 - taille intent: 16
+**END FUNCTION
+  Extent size 8 - intent [2716, 5454, 6420, 6638, 7909, 8904]
+# nodes in X_prev: 8 - # nodes in X: 8
+cw_a: 10.837730416064304 - cd_a: 1.0874628412503393
+Unex a: 9.750267574813964 - unex_a prec: 55.60498972163833
+  U(G): -16.14656818769216
+  U(A): 65.3552572964523
+  U: 49.20868910876013
+unexs: [0, -55.56921421740747, 4.634367423225683, 30.576610819530302] r_new: 15 - r: 14 - ptr: 3
+IsCannonical: False --> do not enter recursion.
+  Extent size 9 - intent [2716, 5454, 6420, 6638, 7909, 8937]
+# nodes in X_prev: 9 - # nodes in X: 9
+cw_a: 10.700226892314369 - cd_a: 1.0
+Unex a: 9.700226892314369 - unex_a prec: 55.60498972163833
+  U(G): -25.02837890210803
+  U(A): 65.3052166139527
+  U: 40.276837711844664
+unexs: [0, -55.56921421740747, 4.634367423225683, 30.576610819530302] r_new: 15 - r: 14 - ptr: 3
+ == comparing unex=40.276837711844664 and unexs[3]=30.576610819530302
+ == comparing unex_a=65.3052166139527 and unexs_a[3]=55.60498972163833
+[0, 5.784908806494135, 44.29035655071033, 55.60498972163833]
+STOP rec, unexpectedness difference is 9.700226892314362
+Attribute of (8937) does not add any unexpectedness to pattern
+r:14 - r_new:15
+Taille extent: 16 - taille intent: 16
+**END FUNCTION
+  Extent size 8 - intent [2716, 5454, 6420, 6638, 8379]
+# nodes in X_prev: 8 - # nodes in X: 8
+cw_a: 11.177805857661927 - cd_a: 1.2479275134435854
+Unex a: 9.929878344218341 - unex_a prec: 44.29035655071033
+  U(G): -14.466964490551497
+  U(A): 54.220234894928666
+  U: 39.75327040437717
+unexs: [0, -55.56921421740747, 4.634367423225683] r_new: 12 - r: 11 - ptr: 2
+extents [602, 1794, 2297, 5057, 5185, 5391, 5566, 7231, 8807, 8812, 8815] intents [2716, 5454, 6420, 6638] r 11 rnew 12
+  Extent size DID change. IsCannonical: True
+r:11 rnew:12
+ ISCANNO comparing unex=39.75327040437717 and unexs[2]==4.634367423225683
+  --> Enter recursion with Intent: ['Roll' 'Fame' 'Hall' 'rock' 'The']...
+no smoothing, Reorder attributes according to degrees
+degs: [147 147 147 147 147 148 148]
+NEW ITERATION 
+ --------
+r: 16 - r_new: 17
+|extents[r]|: 8 - intents[r]: ['épaisse' 'progresser' 'sagesse' 'oxyde' 'original']
+  Extent size 8 - intent [2716, 5454, 6420, 6638, 8379, 8761]
+# nodes in X_prev: 8 - # nodes in X: 8
+cw_a: 11.177805857661927 - cd_a: 1.0
+Unex a: 10.177805857661927 - unex_a prec: 54.220234894928666
+  U(G): -14.466964490551497
+  U(A): 64.39804075259059
+  U: 49.93107626203909
+unexs: [0, -55.56921421740747, 4.634367423225683, 39.75327040437717] r_new: 17 - r: 16 - ptr: 3
+ == comparing unex=49.93107626203909 and unexs[3]=39.75327040437717
+ == comparing unex_a=64.39804075259059 and unexs_a[3]=54.220234894928666
+[0, 5.784908806494135, 44.29035655071033, 54.220234894928666]
+  Extent size did not change -> attribute The is added to intent.
+  Extent size 8 - intent [2716, 5454, 6420, 6638, 8379, 8761, 8937]
+# nodes in X_prev: 8 - # nodes in X: 8
+cw_a: 10.700226892314369 - cd_a: 1.0
+Unex a: 9.700226892314369 - unex_a prec: 64.39804075259059
+  U(G): -14.466964490551497
+  U(A): 74.09826764490495
+  U: 59.63130315435345
+unexs: [0, -55.56921421740747, 4.634367423225683, 49.93107626203909] r_new: 17 - r: 16 - ptr: 3
+ == comparing unex=59.63130315435345 and unexs[3]=49.93107626203909
+ == comparing unex_a=74.09826764490495 and unexs_a[3]=64.39804075259059
+[0, 5.784908806494135, 44.29035655071033, 64.39804075259059]
+STOP rec, unexpectedness difference is 9.700226892314362
+Attribute of (8937) does not add any unexpectedness to pattern
+r:16 - r_new:17
+Taille extent: 17 - taille intent: 17
+**END FUNCTION
+  Extent size 8 - intent [2716, 5454, 6420, 6638, 8669]
+# nodes in X_prev: 8 - # nodes in X: 8
+cw_a: 11.37306214906086 - cd_a: 1.2479275134435854
+Unex a: 10.125134635617275 - unex_a prec: 44.29035655071033
+  U(G): -19.597779299524497
+  U(A): 54.4154911863276
+  U: 34.8177118868031
+unexs: [0, -55.56921421740747, 4.634367423225683] r_new: 12 - r: 11 - ptr: 2
+IsCannonical: False --> do not enter recursion.
+  Extent size 8 - intent [2716, 5454, 6420, 6638, 8761]
+# nodes in X_prev: 8 - # nodes in X: 8
+cw_a: 11.177805857661927 - cd_a: 1.2479275134435854
+Unex a: 9.929878344218341 - unex_a prec: 44.29035655071033
+  U(G): -14.466964490551497
+  U(A): 54.220234894928666
+  U: 39.75327040437717
+unexs: [0, -55.56921421740747, 4.634367423225683] r_new: 12 - r: 11 - ptr: 2
+IsCannonical: False --> do not enter recursion.
+  Extent size 9 - intent [2716, 5454, 6420, 6638, 8904]
+# nodes in X_prev: 9 - # nodes in X: 9
+cw_a: 10.837730416064304 - cd_a: 1.15200309344505
+Unex a: 9.685727322619254 - unex_a prec: 44.29035655071033
+  U(G): -25.73243726019554
+  U(A): 53.976083873329586
+  U: 28.243646613134047
+unexs: [0, -55.56921421740747, 4.634367423225683] r_new: 12 - r: 11 - ptr: 2
+IsCannonical: False --> do not enter recursion.
+  Extent size 11 - intent [2716, 5454, 6420, 6638, 8937]
+# nodes in X_prev: 11 - # nodes in X: 11
+cw_a: 10.700226892314369 - cd_a: 1.0
+Unex a: 9.700226892314369 - unex_a prec: 44.29035655071033
+  U(G): -39.655989127484645
+  U(A): 53.9905834430247
+  U: 14.334594315540052
+unexs: [0, -55.56921421740747, 4.634367423225683] r_new: 12 - r: 11 - ptr: 2
+ == comparing unex=14.334594315540052 and unexs[2]=4.634367423225683
+ == comparing unex_a=53.9905834430247 and unexs_a[2]=44.29035655071033
+[0, 5.784908806494135, 44.29035655071033]
+STOP rec, unexpectedness difference is 9.700226892314369
+Attribute of (8937) does not add any unexpectedness to pattern
+r:11 - r_new:12
+Taille extent: 17 - taille intent: 17
+**END FUNCTION
+  Extent size 11 - intent [2716, 6420]
+# nodes in X_prev: 11 - # nodes in X: 11
+cw_a: 13.744621011672823 - cd_a: 1.1255308820838588
+Unex a: 12.619090129588965 - unex_a prec: 5.784908806494135
+  U(G): -39.655989127484645
+  U(A): 18.4039989360831
+  U: -21.251990191401546
+unexs: [0, -55.56921421740747] r_new: 11 - r: 10 - ptr: 1
+IsCannonical: False --> do not enter recursion.
+  Extent size 13 - intent [2716, 6638]
+# nodes in X_prev: 13 - # nodes in X: 13
+cw_a: 13.574696010230511 - cd_a: 1.0
+Unex a: 12.574696010230511 - unex_a prec: 5.784908806494135
+  U(G): -61.35412302390161
+  U(A): 18.359604816724648
+  U: -42.99451820717696
+unexs: [0, -55.56921421740747] r_new: 11 - r: 10 - ptr: 1
+ == comparing unex=-42.99451820717696 and unexs[1]=-55.56921421740747
+ == comparing unex_a=18.359604816724648 and unexs_a[1]=5.784908806494135
+[0, 5.784908806494135]
+  Extent size did not change -> attribute rock is added to intent.
+  Extent size 9 - intent [2716, 6638, 6901]
+# nodes in X_prev: 9 - # nodes in X: 9
+cw_a: 13.366109388419092 - cd_a: 1.289506617194985
+Unex a: 12.076602771224108 - unex_a prec: 18.359604816724648
+  U(G): -21.80598648077158
+  U(A): 30.436207587948758
+  U: 8.630221107177178
+unexs: [0, -42.99451820717696] r_new: 11 - r: 10 - ptr: 1
+IsCannonical: False --> do not enter recursion.
+  Extent size 9 - intent [2716, 6638, 7737]
+# nodes in X_prev: 9 - # nodes in X: 9
+cw_a: 12.657158170422484 - cd_a: 1.289506617194985
+Unex a: 11.3676515532275 - unex_a prec: 18.359604816724648
+  U(G): -28.124754682974313
+  U(A): 29.727256369952148
+  U: 1.6025016869778348
+unexs: [0, -42.99451820717696] r_new: 11 - r: 10 - ptr: 1
+extents [602, 1691, 1794, 2297, 2691, 5057, 5185, 5391, 5566, 7231, 8807, 8812, 8815] intents [2716, 6638] r 10 rnew 11
+  Extent size DID change. IsCannonical: True
+r:10 rnew:11
+ ISCANNO comparing unex=1.6025016869778348 and unexs[1]==-42.99451820717696
+  --> Enter recursion with Intent: ['Roll' 'rock' 'chanson']...
+NEW ITERATION 
+ --------
+r: 17 - r_new: 18
+|extents[r]|: 9 - intents[r]: ['Roll' 'rock' 'chanson']
+  Extent size 8 - intent [2716, 6638, 7737, 7909]
+# nodes in X_prev: 8 - # nodes in X: 8
+cw_a: 12.466636264373058 - cd_a: 1.0874628412503393
+Unex a: 11.379173423122719 - unex_a prec: 29.727256369952148
+  U(G): -17.790424377466884
+  U(A): 41.10642979307487
+  U: 23.316005415607982
+unexs: [0, -42.99451820717696, 1.6025016869778348] r_new: 18 - r: 17 - ptr: 2
+extents [602, 1691, 2297, 2691, 5185, 5566, 7231, 8807, 8812] intents [2716, 6638, 7737] r 17 rnew 18
+  Extent size DID change. IsCannonical: True
+r:17 rnew:18
+ ISCANNO comparing unex=23.316005415607982 and unexs[2]==1.6025016869778348
+  --> Enter recursion with Intent: ['Roll' 'rock' 'chanson' 'chanteur']...
+NEW ITERATION 
+ --------
+r: 18 - r_new: 19
+|extents[r]|: 8 - intents[r]: ['Roll' 'rock' 'chanson' 'chanteur']
+  Extent size 8 - intent [2716, 6638, 7737, 7909, 8222]
+# nodes in X_prev: 8 - # nodes in X: 8
+cw_a: 12.089269183060269 - cd_a: 1.0
+Unex a: 11.089269183060269 - unex_a prec: 41.10642979307487
+  U(G): -17.790424377466884
+  U(A): 52.195698976135134
+  U: 34.40527459866825
+unexs: [0, -42.99451820717696, 1.6025016869778348, 23.316005415607982] r_new: 19 - r: 18 - ptr: 3
+ == comparing unex=34.40527459866825 and unexs[3]=23.316005415607982
+ == comparing unex_a=52.195698976135134 and unexs_a[3]=41.10642979307487
+[0, 18.359604816724648, 29.727256369952148, 41.10642979307487]
+  Extent size did not change -> attribute and is added to intent.
+  Extent size 8 - intent [2716, 6638, 7737, 7909, 8222, 8904]
+# nodes in X_prev: 8 - # nodes in X: 8
+cw_a: 10.837730416064304 - cd_a: 1.0
+Unex a: 9.837730416064304 - unex_a prec: 52.195698976135134
+  U(G): -17.790424377466884
+  U(A): 62.03342939219944
+  U: 44.24300501473255
+unexs: [0, -42.99451820717696, 1.6025016869778348, 34.40527459866825] r_new: 19 - r: 18 - ptr: 3
+ == comparing unex=44.24300501473255 and unexs[3]=34.40527459866825
+ == comparing unex_a=62.03342939219944 and unexs_a[3]=52.195698976135134
+[0, 18.359604816724648, 29.727256369952148, 52.195698976135134]
+STOP rec, unexpectedness difference is 9.837730416064304
+Attribute musique (8904) does not add any unexpectedness to pattern
+r:18 - r_new:19
+Taille extent: 19 - taille intent: 19
+**END FUNCTION
+  Extent size 9 - intent [2716, 6638, 7737, 8222]
+# nodes in X_prev: 9 - # nodes in X: 9
+cw_a: 12.089269183060269 - cd_a: 1.0
+Unex a: 11.089269183060269 - unex_a prec: 29.727256369952148
+  U(G): -28.124754682974313
+  U(A): 40.81652555301242
+  U: 12.691770870038106
+unexs: [0, -42.99451820717696, 1.6025016869778348] r_new: 18 - r: 17 - ptr: 2
+ == comparing unex=12.691770870038106 and unexs[2]=1.6025016869778348
+ == comparing unex_a=40.81652555301242 and unexs_a[2]=29.727256369952148
+[0, 18.359604816724648, 29.727256369952148]
+  Extent size did not change -> attribute and is added to intent.
+  Extent size 8 - intent [2716, 6638, 7737, 8222, 8668]
+# nodes in X_prev: 8 - # nodes in X: 8
+cw_a: 11.37306214906086 - cd_a: 1.0874628412503393
+Unex a: 10.285599307810521 - unex_a prec: 40.81652555301242
+  U(G): -20.52423007894844
+  U(A): 51.10212486082294
+  U: 30.577894781874498
+unexs: [0, -42.99451820717696, 12.691770870038106] r_new: 18 - r: 17 - ptr: 2
+extents [602, 1691, 2297, 2691, 5185, 5566, 7231, 8807, 8812] intents [2716, 6638, 7737, 8222] r 17 rnew 18
+  Extent size DID change. IsCannonical: True
+r:17 rnew:18
+ ISCANNO comparing unex=30.577894781874498 and unexs[2]==12.691770870038106
+  --> Enter recursion with Intent: ['Roll' 'rock' 'chanson' 'and' 'artiste']...
+Entering smoothing, val=0.04742587317756678
+8669 9259
+590 [9091 8690 9234 8712 9042 8853 9247 8854 9021 9006 9183 8743 8868 9138
+ 8795 8682 8913 8916 8948 8797 8874 8841 8963 8729 8947 8934 8794 8997
+ 9187 8735 9174 8702 8815 9216 8893 9053 8719 8988 9238 8908 8992 8835
+ 9207 9022 8933 9003 8986 8978 9064 9087 9013 8971 8754 8750 9118 9206
+ 8982 9127 8930 9079 8861 8697 8670 9030 8768 8901 8939 9057 8973 8879
+ 8942 8741 9149 9089 9133 8864 8911 8783 8865 8669 8838 8847 9093 8796
+ 9054 9045 8895 9148 8957 8701 9048 8751 9152 9024 8859 9095 8964 8803
+ 9245 8774 8693 9208 8747 9040 8737 8917 8846 8904 8826 8968 8970 9117
+ 8960 9232 9081 8923 8851 8914 8671 8728 9250 8828 8707 8811 9049 9197
+ 9112 8681 8896 8858 8705 9122 9028 8979 8872 8824 9068 9029 9011 9241
+ 9169 8742 9105 9012 8683 8943 8736 9178 8717 9195 8909 8925 9180 8926
+ 8931 8738 8686 9094 8959 9058 8781 9243 8778 9171 8804 8776 9227 8785
+ 8833 9167 8788 9181 8907 9153 9136 9217 8798 8799 9255 9161 8962 8993
+ 8745 8753 9020 9096 9016 8965 8845 8787 9027 8727 8998 9026 9035 8786
+ 9198 9166 8946 8830 8773 8883 8869 8891 9179 8903 9125 9100 8800 9258
+ 8915 8827 9205 8767 8792 9253 8837 9078 8807 8927 9235 8675 9170 8740
+ 8679 8918 9142 9248 8769 9034 8819 9221 9109 9134 8677 9144 8731 8684
+ 9137 8764 8873 9129 8885 8857 8814 8932 8842 9214 9104 8922 9099 9111
+ 8713 9084 8952 9233 9146 9062 8688 9076 9165 9041 9047 8752 9107 8758
+ 8687 9119 9228 9023 8755 9224 8936 8989 8875 9001 8692 9218 8855 8987
+ 8912 8779 9090 8789 8673 8870 9120 8672 9150 8880 9211 8848 8775 8843
+ 8829 8726 8805 8966 8910 8994 8744 9036 8849 9014 8748 8709 8831 8708
+ 8840 8877 9130 8715 8990 8839 9168 9215 8725 8720 9074 9159 8898 9173
+ 8762 8889 8674 9083 9051 9059 8777 8821 9007 8921 9123 8746 9193 9085
+ 9176 9239 9106 9115 8886 9252 8892 8761 9065 9114 9097 9172 9004 9242
+ 9077 8817 8757 9220 8852 9222 8940 9190 9080 8866 8816 9140 8714 8974
+ 9052 8691 8676 9044 9199 9139 8704 9017 8867 8972 9015 8809 9098 9236
+ 8678 8902 9186 9201 8983 9101 8984 8906 8766 8718 9145 9072 9251 8905
+ 9103 8935 8995 9143 9126 9088 8710 8945 8844 9069 9254 9240 9037 8856
+ 8699 8862 8897 9184 9067 8780 9066 8818 8808 9108 8694 9121 8732 8760
+ 8951 8706 9002 8919 9046 9010 9055 8937 9237 9032 9025 9082 9256 9135
+ 9070 8985 8703 9132 8806 8793 8980 9200 9194 8928 9177 8822 9060 9155
+ 9113 9213 9038 8832 8954 8734 8696 8685 9257 9005 9071 8881 8976 8999
+ 8825 8772 8820 8680 8700 9043 8975 8721 9110 8884 8733 8981 9226 8888
+ 9156 8920 8723 8941 8763 9031 8991 8695 8953 9219 8711 9147 8956 9056
+ 9019 9158 8810 9230 9244 8955 8802 9196 9063 9209 9039 8924 8860 8949
+ 8961 9231 9033 8899 9225 9009 8722 9249 8876 8770 9141 8900 9075 8938
+ 8791 8967 8887 9204 9160 8730 8894 8812 9189 8944 9116 9223 8834 9188
+ 8890 9163 9164 8765 8836 9000 9175 9131 9203 8698 9212 8813 8977 8878
+ 8801 9154 9202 8759 9124 8863 9151 9182 9086 9210 8929 8871 8850 8689
+ 9008 9246 8771 9192 9102 8739 9092 8996 9229 8749 9157 9018 9061 8756
+ 9128 8724 8782 9050 9191 8790 8882 9162 8950 8958 8823 9073 8716 8784
+ 9185 8969] 8668
+['organiser' 'artiste' 'occidental' 'sol' 'homme' 'poète'] ['organiser' 'artiste' 'dimension' 'cœur' 'traitement' 'contribuer']
+Next attr will be: occidental instead of dimension
+degs: [206 207 207 470 212 844 218 417 274 905 274 393]
+NEW ITERATION 
+ --------
+r: 19 - r_new: 20
+|extents[r]|: 8 - intents[r]: ['Roll' 'rock' 'chanson' 'and' 'artiste']
+  Extent size 8 - intent [2716, 6638, 7737, 8222, 8668, 8776]
+# nodes in X_prev: 8 - # nodes in X: 8
+cw_a: 10.837730416064304 - cd_a: 1.0
+Unex a: 9.837730416064304 - unex_a prec: 51.10212486082294
+  U(G): -20.52423007894844
+  U(A): 60.93985527688724
+  U: 40.4156251979388
+unexs: [0, -42.99451820717696, 12.691770870038106, 30.577894781874498] r_new: 20 - r: 19 - ptr: 3
+ == comparing unex=40.4156251979388 and unexs[3]=30.577894781874498
+ == comparing unex_a=60.93985527688724 and unexs_a[3]=51.10212486082294
+[0, 18.359604816724648, 40.81652555301242, 51.10212486082294]
+STOP rec, unexpectedness difference is 9.837730416064304
+Attribute musique (8776) does not add any unexpectedness to pattern
+r:19 - r_new:20
+Taille extent: 20 - taille intent: 20
+**END FUNCTION
+  Extent size 9 - intent [2716, 6638, 7737, 8222, 8776]
+# nodes in X_prev: 9 - # nodes in X: 9
+cw_a: 10.837730416064304 - cd_a: 1.0
+Unex a: 9.837730416064304 - unex_a prec: 40.81652555301242
+  U(G): -28.124754682974313
+  U(A): 50.65425596907672
+  U: 22.52950128610241
+unexs: [0, -42.99451820717696, 12.691770870038106] r_new: 18 - r: 17 - ptr: 2
+ == comparing unex=22.52950128610241 and unexs[2]=12.691770870038106
+ == comparing unex_a=50.65425596907672 and unexs_a[2]=40.81652555301242
+[0, 18.359604816724648, 40.81652555301242]
+STOP rec, unexpectedness difference is 9.837730416064304
+Attribute musique (8776) does not add any unexpectedness to pattern
+r:17 - r_new:18
+Taille extent: 20 - taille intent: 20
+**END FUNCTION
+  Extent size 11 - intent [2716, 6638, 7909]
+# nodes in X_prev: 11 - # nodes in X: 11
+cw_a: 12.466636264373058 - cd_a: 1.1255308820838588
+Unex a: 11.3411053822892 - unex_a prec: 18.359604816724648
+  U(G): -44.765478472683796
+  U(A): 29.700710199013848
+  U: -15.064768273669948
+unexs: [0, -42.99451820717696] r_new: 11 - r: 10 - ptr: 1
+extents [602, 1691, 1794, 2297, 2691, 5057, 5185, 5391, 5566, 7231, 8807, 8812, 8815] intents [2716, 6638] r 10 rnew 11
+  Extent size DID change. IsCannonical: True
+r:10 rnew:11
+ ISCANNO comparing unex=-15.064768273669948 and unexs[1]==-42.99451820717696
+  --> Enter recursion with Intent: ['Roll' 'rock' 'chanteur']...
+NEW ITERATION 
+ --------
+r: 20 - r_new: 21
+|extents[r]|: 11 - intents[r]: ['Roll' 'rock' 'chanteur']
+  Extent size 11 - intent [2716, 6638, 7909, 8222]
+# nodes in X_prev: 11 - # nodes in X: 11
+cw_a: 12.089269183060269 - cd_a: 1.0
+Unex a: 11.089269183060269 - unex_a prec: 29.700710199013848
+  U(G): -44.765478472683796
+  U(A): 40.789979382074115
+  U: -3.9754990906096808
+unexs: [0, -42.99451820717696, -15.064768273669948] r_new: 21 - r: 20 - ptr: 2
+ == comparing unex=-3.9754990906096808 and unexs[2]=-15.064768273669948
+ == comparing unex_a=40.789979382074115 and unexs_a[2]=29.700710199013848
+[0, 18.359604816724648, 29.700710199013848]
+  Extent size did not change -> attribute and is added to intent.
+  Extent size 9 - intent [2716, 6638, 7909, 8222, 8668]
+# nodes in X_prev: 9 - # nodes in X: 9
+cw_a: 11.37306214906086 - cd_a: 1.15200309344505
+Unex a: 10.221059055615811 - unex_a prec: 40.789979382074115
+  U(G): -30.70971718369546
+  U(A): 51.011038437689926
+  U: 20.301321253994466
+unexs: [0, -42.99451820717696, -3.9754990906096808] r_new: 21 - r: 20 - ptr: 2
+extents [602, 1691, 2297, 2691, 5057, 5185, 5391, 5566, 8807, 8812, 8815] intents [2716, 6638, 7909, 8222] r 20 rnew 21
+  Extent size DID change. IsCannonical: True
+r:20 rnew:21
+ ISCANNO comparing unex=20.301321253994466 and unexs[2]==-3.9754990906096808
+  --> Enter recursion with Intent: ['Roll' 'rock' 'chanteur' 'and' 'artiste']...
+NEW ITERATION 
+ --------
+r: 21 - r_new: 22
+|extents[r]|: 9 - intents[r]: ['Roll' 'rock' 'chanteur' 'and' 'artiste']
+  Extent size 8 - intent [2716, 6638, 7909, 8222, 8668, 8904]
+# nodes in X_prev: 8 - # nodes in X: 8
+cw_a: 10.837730416064304 - cd_a: 1.0874628412503393
+Unex a: 9.750267574813964 - unex_a prec: 51.011038437689926
+  U(G): -20.52423007894844
+  U(A): 60.761306012503894
+  U: 40.23707593355545
+unexs: [0, -42.99451820717696, -3.9754990906096808, 20.301321253994466] r_new: 22 - r: 21 - ptr: 3
+extents [602, 1691, 2297, 2691, 5185, 5391, 8807, 8812, 8815] intents [2716, 6638, 7909, 8222, 8668] r 21 rnew 22
+  Extent size DID change. IsCannonical: True
+r:21 rnew:22
+ ISCANNO comparing unex=40.23707593355545 and unexs[3]==20.301321253994466
+  --> Enter recursion with Intent: ['Roll' 'rock' 'chanteur' 'and' 'artiste' 'musique']...
+NEW ITERATION 
+ --------
+r: 22 - r_new: 23
+|extents[r]|: 8 - intents[r]: ['Roll' 'rock' 'chanteur' 'and' 'artiste' 'musique']
+  Extent size 8 - intent [2716, 6638, 7909, 8222, 8668, 8904, 9236]
+# nodes in X_prev: 8 - # nodes in X: 8
+cw_a: 9.338628651996986 - cd_a: 1.0
+Unex a: 8.338628651996986 - unex_a prec: 60.761306012503894
+  U(G): -20.52423007894844
+  U(A): 69.09993466450088
+  U: 48.57570458555244
+unexs: [0, -42.99451820717696, -3.9754990906096808, 20.301321253994466, 40.23707593355545] r_new: 23 - r: 22 - ptr: 4
+ == comparing unex=48.57570458555244 and unexs[4]=40.23707593355545
+ == comparing unex_a=69.09993466450088 and unexs_a[4]=60.761306012503894
+[0, 18.359604816724648, 40.789979382074115, 51.011038437689926, 60.761306012503894]
+STOP rec, unexpectedness difference is 8.338628651996984
+Attribute américain (9236) does not add any unexpectedness to pattern
+r:22 - r_new:23
+Taille extent: 23 - taille intent: 23
+**END FUNCTION
+  Extent size 8 - intent [2716, 6638, 7909, 8222, 8668, 8936]
+# nodes in X_prev: 8 - # nodes in X: 8
+cw_a: 10.700226892314369 - cd_a: 1.0874628412503393
+Unex a: 9.61276405106403 - unex_a prec: 51.011038437689926
+  U(G): -20.56356358418659
+  U(A): 60.62380248875395
+  U: 40.06023890456736
+unexs: [0, -42.99451820717696, -3.9754990906096808, 20.301321253994466] r_new: 22 - r: 21 - ptr: 3
+extents [602, 1691, 2297, 2691, 5185, 5391, 8807, 8812, 8815] intents [2716, 6638, 7909, 8222, 8668] r 21 rnew 22
+  Extent size DID change. IsCannonical: True
+r:21 rnew:22
+ ISCANNO comparing unex=40.06023890456736 and unexs[3]==20.301321253994466
+  --> Enter recursion with Intent: ['Roll' 'rock' 'chanteur' 'and' 'artiste' 'of']...
+NEW ITERATION 
+ --------
+r: 23 - r_new: 24
+|extents[r]|: 8 - intents[r]: ['Roll' 'rock' 'chanteur' 'and' 'artiste' 'of']
+  Extent size 8 - intent [2716, 6638, 7909, 8222, 8668, 8936, 9236]
+# nodes in X_prev: 8 - # nodes in X: 8
+cw_a: 9.338628651996986 - cd_a: 1.0
+Unex a: 8.338628651996986 - unex_a prec: 60.62380248875395
+  U(G): -20.56356358418659
+  U(A): 68.96243114075094
+  U: 48.39886755656435
+unexs: [0, -42.99451820717696, -3.9754990906096808, 20.301321253994466, 40.06023890456736] r_new: 24 - r: 23 - ptr: 4
+ == comparing unex=48.39886755656435 and unexs[4]=40.06023890456736
+ == comparing unex_a=68.96243114075094 and unexs_a[4]=60.62380248875395
+[0, 18.359604816724648, 40.789979382074115, 51.011038437689926, 60.62380248875395]
+STOP rec, unexpectedness difference is 8.338628651996984
+Attribute américain (9236) does not add any unexpectedness to pattern
+r:23 - r_new:24
+Taille extent: 24 - taille intent: 24
+**END FUNCTION
+  Extent size 8 - intent [2716, 6638, 7909, 8222, 8668, 9226]
+# nodes in X_prev: 8 - # nodes in X: 8
+cw_a: 9.388829464919176 - cd_a: 1.0874628412503393
+Unex a: 8.301366623668837 - unex_a prec: 51.011038437689926
+  U(G): -19.91970739441185
+  U(A): 59.31240506135876
+  U: 39.39269766694691
+unexs: [0, -42.99451820717696, -3.9754990906096808, 20.301321253994466] r_new: 22 - r: 21 - ptr: 3
+extents [602, 1691, 2297, 2691, 5185, 5391, 8807, 8812, 8815] intents [2716, 6638, 7909, 8222, 8668] r 21 rnew 22
+  Extent size DID change. IsCannonical: True
+r:21 rnew:22
+ ISCANNO comparing unex=39.39269766694691 and unexs[3]==20.301321253994466
+  --> Enter recursion with Intent: ['Roll' 'rock' 'chanteur' 'and' 'artiste' 'temps']...
+NEW ITERATION 
+ --------
+r: 24 - r_new: 25
+|extents[r]|: 8 - intents[r]: ['Roll' 'rock' 'chanteur' 'and' 'artiste' 'temps']
+  Extent size 8 - intent [2716, 6638, 7909, 8222, 8668, 9226, 9236]
+# nodes in X_prev: 8 - # nodes in X: 8
+cw_a: 9.338628651996986 - cd_a: 1.0
+Unex a: 8.338628651996986 - unex_a prec: 59.31240506135876
+  U(G): -19.91970739441185
+  U(A): 67.65103371335574
+  U: 47.73132631894389
+unexs: [0, -42.99451820717696, -3.9754990906096808, 20.301321253994466, 39.39269766694691] r_new: 25 - r: 24 - ptr: 4
+ == comparing unex=47.73132631894389 and unexs[4]=39.39269766694691
+ == comparing unex_a=67.65103371335574 and unexs_a[4]=59.31240506135876
+[0, 18.359604816724648, 40.789979382074115, 51.011038437689926, 59.31240506135876]
+STOP rec, unexpectedness difference is 8.338628651996984
+Attribute américain (9236) does not add any unexpectedness to pattern
+r:24 - r_new:25
+Taille extent: 25 - taille intent: 25
+**END FUNCTION
+  Extent size 9 - intent [2716, 6638, 7909, 8222, 8668, 9236]
+# nodes in X_prev: 9 - # nodes in X: 9
+cw_a: 9.338628651996986 - cd_a: 1.0
+Unex a: 8.338628651996986 - unex_a prec: 51.011038437689926
+  U(G): -30.70971718369546
+  U(A): 59.34966708968691
+  U: 28.63994990599145
+unexs: [0, -42.99451820717696, -3.9754990906096808, 20.301321253994466] r_new: 22 - r: 21 - ptr: 3
+ == comparing unex=28.63994990599145 and unexs[3]=20.301321253994466
+ == comparing unex_a=59.34966708968691 and unexs_a[3]=51.011038437689926
+[0, 18.359604816724648, 40.789979382074115, 51.011038437689926]
+STOP rec, unexpectedness difference is 8.338628651996984
+Attribute américain (9236) does not add any unexpectedness to pattern
+r:21 - r_new:22
+Taille extent: 25 - taille intent: 25
+**END FUNCTION
+  Extent size 10 - intent [2716, 6638, 7909, 8222, 8904]
+# nodes in X_prev: 10 - # nodes in X: 10
+cw_a: 10.837730416064304 - cd_a: 1.070389327891398
+Unex a: 9.767341088172905 - unex_a prec: 40.789979382074115
+  U(G): -35.967966937948816
+  U(A): 50.55732047024702
+  U: 14.589353532298205
+unexs: [0, -42.99451820717696, -3.9754990906096808] r_new: 21 - r: 20 - ptr: 2
+extents [602, 1691, 2297, 2691, 5057, 5185, 5391, 5566, 8807, 8812, 8815] intents [2716, 6638, 7909, 8222] r 20 rnew 21
+  Extent size DID change. IsCannonical: True
+r:20 rnew:21
+ ISCANNO comparing unex=14.589353532298205 and unexs[2]==-3.9754990906096808
+  --> Enter recursion with Intent: ['Roll' 'rock' 'chanteur' 'and' 'musique']...
+NEW ITERATION 
+ --------
+r: 25 - r_new: 26
+|extents[r]|: 10 - intents[r]: ['Roll' 'rock' 'chanteur' 'and' 'musique']
+  Extent size 9 - intent [2716, 6638, 7909, 8222, 8904, 8936]
+# nodes in X_prev: 9 - # nodes in X: 9
+cw_a: 10.700226892314369 - cd_a: 1.078002512001273
+Unex a: 9.622224380313096 - unex_a prec: 50.55732047024702
+  U(G): -28.1247546829743
+  U(A): 60.17954485056012
+  U: 32.05479016758582
+unexs: [0, -42.99451820717696, -3.9754990906096808, 14.589353532298205] r_new: 26 - r: 25 - ptr: 3
+extents [602, 1691, 2297, 2691, 5057, 5185, 5391, 5566, 8807, 8812] intents [2716, 6638, 7909, 8222, 8904] r 25 rnew 26
+  Extent size DID change. IsCannonical: True
+r:25 rnew:26
+ ISCANNO comparing unex=32.05479016758582 and unexs[3]==14.589353532298205
+  --> Enter recursion with Intent: ['Roll' 'rock' 'chanteur' 'and' 'musique' 'of']...
+NEW ITERATION 
+ --------
+r: 26 - r_new: 27
+|extents[r]|: 9 - intents[r]: ['Roll' 'rock' 'chanteur' 'and' 'musique' 'of']
+  Extent size 8 - intent [2716, 6638, 7909, 8222, 8904, 8936, 9226]
+# nodes in X_prev: 8 - # nodes in X: 8
+cw_a: 9.388829464919176 - cd_a: 1.0874628412503393
+Unex a: 8.301366623668837 - unex_a prec: 60.17954485056012
+  U(G): -17.790424377466884
+  U(A): 68.48091147422896
+  U: 50.69048709676208
+unexs: [0, -42.99451820717696, -3.9754990906096808, 14.589353532298205, 32.05479016758582] r_new: 27 - r: 26 - ptr: 4
+extents [602, 2297, 2691, 5057, 5185, 5391, 5566, 8807, 8812] intents [2716, 6638, 7909, 8222, 8904, 8936] r 26 rnew 27
+  Extent size DID change. IsCannonical: True
+r:26 rnew:27
+ ISCANNO comparing unex=50.69048709676208 and unexs[4]==32.05479016758582
+  --> Enter recursion with Intent: ['Roll' 'rock' 'chanteur' 'and' 'musique' 'of' 'temps']...
+NEW ITERATION 
+ --------
+r: 27 - r_new: 28
+|extents[r]|: 8 - intents[r]: ['Roll' 'rock' 'chanteur' 'and' 'musique' 'of' 'temps']
+  Extent size 8 - intent [2716, 6638, 7909, 8222, 8904, 8936, 9226, 9236]
+# nodes in X_prev: 8 - # nodes in X: 8
+cw_a: 9.338628651996986 - cd_a: 1.0
+Unex a: 8.338628651996986 - unex_a prec: 68.48091147422896
+  U(G): -17.790424377466884
+  U(A): 76.81954012622595
+  U: 59.02911574875906
+unexs: [0, -42.99451820717696, -3.9754990906096808, 14.589353532298205, 32.05479016758582, 50.69048709676208] r_new: 28 - r: 27 - ptr: 5
+ == comparing unex=59.02911574875906 and unexs[5]=50.69048709676208
+ == comparing unex_a=76.81954012622595 and unexs_a[5]=68.48091147422896
+[0, 18.359604816724648, 40.789979382074115, 50.55732047024702, 60.17954485056012, 68.48091147422896]
+STOP rec, unexpectedness difference is 8.338628651996984
+Attribute américain (9236) does not add any unexpectedness to pattern
+r:27 - r_new:28
+Taille extent: 28 - taille intent: 28
+**END FUNCTION
+  Extent size 9 - intent [2716, 6638, 7909, 8222, 8904, 8936, 9236]
+# nodes in X_prev: 9 - # nodes in X: 9
+cw_a: 9.338628651996986 - cd_a: 1.0
+Unex a: 8.338628651996986 - unex_a prec: 60.17954485056012
+  U(G): -28.1247546829743
+  U(A): 68.5181735025571
+  U: 40.393418819582806
+unexs: [0, -42.99451820717696, -3.9754990906096808, 14.589353532298205, 32.05479016758582] r_new: 27 - r: 26 - ptr: 4
+ == comparing unex=40.393418819582806 and unexs[4]=32.05479016758582
+ == comparing unex_a=68.5181735025571 and unexs_a[4]=60.17954485056012
+[0, 18.359604816724648, 40.789979382074115, 50.55732047024702, 60.17954485056012]
+STOP rec, unexpectedness difference is 8.338628651996984
+Attribute américain (9236) does not add any unexpectedness to pattern
+r:26 - r_new:27
+Taille extent: 28 - taille intent: 28
+**END FUNCTION
+  Extent size 9 - intent [2716, 6638, 7909, 8222, 8904, 9226]
+# nodes in X_prev: 9 - # nodes in X: 9
+cw_a: 9.388829464919176 - cd_a: 1.078002512001273
+Unex a: 8.310826952917903 - unex_a prec: 50.55732047024702
+  U(G): -28.762184603589603
+  U(A): 58.86814742316493
+  U: 30.105962819575325
+unexs: [0, -42.99451820717696, -3.9754990906096808, 14.589353532298205] r_new: 26 - r: 25 - ptr: 3
+extents [602, 1691, 2297, 2691, 5057, 5185, 5391, 5566, 8807, 8812] intents [2716, 6638, 7909, 8222, 8904] r 25 rnew 26
+  Extent size DID change. IsCannonical: True
+r:25 rnew:26
+ ISCANNO comparing unex=30.105962819575325 and unexs[3]==14.589353532298205
+  --> Enter recursion with Intent: ['Roll' 'rock' 'chanteur' 'and' 'musique' 'temps']...
+NEW ITERATION 
+ --------
+r: 28 - r_new: 29
+|extents[r]|: 9 - intents[r]: ['Roll' 'rock' 'chanteur' 'and' 'musique' 'temps']
+  Extent size 9 - intent [2716, 6638, 7909, 8222, 8904, 9226, 9236]
+# nodes in X_prev: 9 - # nodes in X: 9
+cw_a: 9.338628651996986 - cd_a: 1.0
+Unex a: 8.338628651996986 - unex_a prec: 58.86814742316493
+  U(G): -28.762184603589603
+  U(A): 67.20677607516191
+  U: 38.44459147157231
+unexs: [0, -42.99451820717696, -3.9754990906096808, 14.589353532298205, 30.105962819575325] r_new: 29 - r: 28 - ptr: 4
+ == comparing unex=38.44459147157231 and unexs[4]=30.105962819575325
+ == comparing unex_a=67.20677607516191 and unexs_a[4]=58.86814742316493
+[0, 18.359604816724648, 40.789979382074115, 50.55732047024702, 58.86814742316493]
+STOP rec, unexpectedness difference is 8.338628651996984
+Attribute américain (9236) does not add any unexpectedness to pattern
+r:28 - r_new:29
+Taille extent: 29 - taille intent: 29
+**END FUNCTION
+  Extent size 10 - intent [2716, 6638, 7909, 8222, 8904, 9236]
+# nodes in X_prev: 10 - # nodes in X: 10
+cw_a: 9.338628651996986 - cd_a: 1.0
+Unex a: 8.338628651996986 - unex_a prec: 50.55732047024702
+  U(G): -35.967966937948816
+  U(A): 58.895949122244005
+  U: 22.92798218429519
+unexs: [0, -42.99451820717696, -3.9754990906096808, 14.589353532298205] r_new: 26 - r: 25 - ptr: 3
+ == comparing unex=22.92798218429519 and unexs[3]=14.589353532298205
+ == comparing unex_a=58.895949122244005 and unexs_a[3]=50.55732047024702
+[0, 18.359604816724648, 40.789979382074115, 50.55732047024702]
+STOP rec, unexpectedness difference is 8.338628651996984
+Attribute américain (9236) does not add any unexpectedness to pattern
+r:25 - r_new:26
+Taille extent: 29 - taille intent: 29
+**END FUNCTION
+  Extent size 10 - intent [2716, 6638, 7909, 8222, 8936]
+# nodes in X_prev: 10 - # nodes in X: 10
+cw_a: 10.700226892314369 - cd_a: 1.070389327891398
+Unex a: 9.62983756442297 - unex_a prec: 40.789979382074115
+  U(G): -33.49110934486214
+  U(A): 50.419816946497086
+  U: 16.928707601634947
+unexs: [0, -42.99451820717696, -3.9754990906096808] r_new: 21 - r: 20 - ptr: 2
+extents [602, 1691, 2297, 2691, 5057, 5185, 5391, 5566, 8807, 8812, 8815] intents [2716, 6638, 7909, 8222] r 20 rnew 21
+  Extent size DID change. IsCannonical: True
+r:20 rnew:21
+ ISCANNO comparing unex=16.928707601634947 and unexs[2]==-3.9754990906096808
+  --> Enter recursion with Intent: ['Roll' 'rock' 'chanteur' 'and' 'of']...
+NEW ITERATION 
+ --------
+r: 29 - r_new: 30
+|extents[r]|: 10 - intents[r]: ['Roll' 'rock' 'chanteur' 'and' 'of']
+  Extent size 9 - intent [2716, 6638, 7909, 8222, 8936, 9226]
+# nodes in X_prev: 9 - # nodes in X: 9
+cw_a: 9.388829464919176 - cd_a: 1.078002512001273
+Unex a: 8.310826952917903 - unex_a prec: 50.419816946497086
+  U(G): -28.005658825607952
+  U(A): 58.730643899414986
+  U: 30.724985073807034
+unexs: [0, -42.99451820717696, -3.9754990906096808, 16.928707601634947] r_new: 30 - r: 29 - ptr: 3
+extents [602, 2297, 2691, 5057, 5185, 5391, 5566, 8807, 8812, 8815] intents [2716, 6638, 7909, 8222, 8936] r 29 rnew 30
+  Extent size DID change. IsCannonical: True
+r:29 rnew:30
+ ISCANNO comparing unex=30.724985073807034 and unexs[3]==16.928707601634947
+  --> Enter recursion with Intent: ['Roll' 'rock' 'chanteur' 'and' 'of' 'temps']...
+NEW ITERATION 
+ --------
+r: 30 - r_new: 31
+|extents[r]|: 9 - intents[r]: ['Roll' 'rock' 'chanteur' 'and' 'of' 'temps']
+  Extent size 9 - intent [2716, 6638, 7909, 8222, 8936, 9226, 9236]
+# nodes in X_prev: 9 - # nodes in X: 9
+cw_a: 9.338628651996986 - cd_a: 1.0
+Unex a: 8.338628651996986 - unex_a prec: 58.730643899414986
+  U(G): -28.005658825607952
+  U(A): 67.06927255141197
+  U: 39.06361372580402
+unexs: [0, -42.99451820717696, -3.9754990906096808, 16.928707601634947, 30.724985073807034] r_new: 31 - r: 30 - ptr: 4
+ == comparing unex=39.06361372580402 and unexs[4]=30.724985073807034
+ == comparing unex_a=67.06927255141197 and unexs_a[4]=58.730643899414986
+[0, 18.359604816724648, 40.789979382074115, 50.419816946497086, 58.730643899414986]
+STOP rec, unexpectedness difference is 8.338628651996984
+Attribute américain (9236) does not add any unexpectedness to pattern
+r:30 - r_new:31
+Taille extent: 31 - taille intent: 31
+**END FUNCTION
+  Extent size 10 - intent [2716, 6638, 7909, 8222, 8936, 9236]
+# nodes in X_prev: 10 - # nodes in X: 10
+cw_a: 9.338628651996986 - cd_a: 1.0
+Unex a: 8.338628651996986 - unex_a prec: 50.419816946497086
+  U(G): -33.49110934486214
+  U(A): 58.75844559849407
+  U: 25.26733625363193
+unexs: [0, -42.99451820717696, -3.9754990906096808, 16.928707601634947] r_new: 30 - r: 29 - ptr: 3
+ == comparing unex=25.26733625363193 and unexs[3]=16.928707601634947
+ == comparing unex_a=58.75844559849407 and unexs_a[3]=50.419816946497086
+[0, 18.359604816724648, 40.789979382074115, 50.419816946497086]
+STOP rec, unexpectedness difference is 8.338628651996984
+Attribute américain (9236) does not add any unexpectedness to pattern
+r:29 - r_new:30
+Taille extent: 31 - taille intent: 31
+**END FUNCTION
+  Extent size 10 - intent [2716, 6638, 7909, 8222, 9226]
+# nodes in X_prev: 10 - # nodes in X: 10
+cw_a: 9.388829464919176 - cd_a: 1.070389327891398
+Unex a: 8.318440137027778 - unex_a prec: 40.789979382074115
+  U(G): -34.90614684414098
+  U(A): 49.10841951910189
+  U: 14.202272674960916
+unexs: [0, -42.99451820717696, -3.9754990906096808] r_new: 21 - r: 20 - ptr: 2
+extents [602, 1691, 2297, 2691, 5057, 5185, 5391, 5566, 8807, 8812, 8815] intents [2716, 6638, 7909, 8222] r 20 rnew 21
+  Extent size DID change. IsCannonical: True
+r:20 rnew:21
+ ISCANNO comparing unex=14.202272674960916 and unexs[2]==-3.9754990906096808
+  --> Enter recursion with Intent: ['Roll' 'rock' 'chanteur' 'and' 'temps']...
+NEW ITERATION 
+ --------
+r: 31 - r_new: 32
+|extents[r]|: 10 - intents[r]: ['Roll' 'rock' 'chanteur' 'and' 'temps']
+  Extent size 10 - intent [2716, 6638, 7909, 8222, 9226, 9236]
+# nodes in X_prev: 10 - # nodes in X: 10
+cw_a: 9.338628651996986 - cd_a: 1.0
+Unex a: 8.338628651996986 - unex_a prec: 49.10841951910189
+  U(G): -34.90614684414098
+  U(A): 57.44704817109888
+  U: 22.5409013269579
+unexs: [0, -42.99451820717696, -3.9754990906096808, 14.202272674960916] r_new: 32 - r: 31 - ptr: 3
+ == comparing unex=22.5409013269579 and unexs[3]=14.202272674960916
+ == comparing unex_a=57.44704817109888 and unexs_a[3]=49.10841951910189
+[0, 18.359604816724648, 40.789979382074115, 49.10841951910189]
+STOP rec, unexpectedness difference is 8.338628651996984
+Attribute américain (9236) does not add any unexpectedness to pattern
+r:31 - r_new:32
+Taille extent: 32 - taille intent: 32
+**END FUNCTION
+  Extent size 11 - intent [2716, 6638, 7909, 8222, 9236]
+# nodes in X_prev: 11 - # nodes in X: 11
+cw_a: 9.338628651996986 - cd_a: 1.0
+Unex a: 8.338628651996986 - unex_a prec: 40.789979382074115
+  U(G): -44.765478472683796
+  U(A): 49.1286080340711
+  U: 4.363129561387304
+unexs: [0, -42.99451820717696, -3.9754990906096808] r_new: 21 - r: 20 - ptr: 2
+ == comparing unex=4.363129561387304 and unexs[2]=-3.9754990906096808
+ == comparing unex_a=49.1286080340711 and unexs_a[2]=40.789979382074115
+[0, 18.359604816724648, 40.789979382074115]
+STOP rec, unexpectedness difference is 8.338628651996984
+Attribute américain (9236) does not add any unexpectedness to pattern
+r:20 - r_new:21
+Taille extent: 32 - taille intent: 32
+**END FUNCTION
+  Extent size 8 - intent [2716, 6638, 8172]
+# nodes in X_prev: 8 - # nodes in X: 8
+cw_a: 12.14768586928559 - cd_a: 1.3923174227787602
+Unex a: 10.75536844650683 - unex_a prec: 18.359604816724648
+  U(G): -16.07301896711612
+  U(A): 29.114973263231477
+  U: 13.041954296115357
+unexs: [0, -42.99451820717696] r_new: 11 - r: 10 - ptr: 1
+extents [602, 1691, 1794, 2297, 2691, 5057, 5185, 5391, 5566, 7231, 8807, 8812, 8815] intents [2716, 6638] r 10 rnew 11
+  Extent size DID change. IsCannonical: True
+r:10 rnew:11
+ ISCANNO comparing unex=13.041954296115357 and unexs[1]==-42.99451820717696
+  --> Enter recursion with Intent: ['Roll' 'rock' 'vendre']...
+NEW ITERATION 
+ --------
+r: 32 - r_new: 33
+|extents[r]|: 8 - intents[r]: ['Roll' 'rock' 'vendre']
+  Extent size 8 - intent [2716, 6638, 8172, 8222]
+# nodes in X_prev: 8 - # nodes in X: 8
+cw_a: 12.089269183060269 - cd_a: 1.0
+Unex a: 11.089269183060269 - unex_a prec: 29.114973263231477
+  U(G): -16.07301896711612
+  U(A): 40.204242446291744
+  U: 24.131223479175624
+unexs: [0, -42.99451820717696, 13.041954296115357] r_new: 33 - r: 32 - ptr: 2
+ == comparing unex=24.131223479175624 and unexs[2]=13.041954296115357
+ == comparing unex_a=40.204242446291744 and unexs_a[2]=29.114973263231477
+[0, 18.359604816724648, 29.114973263231477]
+  Extent size did not change -> attribute and is added to intent.
+  Extent size 8 - intent [2716, 6638, 8172, 8222, 8904]
+# nodes in X_prev: 8 - # nodes in X: 8
+cw_a: 10.837730416064304 - cd_a: 1.0
+Unex a: 9.837730416064304 - unex_a prec: 40.204242446291744
+  U(G): -16.07301896711612
+  U(A): 50.04197286235605
+  U: 33.96895389523993
+unexs: [0, -42.99451820717696, 24.131223479175624] r_new: 33 - r: 32 - ptr: 2
+ == comparing unex=33.96895389523993 and unexs[2]=24.131223479175624
+ == comparing unex_a=50.04197286235605 and unexs_a[2]=40.204242446291744
+[0, 18.359604816724648, 40.204242446291744]
+STOP rec, unexpectedness difference is 9.837730416064304
+Attribute musique (8904) does not add any unexpectedness to pattern
+r:32 - r_new:33
+Taille extent: 33 - taille intent: 33
+**END FUNCTION
+  Extent size 13 - intent [2716, 6638, 8222]
+# nodes in X_prev: 13 - # nodes in X: 13
+cw_a: 12.089269183060269 - cd_a: 1.0
+Unex a: 11.089269183060269 - unex_a prec: 18.359604816724648
+  U(G): -61.35412302390161
+  U(A): 29.448873999784915
+  U: -31.905249024116692
+unexs: [0, -42.99451820717696] r_new: 11 - r: 10 - ptr: 1
+ == comparing unex=-31.905249024116692 and unexs[1]=-42.99451820717696
+ == comparing unex_a=29.448873999784915 and unexs_a[1]=18.359604816724648
+[0, 18.359604816724648]
+  Extent size did not change -> attribute and is added to intent.
+  Extent size 8 - intent [2716, 6638, 8222, 8664]
+# nodes in X_prev: 8 - # nodes in X: 8
+cw_a: 11.38706900705474 - cd_a: 1.3923174227787602
+Unex a: 9.99475158427598 - unex_a prec: 29.448873999784915
+  U(G): -18.731626997041893
+  U(A): 39.4436255840609
+  U: 20.711998587019004
+unexs: [0, -31.905249024116692] r_new: 11 - r: 10 - ptr: 1
+extents [602, 1691, 1794, 2297, 2691, 5057, 5185, 5391, 5566, 7231, 8807, 8812, 8815] intents [2716, 6638, 8222] r 10 rnew 11
+  Extent size DID change. IsCannonical: True
+r:10 rnew:11
+ ISCANNO comparing unex=20.711998587019004 and unexs[1]==-31.905249024116692
+  --> Enter recursion with Intent: ['Roll' 'rock' 'and' 'scène']...
+NEW ITERATION 
+ --------
+r: 33 - r_new: 34
+|extents[r]|: 8 - intents[r]: ['Roll' 'rock' 'and' 'scène']
+  Extent size 8 - intent [2716, 6638, 8222, 8664, 8904]
+# nodes in X_prev: 8 - # nodes in X: 8
+cw_a: 10.837730416064304 - cd_a: 1.0
+Unex a: 9.837730416064304 - unex_a prec: 39.4436255840609
+  U(G): -18.731626997041893
+  U(A): 49.2813560001252
+  U: 30.549729003083307
+unexs: [0, -31.905249024116692, 20.711998587019004] r_new: 34 - r: 33 - ptr: 2
+ == comparing unex=30.549729003083307 and unexs[2]=20.711998587019004
+ == comparing unex_a=49.2813560001252 and unexs_a[2]=39.4436255840609
+[0, 29.448873999784915, 39.4436255840609]
+STOP rec, unexpectedness difference is 9.837730416064304
+Attribute musique (8904) does not add any unexpectedness to pattern
+r:33 - r_new:34
+Taille extent: 34 - taille intent: 34
+**END FUNCTION
+  Extent size 10 - intent [2716, 6638, 8222, 8668]
+# nodes in X_prev: 10 - # nodes in X: 10
+cw_a: 11.37306214906086 - cd_a: 1.2016338611696504
+Unex a: 10.17142828789121 - unex_a prec: 29.448873999784915
+  U(G): -38.056278173837484
+  U(A): 39.620302287676125
+  U: 1.5640241138386415
+unexs: [0, -31.905249024116692] r_new: 11 - r: 10 - ptr: 1
+extents [602, 1691, 1794, 2297, 2691, 5057, 5185, 5391, 5566, 7231, 8807, 8812, 8815] intents [2716, 6638, 8222] r 10 rnew 11
+  Extent size DID change. IsCannonical: True
+r:10 rnew:11
+ ISCANNO comparing unex=1.5640241138386415 and unexs[1]==-31.905249024116692
+  --> Enter recursion with Intent: ['Roll' 'rock' 'and' 'artiste']...
+NEW ITERATION 
+ --------
+r: 34 - r_new: 35
+|extents[r]|: 10 - intents[r]: ['Roll' 'rock' 'and' 'artiste']
+  Extent size 8 - intent [2716, 6638, 8222, 8668, 8761]
+# nodes in X_prev: 8 - # nodes in X: 8
+cw_a: 11.177805857661927 - cd_a: 1.1699250014423124
+Unex a: 10.007880856219614 - unex_a prec: 39.620302287676125
+  U(G): -17.7904243774669
+  U(A): 49.62818314389574
+  U: 31.83775876642884
+unexs: [0, -31.905249024116692, 1.5640241138386415] r_new: 35 - r: 34 - ptr: 2
+extents [602, 1691, 2297, 2691, 5185, 5391, 7231, 8807, 8812, 8815] intents [2716, 6638, 8222, 8668] r 34 rnew 35
+  Extent size DID change. IsCannonical: True
+r:34 rnew:35
+ ISCANNO comparing unex=31.83775876642884 and unexs[2]==1.5640241138386415
+  --> Enter recursion with Intent: ['Roll' 'rock' 'and' 'artiste' 'The']...
+NEW ITERATION 
+ --------
+r: 35 - r_new: 36
+|extents[r]|: 8 - intents[r]: ['Roll' 'rock' 'and' 'artiste' 'The']
+  Extent size 8 - intent [2716, 6638, 8222, 8668, 8761, 8936]
+# nodes in X_prev: 8 - # nodes in X: 8
+cw_a: 10.700226892314369 - cd_a: 1.0
+Unex a: 9.700226892314369 - unex_a prec: 49.62818314389574
+  U(G): -17.7904243774669
+  U(A): 59.32841003621011
+  U: 41.53798565874321
+unexs: [0, -31.905249024116692, 1.5640241138386415, 31.83775876642884] r_new: 36 - r: 35 - ptr: 3
+ == comparing unex=41.53798565874321 and unexs[3]=31.83775876642884
+ == comparing unex_a=59.32841003621011 and unexs_a[3]=49.62818314389574
+[0, 29.448873999784915, 39.620302287676125, 49.62818314389574]
+STOP rec, unexpectedness difference is 9.700226892314369
+Attribute of (8936) does not add any unexpectedness to pattern
+r:35 - r_new:36
+Taille extent: 36 - taille intent: 36
+**END FUNCTION
+  Extent size 9 - intent [2716, 6638, 8222, 8668, 8904]
+# nodes in X_prev: 9 - # nodes in X: 9
+cw_a: 10.837730416064304 - cd_a: 1.078002512001273
+Unex a: 9.75972790406303 - unex_a prec: 39.620302287676125
+  U(G): -31.046397118733864
+  U(A): 49.38003019173915
+  U: 18.333633073005288
+unexs: [0, -31.905249024116692, 1.5640241138386415] r_new: 35 - r: 34 - ptr: 2
+extents [602, 1691, 2297, 2691, 5185, 5391, 7231, 8807, 8812, 8815] intents [2716, 6638, 8222, 8668] r 34 rnew 35
+  Extent size DID change. IsCannonical: True
+r:34 rnew:35
+ ISCANNO comparing unex=18.333633073005288 and unexs[2]==1.5640241138386415
+  --> Enter recursion with Intent: ['Roll' 'rock' 'and' 'artiste' 'musique']...
+NEW ITERATION 
+ --------
+r: 36 - r_new: 37
+|extents[r]|: 9 - intents[r]: ['Roll' 'rock' 'and' 'artiste' 'musique']
+  Extent size 8 - intent [2716, 6638, 8222, 8668, 8904, 8936]
+# nodes in X_prev: 8 - # nodes in X: 8
+cw_a: 10.700226892314369 - cd_a: 1.0874628412503393
+Unex a: 9.61276405106403 - unex_a prec: 49.38003019173915
+  U(G): -20.202301984061087
+  U(A): 58.992794242803186
+  U: 38.7904922587421
+unexs: [0, -31.905249024116692, 1.5640241138386415, 18.333633073005288] r_new: 37 - r: 36 - ptr: 3
+extents [602, 1691, 2297, 2691, 5185, 5391, 7231, 8807, 8812] intents [2716, 6638, 8222, 8668, 8904] r 36 rnew 37
+  Extent size DID change. IsCannonical: True
+r:36 rnew:37
+ ISCANNO comparing unex=38.7904922587421 and unexs[3]==18.333633073005288
+  --> Enter recursion with Intent: ['Roll' 'rock' 'and' 'artiste' 'musique' 'of']...
+NEW ITERATION 
+ --------
+r: 37 - r_new: 38
+|extents[r]|: 8 - intents[r]: ['Roll' 'rock' 'and' 'artiste' 'musique' 'of']
+  Extent size 8 - intent [2716, 6638, 8222, 8668, 8904, 8936, 9236]
+# nodes in X_prev: 8 - # nodes in X: 8
+cw_a: 9.338628651996986 - cd_a: 1.0
+Unex a: 8.338628651996986 - unex_a prec: 58.992794242803186
+  U(G): -20.202301984061087
+  U(A): 67.33142289480017
+  U: 47.12912091073908
+unexs: [0, -31.905249024116692, 1.5640241138386415, 18.333633073005288, 38.7904922587421] r_new: 38 - r: 37 - ptr: 4
+ == comparing unex=47.12912091073908 and unexs[4]=38.7904922587421
+ == comparing unex_a=67.33142289480017 and unexs_a[4]=58.992794242803186
+[0, 29.448873999784915, 39.620302287676125, 49.38003019173915, 58.992794242803186]
+STOP rec, unexpectedness difference is 8.338628651996984
+Attribute américain (9236) does not add any unexpectedness to pattern
+r:37 - r_new:38
+Taille extent: 38 - taille intent: 38
+**END FUNCTION
+  Extent size 9 - intent [2716, 6638, 8222, 8668, 8904, 9236]
+# nodes in X_prev: 9 - # nodes in X: 9
+cw_a: 9.338628651996986 - cd_a: 1.0
+Unex a: 8.338628651996986 - unex_a prec: 49.38003019173915
+  U(G): -31.046397118733864
+  U(A): 57.71865884373614
+  U: 26.672261725002272
+unexs: [0, -31.905249024116692, 1.5640241138386415, 18.333633073005288] r_new: 37 - r: 36 - ptr: 3
+ == comparing unex=26.672261725002272 and unexs[3]=18.333633073005288
+ == comparing unex_a=57.71865884373614 and unexs_a[3]=49.38003019173915
+[0, 29.448873999784915, 39.620302287676125, 49.38003019173915]
+STOP rec, unexpectedness difference is 8.338628651996984
+Attribute américain (9236) does not add any unexpectedness to pattern
+r:36 - r_new:37
+Taille extent: 38 - taille intent: 38
+**END FUNCTION
+  Extent size 9 - intent [2716, 6638, 8222, 8668, 8936]
+# nodes in X_prev: 9 - # nodes in X: 9
+cw_a: 10.700226892314369 - cd_a: 1.078002512001273
+Unex a: 9.622224380313096 - unex_a prec: 39.620302287676125
+  U(G): -31.29467968441662
+  U(A): 49.242526667989225
+  U: 17.947846983572603
+unexs: [0, -31.905249024116692, 1.5640241138386415] r_new: 35 - r: 34 - ptr: 2
+extents [602, 1691, 2297, 2691, 5185, 5391, 7231, 8807, 8812, 8815] intents [2716, 6638, 8222, 8668] r 34 rnew 35
+  Extent size DID change. IsCannonical: True
+r:34 rnew:35
+ ISCANNO comparing unex=17.947846983572603 and unexs[2]==1.5640241138386415
+  --> Enter recursion with Intent: ['Roll' 'rock' 'and' 'artiste' 'of']...
+NEW ITERATION 
+ --------
+r: 38 - r_new: 39
+|extents[r]|: 9 - intents[r]: ['Roll' 'rock' 'and' 'artiste' 'of']
+  Extent size 9 - intent [2716, 6638, 8222, 8668, 8936, 9236]
+# nodes in X_prev: 9 - # nodes in X: 9
+cw_a: 9.338628651996986 - cd_a: 1.0
+Unex a: 8.338628651996986 - unex_a prec: 49.242526667989225
+  U(G): -31.29467968441662
+  U(A): 57.58115531998621
+  U: 26.286475635569587
+unexs: [0, -31.905249024116692, 1.5640241138386415, 17.947846983572603] r_new: 39 - r: 38 - ptr: 3
+ == comparing unex=26.286475635569587 and unexs[3]=17.947846983572603
+ == comparing unex_a=57.58115531998621 and unexs_a[3]=49.242526667989225
+[0, 29.448873999784915, 39.620302287676125, 49.242526667989225]
+STOP rec, unexpectedness difference is 8.338628651996984
+Attribute américain (9236) does not add any unexpectedness to pattern
+r:38 - r_new:39
+Taille extent: 39 - taille intent: 39
+**END FUNCTION
+  Extent size 8 - intent [2716, 6638, 8222, 8668, 9226]
+# nodes in X_prev: 8 - # nodes in X: 8
+cw_a: 9.388829464919176 - cd_a: 1.1699250014423124
+Unex a: 8.218904463476864 - unex_a prec: 39.620302287676125
+  U(G): -19.91970739441185
+  U(A): 47.839206751152986
+  U: 27.919499356741134
+unexs: [0, -31.905249024116692, 1.5640241138386415] r_new: 35 - r: 34 - ptr: 2
+IsCannonical: False --> do not enter recursion.
+  Extent size 10 - intent [2716, 6638, 8222, 8668, 9236]
+# nodes in X_prev: 10 - # nodes in X: 10
+cw_a: 9.338628651996986 - cd_a: 1.0
+Unex a: 8.338628651996986 - unex_a prec: 39.620302287676125
+  U(G): -38.056278173837484
+  U(A): 47.95893093967311
+  U: 9.902652765835626
+unexs: [0, -31.905249024116692, 1.5640241138386415] r_new: 35 - r: 34 - ptr: 2
+ == comparing unex=9.902652765835626 and unexs[2]=1.5640241138386415
+ == comparing unex_a=47.95893093967311 and unexs_a[2]=39.620302287676125
+[0, 29.448873999784915, 39.620302287676125]
+STOP rec, unexpectedness difference is 8.338628651996984
+Attribute américain (9236) does not add any unexpectedness to pattern
+r:34 - r_new:35
+Taille extent: 39 - taille intent: 39
+**END FUNCTION
+  Extent size 9 - intent [2716, 6638, 8222, 8761]
+# nodes in X_prev: 9 - # nodes in X: 9
+cw_a: 11.177805857661927 - cd_a: 1.289506617194985
+Unex a: 9.888299240466942 - unex_a prec: 29.448873999784915
+  U(G): -28.19830390355034
+  U(A): 39.33717324025186
+  U: 11.138869336701518
+unexs: [0, -31.905249024116692] r_new: 11 - r: 10 - ptr: 1
+extents [602, 1691, 1794, 2297, 2691, 5057, 5185, 5391, 5566, 7231, 8807, 8812, 8815] intents [2716, 6638, 8222] r 10 rnew 11
+  Extent size DID change. IsCannonical: True
+r:10 rnew:11
+ ISCANNO comparing unex=11.138869336701518 and unexs[1]==-31.905249024116692
+  --> Enter recursion with Intent: ['Roll' 'rock' 'and' 'The']...
+NEW ITERATION 
+ --------
+r: 39 - r_new: 40
+|extents[r]|: 9 - intents[r]: ['Roll' 'rock' 'and' 'The']
+  Extent size 9 - intent [2716, 6638, 8222, 8761, 8936]
+# nodes in X_prev: 9 - # nodes in X: 9
+cw_a: 10.700226892314369 - cd_a: 1.0
+Unex a: 9.700226892314369 - unex_a prec: 39.33717324025186
+  U(G): -28.19830390355034
+  U(A): 49.037400132566226
+  U: 20.839096229015887
+unexs: [0, -31.905249024116692, 11.138869336701518] r_new: 40 - r: 39 - ptr: 2
+ == comparing unex=20.839096229015887 and unexs[2]=11.138869336701518
+ == comparing unex_a=49.037400132566226 and unexs_a[2]=39.33717324025186
+[0, 29.448873999784915, 39.33717324025186]
+STOP rec, unexpectedness difference is 9.700226892314369
+Attribute of (8936) does not add any unexpectedness to pattern
+r:39 - r_new:40
+Taille extent: 40 - taille intent: 40
+**END FUNCTION
+  Extent size 11 - intent [2716, 6638, 8222, 8904]
+# nodes in X_prev: 11 - # nodes in X: 11
+cw_a: 10.837730416064304 - cd_a: 1.1255308820838588
+Unex a: 9.712199533980446 - unex_a prec: 29.448873999784915
+  U(G): -46.589515594024405
+  U(A): 39.16107353376536
+  U: -7.428442060259044
+unexs: [0, -31.905249024116692] r_new: 11 - r: 10 - ptr: 1
+extents [602, 1691, 1794, 2297, 2691, 5057, 5185, 5391, 5566, 7231, 8807, 8812, 8815] intents [2716, 6638, 8222] r 10 rnew 11
+  Extent size DID change. IsCannonical: True
+r:10 rnew:11
+ ISCANNO comparing unex=-7.428442060259044 and unexs[1]==-31.905249024116692
+  --> Enter recursion with Intent: ['Roll' 'rock' 'and' 'musique']...
+Entering smoothing, val=0.02931223075135632
+8905 9259
+354 [9012 9119 8981 8920 9132 9044 9121 8930 9243 8933 9110 9078 9120 8938
+ 9163 9112 9130 8958 9172 9205 9219 9038 8927 8964 8926 8905 9075 9141
+ 9107 8906 9180 8939 9024 9210 9211 9058 9229 8942 9083 8909 9054 9105
+ 9092 9146 9011 8977 8924 9157 9137 9206 9074 9228 9068 9116 8988 8907
+ 9002 8993 8965 9104 8983 8975 8937 9190 8910 9014 9042 9240 9007 9217
+ 9250 9008 9080 9175 9233 8922 8982 9252 9246 9207 9216 9048 9151 8955
+ 9215 8953 9095 9159 8941 8971 9098 9208 8928 8985 9257 8997 9168 8948
+ 9222 9025 9019 8916 9079 9160 9173 9161 9059 9155 8943 9101 9237 9213
+ 9102 9017 8966 9067 9013 8923 9108 8978 9171 9111 9148 9194 9201 9061
+ 9117 8951 9220 8908 9156 9188 9037 9134 9133 9032 9060 9251 9021 8912
+ 8972 9164 8934 9158 9192 8919 8963 9069 8990 9081 9165 9041 9034 9114
+ 9039 9254 8974 9049 9096 8925 8931 8914 9071 9124 9125 8913 9016 9006
+ 9197 9097 9020 9183 9150 9153 9244 9109 9238 8960 8979 8956 9129 9084
+ 8996 9051 9047 8968 9136 9204 8991 9003 9065 9043 9033 8961 9139 9212
+ 8949 8929 9094 8932 9200 9010 9070 9126 9001 9072 9090 9031 8917 9256
+ 9140 9045 8967 9191 8987 9056 9226 9064 9000 9091 9131 9128 8954 9036
+ 9143 9085 9100 9186 9147 9086 8952 9195 8970 8915 9138 9027 9196 9062
+ 9154 9015 9235 9066 9035 9174 9249 9113 8986 9170 9022 8945 9193 8947
+ 9177 8946 9162 9106 9230 9144 9093 8918 9203 9030 9082 9223 9189 9135
+ 8992 9248 8994 9073 9103 8911 9218 9053 9023 9255 9225 8940 9152 9258
+ 9241 8973 9253 9214 8980 9179 9181 9118 8950 9026 9231 9232 9076 9009
+ 9209 8959 9057 9115 9046 9242 9050 8962 9063 9145 9142 8995 9184 8989
+ 9187 9234 9004 9198 9178 9236 9167 9199 8936 9227 9245 8976 9077 9028
+ 8957 9122 9018 8921 9185 9088 9005 9087 9029 9247 9224 8998 9052 9123
+ 9202 9169 9099 9221 9166 9182 9149 9239 9127 9040 8935 8969 9055 8999
+ 8984 8944 9089 9176] 8904
+['armée' 'musique' 'usage' 'lier' 'vivre' 'jouer'] ['armée' 'musique' 'Union' 'entier' 'rester' 'intérieur']
+Next attr will be: usage instead of Union
+degs: [299 299 300 388 524 360 316 548 421 525 325 878]
+NEW ITERATION 
+ --------
+r: 40 - r_new: 41
+|extents[r]|: 11 - intents[r]: ['Roll' 'rock' 'and' 'musique']
+  Extent size 9 - intent [2716, 6638, 8222, 8904, 9121]
+# nodes in X_prev: 9 - # nodes in X: 9
+cw_a: 9.388829464919176 - cd_a: 1.15200309344505
+Unex a: 8.236826371474127 - unex_a prec: 39.16107353376536
+  U(G): -28.762184603589603
+  U(A): 47.397899905239484
+  U: 18.63571530164988
+unexs: [0, -31.905249024116692, -7.428442060259044] r_new: 41 - r: 40 - ptr: 2
+IsCannonical: False --> do not enter recursion.
+  Extent size 8 - intent [2716, 6638, 8222, 8904, 9145]
+# nodes in X_prev: 8 - # nodes in X: 8
+cw_a: 9.340330947227987 - cd_a: 1.2479275134435854
+Unex a: 8.092403433784401 - unex_a prec: 39.16107353376536
+  U(G): -16.07301896711612
+  U(A): 47.25347696754976
+  U: 31.18045800043364
+unexs: [0, -31.905249024116692, -7.428442060259044] r_new: 41 - r: 40 - ptr: 2
+IsCannonical: False --> do not enter recursion.
+  Extent size 11 - intent [2716, 6638, 8222, 8904, 9218]
+# nodes in X_prev: 11 - # nodes in X: 11
+cw_a: 9.338628651996986 - cd_a: 1.0
+Unex a: 8.338628651996986 - unex_a prec: 39.16107353376536
+  U(G): -46.589515594024405
+  U(A): 47.499702185762345
+  U: 0.9101865917379399
+unexs: [0, -31.905249024116692, -7.428442060259044] r_new: 41 - r: 40 - ptr: 2
+ == comparing unex=0.9101865917379399 and unexs[2]=-7.428442060259044
+ == comparing unex_a=47.499702185762345 and unexs_a[2]=39.16107353376536
+[0, 29.448873999784915, 39.16107353376536]
+STOP rec, unexpectedness difference is 8.338628651996984
+Attribute américain (9218) does not add any unexpectedness to pattern
+r:40 - r_new:41
+Taille extent: 41 - taille intent: 41
+**END FUNCTION
+  Extent size 10 - intent [2716, 6638, 8222, 9121]
+# nodes in X_prev: 10 - # nodes in X: 10
+cw_a: 9.388829464919176 - cd_a: 1.2016338611696504
+Unex a: 8.187195603749526 - unex_a prec: 29.448873999784915
+  U(G): -34.90614684414098
+  U(A): 37.63606960353444
+  U: 2.7299227593934603
+unexs: [0, -31.905249024116692] r_new: 11 - r: 10 - ptr: 1
+IsCannonical: False --> do not enter recursion.
+  Extent size 8 - intent [2716, 6638, 8222, 9145]
+# nodes in X_prev: 8 - # nodes in X: 8
+cw_a: 9.340330947227987 - cd_a: 1.3923174227787602
+Unex a: 7.948013524449227 - unex_a prec: 29.448873999784915
+  U(G): -16.07301896711612
+  U(A): 37.396887524234145
+  U: 21.323868557118026
+unexs: [0, -31.905249024116692] r_new: 11 - r: 10 - ptr: 1
+IsCannonical: False --> do not enter recursion.
+  Extent size 13 - intent [2716, 6638, 8222, 9218]
+# nodes in X_prev: 13 - # nodes in X: 13
+cw_a: 9.338628651996986 - cd_a: 1.0
+Unex a: 8.338628651996986 - unex_a prec: 29.448873999784915
+  U(G): -61.35412302390161
+  U(A): 37.7875026517819
+  U: -23.566620372119708
+unexs: [0, -31.905249024116692] r_new: 11 - r: 10 - ptr: 1
+ == comparing unex=-23.566620372119708 and unexs[1]=-31.905249024116692
+ == comparing unex_a=37.7875026517819 and unexs_a[1]=29.448873999784915
+[0, 29.448873999784915]
+STOP rec, unexpectedness difference is 8.338628651996984
+Attribute américain (9218) does not add any unexpectedness to pattern
+r:10 - r_new:11
+Taille extent: 41 - taille intent: 41
+**END FUNCTION
+  Extent size 13 - intent [2863]
+# nodes in X_prev: 13 - # nodes in X: 13
+cw_a: 15.366109388419092 - cd_a: 9.581200581924957
+Unex a: 5.784908806494135 - unex_a prec: 0
+  U(G): -44.817992105377115
+  U(A): 5.784908806494135
+  U: -39.03308329888298
+unexs: [0] r_new: 1 - r: 0 - ptr: 0
+extents [   0    1    2 ... 9942 9943 9944] intents [] r 0 rnew 1
+  Extent size DID change. IsCannonical: True
+r:0 rnew:1
+ ISCANNO comparing unex=-39.03308329888298 and unexs[0]==0
+  --> Enter recursion with Intent: ['Fab']...
+NEW ITERATION 
+ --------
+r: 41 - r_new: 42
+|extents[r]|: 13 - intents[r]: ['Fab']
+  Extent size 13 - intent [2863, 3383]
+# nodes in X_prev: 13 - # nodes in X: 13
+cw_a: 15.159658510951667 - cd_a: 1.0
+Unex a: 14.159658510951667 - unex_a prec: 5.784908806494135
+  U(G): -44.817992105377115
+  U(A): 19.944567317445802
+  U: -24.873424787931313
+unexs: [0, -39.03308329888298] r_new: 42 - r: 41 - ptr: 1
+ == comparing unex=-24.873424787931313 and unexs[1]=-39.03308329888298
+ == comparing unex_a=19.944567317445802 and unexs_a[1]=5.784908806494135
+[0, 5.784908806494135]
+  Extent size did not change -> attribute autosuffisant is added to intent.
+  Extent size 13 - intent [2863, 3383, 4031]
+# nodes in X_prev: 13 - # nodes in X: 13
+cw_a: 14.896624105117873 - cd_a: 1.0
+Unex a: 13.896624105117873 - unex_a prec: 19.944567317445802
+  U(G): -44.817992105377115
+  U(A): 33.841191422563675
+  U: -10.97680068281344
+unexs: [0, -24.873424787931313] r_new: 42 - r: 41 - ptr: 1
+ == comparing unex=-10.97680068281344 and unexs[1]=-24.873424787931313
+ == comparing unex_a=33.841191422563675 and unexs_a[1]=19.944567317445802
+[0, 19.944567317445802]
+  Extent size did not change -> attribute Xavier is added to intent.
+  Extent size 13 - intent [2863, 3383, 4031, 5316]
+# nodes in X_prev: 13 - # nodes in X: 13
+cw_a: 14.366109388419092 - cd_a: 1.0
+Unex a: 13.366109388419092 - unex_a prec: 33.841191422563675
+  U(G): -44.817992105377115
+  U(A): 47.207300810982765
+  U: 2.38930870560565
+unexs: [0, -10.97680068281344] r_new: 42 - r: 41 - ptr: 1
+ == comparing unex=2.38930870560565 and unexs[1]=-10.97680068281344
+ == comparing unex_a=47.207300810982765 and unexs_a[1]=33.841191422563675
+[0, 33.841191422563675]
+  Extent size did not change -> attribute maire is added to intent.
+  Extent size 13 - intent [2863, 3383, 4031, 5316, 5346]
+# nodes in X_prev: 13 - # nodes in X: 13
+cw_a: 14.311661604396717 - cd_a: 1.0
+Unex a: 13.311661604396717 - unex_a prec: 47.207300810982765
+  U(G): -44.817992105377115
+  U(A): 60.518962415379484
+  U: 15.700970310002369
+unexs: [0, 2.38930870560565] r_new: 42 - r: 41 - ptr: 1
+ == comparing unex=15.700970310002369 and unexs[1]=2.38930870560565
+ == comparing unex_a=60.518962415379484 and unexs_a[1]=47.207300810982765
+[0, 47.207300810982765]
+  Extent size did not change -> attribute Trias is added to intent.
+  Extent size 13 - intent [2863, 3383, 4031, 5316, 5346, 5938]
+# nodes in X_prev: 13 - # nodes in X: 13
+cw_a: 14.022154987201732 - cd_a: 1.0
+Unex a: 13.022154987201732 - unex_a prec: 60.518962415379484
+  U(G): -44.817992105377115
+  U(A): 73.54111740258122
+  U: 28.723125297204106
+unexs: [0, 15.700970310002369] r_new: 42 - r: 41 - ptr: 1
+ == comparing unex=28.723125297204106 and unexs[1]=15.700970310002369
+ == comparing unex_a=73.54111740258122 and unexs_a[1]=60.518962415379484
+[0, 60.518962415379484]
+  Extent size did not change -> attribute Barcelone is added to intent.
+  Extent size 13 - intent [2863, 3383, 4031, 5316, 5346, 5938, 7169]
+# nodes in X_prev: 13 - # nodes in X: 13
+cw_a: 13.159658510951667 - cd_a: 1.0
+Unex a: 12.159658510951667 - unex_a prec: 73.54111740258122
+  U(G): -44.817992105377115
+  U(A): 85.7007759135329
+  U: 40.88278380815578
+unexs: [0, 28.723125297204106] r_new: 42 - r: 41 - ptr: 1
+ == comparing unex=40.88278380815578 and unexs[1]=28.723125297204106
+ == comparing unex_a=85.7007759135329 and unexs_a[1]=73.54111740258122
+[0, 73.54111740258122]
+  Extent size did not change -> attribute City is added to intent.
+  Extent size 12 - intent [2863, 3383, 4031, 5316, 5346, 5938, 7169, 7917]
+# nodes in X_prev: 12 - # nodes in X: 12
+cw_a: 12.466636264373058 - cd_a: 1.0588936890535683
+Unex a: 11.407742575319489 - unex_a prec: 85.7007759135329
+  U(G): -21.557549200275517
+  U(A): 97.10851848885238
+  U: 75.55096928857687
+unexs: [0, 40.88278380815578] r_new: 42 - r: 41 - ptr: 1
+extents [376, 909, 1145, 2191, 2607, 3774, 5706, 7367, 7945, 8192, 8618, 8643, 9623] intents [2863, 3383, 4031, 5316, 5346, 5938, 7169] r 41 rnew 42
+  Extent size DID change. IsCannonical: True
+r:41 rnew:42
+ ISCANNO comparing unex=75.55096928857687 and unexs[1]==40.88278380815578
+  --> Enter recursion with Intent: ['Fab' 'autosuffisant' 'Xavier' 'maire' 'Trias' 'Barcelone' 'City' 'appel']...
+NEW ITERATION 
+ --------
+r: 42 - r_new: 43
+|extents[r]|: 12 - intents[r]: ['Fab' 'autosuffisant' 'Xavier' 'maire' 'Trias' 'Barcelone' 'City' 'appel']
+  Extent size 12 - intent [2863, 3383, 4031, 5316, 5346, 5938, 7169, 7917, 8292]
+# nodes in X_prev: 12 - # nodes in X: 12
+cw_a: 11.989733509509355 - cd_a: 1.0
+Unex a: 10.989733509509355 - unex_a prec: 97.10851848885238
+  U(G): -21.557549200275517
+  U(A): 108.09825199836173
+  U: 86.54070279808622
+unexs: [0, 40.88278380815578, 75.55096928857687] r_new: 43 - r: 42 - ptr: 2
+ == comparing unex=86.54070279808622 and unexs[2]=75.55096928857687
+ == comparing unex_a=108.09825199836173 and unexs_a[2]=97.10851848885238
+[0, 85.7007759135329, 97.10851848885238]
+  Extent size did not change -> attribute rejoindre is added to intent.
+  Extent size 12 - intent [2863, 3383, 4031, 5316, 5346, 5938, 7169, 7917, 8292, 8621]
+# nodes in X_prev: 12 - # nodes in X: 12
+cw_a: 11.481586605839029 - cd_a: 1.0
+Unex a: 10.481586605839029 - unex_a prec: 108.09825199836173
+  U(G): -21.557549200275517
+  U(A): 118.57983860420076
+  U: 97.02228940392524
+unexs: [0, 40.88278380815578, 86.54070279808622] r_new: 43 - r: 42 - ptr: 2
+ == comparing unex=97.02228940392524 and unexs[2]=86.54070279808622
+ == comparing unex_a=118.57983860420076 and unexs_a[2]=108.09825199836173
+[0, 85.7007759135329, 108.09825199836173]
+  Extent size did not change -> attribute lancer is added to intent.
+  Extent size 8 - intent [2863, 3383, 4031, 5316, 5346, 5938, 7169, 7917, 8292, 8621, 8834]
+# nodes in X_prev: 8 - # nodes in X: 8
+cw_a: 11.005853174872632 - cd_a: 1.3219280948873624
+Unex a: 9.68392507998527 - unex_a prec: 118.57983860420076
+  U(G): -14.466964490551497
+  U(A): 128.26376368418602
+  U: 113.79679919363451
+unexs: [0, 40.88278380815578, 97.02228940392524] r_new: 43 - r: 42 - ptr: 2
+extents [376, 1145, 2191, 2607, 3774, 5706, 7367, 7945, 8192, 8618, 8643, 9623] intents [2863, 3383, 4031, 5316, 5346, 5938, 7169, 7917, 8292, 8621] r 42 rnew 43
+  Extent size DID change. IsCannonical: True
+r:42 rnew:43
+ ISCANNO comparing unex=113.79679919363451 and unexs[2]==97.02228940392524
+  --> Enter recursion with Intent: ['Fab' 'autosuffisant' 'Xavier' 'maire' 'Trias' 'Barcelone' 'City' 'appel'
+ 'rejoindre' 'lancer' 'siège']...
+NEW ITERATION 
+ --------
+r: 43 - r_new: 44
+|extents[r]|: 8 - intents[r]: ['Fab' 'autosuffisant' 'Xavier' 'maire' 'Trias' 'Barcelone' 'City' 'appel'
+ 'rejoindre' 'lancer' 'siège']
+  Extent size 8 - intent [2863, 3383, 4031, 5316, 5346, 5938, 7169, 7917, 8292, 8621, 8834, 9124]
+# nodes in X_prev: 8 - # nodes in X: 8
+cw_a: 10.016700557109624 - cd_a: 1.0
+Unex a: 9.016700557109624 - unex_a prec: 128.26376368418602
+  U(G): -14.466964490551497
+  U(A): 137.28046424129565
+  U: 122.81349975074414
+unexs: [0, 40.88278380815578, 97.02228940392524, 113.79679919363451] r_new: 44 - r: 43 - ptr: 3
+ == comparing unex=122.81349975074414 and unexs[3]=113.79679919363451
+ == comparing unex_a=137.28046424129565 and unexs_a[3]=128.26376368418602
+[0, 85.7007759135329, 118.57983860420076, 128.26376368418602]
+STOP rec, unexpectedness difference is 9.01670055710963
+Attribute suivre (9124) does not add any unexpectedness to pattern
+r:43 - r_new:44
+Taille extent: 44 - taille intent: 44
+**END FUNCTION
+  Extent size 8 - intent [2863, 3383, 4031, 5316, 5346, 5938, 7169, 7917, 8292, 8621, 9114]
+# nodes in X_prev: 8 - # nodes in X: 8
+cw_a: 10.055321851136931 - cd_a: 1.3219280948873624
+Unex a: 8.73339375624957 - unex_a prec: 118.57983860420076
+  U(G): -6.484944993932139
+  U(A): 127.31323236045033
+  U: 120.8282873665182
+unexs: [0, 40.88278380815578, 97.02228940392524] r_new: 43 - r: 42 - ptr: 2
+extents [376, 1145, 2191, 2607, 3774, 5706, 7367, 7945, 8192, 8618, 8643, 9623] intents [2863, 3383, 4031, 5316, 5346, 5938, 7169, 7917, 8292, 8621] r 42 rnew 43
+  Extent size DID change. IsCannonical: True
+r:42 rnew:43
+ ISCANNO comparing unex=120.8282873665182 and unexs[2]==97.02228940392524
+  --> Enter recursion with Intent: ['Fab' 'autosuffisant' 'Xavier' 'maire' 'Trias' 'Barcelone' 'City' 'appel'
+ 'rejoindre' 'lancer' 'compte']...
+NEW ITERATION 
+ --------
+r: 44 - r_new: 45
+|extents[r]|: 8 - intents[r]: ['Fab' 'autosuffisant' 'Xavier' 'maire' 'Trias' 'Barcelone' 'City' 'appel'
+ 'rejoindre' 'lancer' 'compte']
+  Extent size 8 - intent [2863, 3383, 4031, 5316, 5346, 5938, 7169, 7917, 8292, 8621, 9114, 9124]
+# nodes in X_prev: 8 - # nodes in X: 8
+cw_a: 10.016700557109624 - cd_a: 1.0
+Unex a: 9.016700557109624 - unex_a prec: 127.31323236045033
+  U(G): -6.484944993932139
+  U(A): 136.32993291755994
+  U: 129.8449879236278
+unexs: [0, 40.88278380815578, 97.02228940392524, 120.8282873665182] r_new: 45 - r: 44 - ptr: 3
+ == comparing unex=129.8449879236278 and unexs[3]=120.8282873665182
+ == comparing unex_a=136.32993291755994 and unexs_a[3]=127.31323236045033
+[0, 85.7007759135329, 118.57983860420076, 127.31323236045033]
+STOP rec, unexpectedness difference is 9.016700557109601
+Attribute suivre (9124) does not add any unexpectedness to pattern
+r:44 - r_new:45
+Taille extent: 45 - taille intent: 45
+**END FUNCTION
+  Extent size 12 - intent [2863, 3383, 4031, 5316, 5346, 5938, 7169, 7917, 8292, 8621, 9124]
+# nodes in X_prev: 12 - # nodes in X: 12
+cw_a: 10.016700557109624 - cd_a: 1.0
+Unex a: 9.016700557109624 - unex_a prec: 118.57983860420076
+  U(G): -21.557549200275517
+  U(A): 127.59653916131039
+  U: 106.03898996103487
+unexs: [0, 40.88278380815578, 97.02228940392524] r_new: 43 - r: 42 - ptr: 2
+ == comparing unex=106.03898996103487 and unexs[2]=97.02228940392524
+ == comparing unex_a=127.59653916131039 and unexs_a[2]=118.57983860420076
+[0, 85.7007759135329, 118.57983860420076]
+STOP rec, unexpectedness difference is 9.01670055710963
+Attribute suivre (9124) does not add any unexpectedness to pattern
+r:42 - r_new:43
+Taille extent: 45 - taille intent: 45
+**END FUNCTION
+  Extent size 13 - intent [2863, 3383, 4031, 5316, 5346, 5938, 7169, 8292]
+# nodes in X_prev: 13 - # nodes in X: 13
+cw_a: 11.989733509509355 - cd_a: 1.0
+Unex a: 10.989733509509355 - unex_a prec: 85.7007759135329
+  U(G): -44.817992105377115
+  U(A): 96.69050942304224
+  U: 51.87251731766513
+unexs: [0, 40.88278380815578] r_new: 42 - r: 41 - ptr: 1
+ == comparing unex=51.87251731766513 and unexs[1]=40.88278380815578
+ == comparing unex_a=96.69050942304224 and unexs_a[1]=85.7007759135329
+[0, 85.7007759135329]
+  Extent size did not change -> attribute rejoindre is added to intent.
+  Extent size 13 - intent [2863, 3383, 4031, 5316, 5346, 5938, 7169, 8292, 8621]
+# nodes in X_prev: 13 - # nodes in X: 13
+cw_a: 11.481586605839029 - cd_a: 1.0
+Unex a: 10.481586605839029 - unex_a prec: 96.69050942304224
+  U(G): -44.817992105377115
+  U(A): 107.17209602888127
+  U: 62.354103923504155
+unexs: [0, 51.87251731766513] r_new: 42 - r: 41 - ptr: 1
+ == comparing unex=62.354103923504155 and unexs[1]=51.87251731766513
+ == comparing unex_a=107.17209602888127 and unexs_a[1]=96.69050942304224
+[0, 96.69050942304224]
+  Extent size did not change -> attribute lancer is added to intent.
+  Extent size 9 - intent [2863, 3383, 4031, 5316, 5346, 5938, 7169, 8292, 8621, 8834]
+# nodes in X_prev: 9 - # nodes in X: 9
+cw_a: 11.005853174872632 - cd_a: 1.289506617194985
+Unex a: 9.716346557677648 - unex_a prec: 107.17209602888127
+  U(G): -30.05812624550208
+  U(A): 116.88844258655892
+  U: 86.83031634105684
+unexs: [0, 62.354103923504155] r_new: 42 - r: 41 - ptr: 1
+extents [376, 909, 1145, 2191, 2607, 3774, 5706, 7367, 7945, 8192, 8618, 8643, 9623] intents [2863, 3383, 4031, 5316, 5346, 5938, 7169, 8292, 8621] r 41 rnew 42
+  Extent size DID change. IsCannonical: True
+r:41 rnew:42
+ ISCANNO comparing unex=86.83031634105684 and unexs[1]==62.354103923504155
+  --> Enter recursion with Intent: ['Fab' 'autosuffisant' 'Xavier' 'maire' 'Trias' 'Barcelone' 'City'
+ 'rejoindre' 'lancer' 'siège']...
+NEW ITERATION 
+ --------
+r: 45 - r_new: 46
+|extents[r]|: 9 - intents[r]: ['Fab' 'autosuffisant' 'Xavier' 'maire' 'Trias' 'Barcelone' 'City'
+ 'rejoindre' 'lancer' 'siège']
+  Extent size 8 - intent [2863, 3383, 4031, 5316, 5346, 5938, 7169, 8292, 8621, 8834, 9124]
+# nodes in X_prev: 8 - # nodes in X: 8
+cw_a: 10.016700557109624 - cd_a: 1.0874628412503393
+Unex a: 8.929237715859285 - unex_a prec: 116.88844258655892
+  U(G): -14.466964490551497
+  U(A): 125.81768030241821
+  U: 111.3507158118667
+unexs: [0, 62.354103923504155, 86.83031634105684] r_new: 46 - r: 45 - ptr: 2
+IsCannonical: False --> do not enter recursion.
+  Extent size 8 - intent [2863, 3383, 4031, 5316, 5346, 5938, 7169, 8292, 8621, 8834, 9147]
+# nodes in X_prev: 8 - # nodes in X: 8
+cw_a: 9.889129568570949 - cd_a: 1.0874628412503393
+Unex a: 8.80166672732061 - unex_a prec: 116.88844258655892
+  U(G): -20.597779299524497
+  U(A): 125.69010931387953
+  U: 105.09233001435504
+unexs: [0, 62.354103923504155, 86.83031634105684] r_new: 46 - r: 45 - ptr: 2
+extents [376, 909, 1145, 2607, 5706, 7945, 8618, 8643, 9623] intents [2863, 3383, 4031, 5316, 5346, 5938, 7169, 8292, 8621, 8834] r 45 rnew 46
+  Extent size DID change. IsCannonical: True
+r:45 rnew:46
+ ISCANNO comparing unex=105.09233001435504 and unexs[2]==86.83031634105684
+  --> Enter recursion with Intent: ['Fab' 'autosuffisant' 'Xavier' 'maire' 'Trias' 'Barcelone' 'City'
+ 'rejoindre' 'lancer' 'siège' 'centre']...
+NEW ITERATION 
+ --------
+r: 46 - r_new: 47
+|extents[r]|: 8 - intents[r]: ['Fab' 'autosuffisant' 'Xavier' 'maire' 'Trias' 'Barcelone' 'City'
+ 'rejoindre' 'lancer' 'siège' 'centre']
+  Extent size 8 - intent [2863, 3383, 4031, 5316, 5346, 5938, 7169, 8292, 8621, 8834, 9147, 9159]
+# nodes in X_prev: 8 - # nodes in X: 8
+cw_a: 9.849803248364879 - cd_a: 1.0
+Unex a: 8.849803248364879 - unex_a prec: 125.69010931387953
+  U(G): -20.597779299524497
+  U(A): 134.5399125622444
+  U: 113.94213326271992
+unexs: [0, 62.354103923504155, 86.83031634105684, 105.09233001435504] r_new: 47 - r: 46 - ptr: 3
+ == comparing unex=113.94213326271992 and unexs[3]=105.09233001435504
+ == comparing unex_a=134.5399125622444 and unexs_a[3]=125.69010931387953
+[0, 107.17209602888127, 116.88844258655892, 125.69010931387953]
+STOP rec, unexpectedness difference is 8.849803248364879
+Attribute mouvement (9159) does not add any unexpectedness to pattern
+r:46 - r_new:47
+Taille extent: 47 - taille intent: 47
+**END FUNCTION
+  Extent size 9 - intent [2863, 3383, 4031, 5316, 5346, 5938, 7169, 8292, 8621, 8834, 9159]
+# nodes in X_prev: 9 - # nodes in X: 9
+cw_a: 9.849803248364879 - cd_a: 1.0
+Unex a: 8.849803248364879 - unex_a prec: 116.88844258655892
+  U(G): -30.05812624550208
+  U(A): 125.7382458349238
+  U: 95.68011958942172
+unexs: [0, 62.354103923504155, 86.83031634105684] r_new: 46 - r: 45 - ptr: 2
+ == comparing unex=95.68011958942172 and unexs[2]=86.83031634105684
+ == comparing unex_a=125.7382458349238 and unexs_a[2]=116.88844258655892
+[0, 107.17209602888127, 116.88844258655892]
+STOP rec, unexpectedness difference is 8.849803248364879
+Attribute mouvement (9159) does not add any unexpectedness to pattern
+r:45 - r_new:46
+Taille extent: 47 - taille intent: 47
+**END FUNCTION
+  Extent size 8 - intent [2863, 3383, 4031, 5316, 5346, 5938, 7169, 8292, 8621, 9114]
+# nodes in X_prev: 8 - # nodes in X: 8
+cw_a: 10.055321851136931 - cd_a: 1.3923174227787602
+Unex a: 8.663004428358171 - unex_a prec: 107.17209602888127
+  U(G): -6.484944993932139
+  U(A): 115.83510045723943
+  U: 109.35015546330729
+unexs: [0, 62.354103923504155] r_new: 42 - r: 41 - ptr: 1
+IsCannonical: False --> do not enter recursion.
+  Extent size 12 - intent [2863, 3383, 4031, 5316, 5346, 5938, 7169, 8292, 8621, 9124]
+# nodes in X_prev: 12 - # nodes in X: 12
+cw_a: 10.016700557109624 - cd_a: 1.0588936890535683
+Unex a: 8.957806868056057 - unex_a prec: 107.17209602888127
+  U(G): -21.557549200275517
+  U(A): 116.12990289693732
+  U: 94.5723536966618
+unexs: [0, 62.354103923504155] r_new: 42 - r: 41 - ptr: 1
+IsCannonical: False --> do not enter recursion.
+  Extent size 9 - intent [2863, 3383, 4031, 5316, 5346, 5938, 7169, 8292, 8621, 9147]
+# nodes in X_prev: 9 - # nodes in X: 9
+cw_a: 9.889129568570949 - cd_a: 1.289506617194985
+Unex a: 8.599622951375965 - unex_a prec: 107.17209602888127
+  U(G): -30.695556166117385
+  U(A): 115.77171898025723
+  U: 85.07616281413985
+unexs: [0, 62.354103923504155] r_new: 42 - r: 41 - ptr: 1
+extents [376, 909, 1145, 2191, 2607, 3774, 5706, 7367, 7945, 8192, 8618, 8643, 9623] intents [2863, 3383, 4031, 5316, 5346, 5938, 7169, 8292, 8621] r 41 rnew 42
+  Extent size DID change. IsCannonical: True
+r:41 rnew:42
+ ISCANNO comparing unex=85.07616281413985 and unexs[1]==62.354103923504155
+  --> Enter recursion with Intent: ['Fab' 'autosuffisant' 'Xavier' 'maire' 'Trias' 'Barcelone' 'City'
+ 'rejoindre' 'lancer' 'centre']...
+NEW ITERATION 
+ --------
+r: 47 - r_new: 48
+|extents[r]|: 9 - intents[r]: ['Fab' 'autosuffisant' 'Xavier' 'maire' 'Trias' 'Barcelone' 'City'
+ 'rejoindre' 'lancer' 'centre']
+  Extent size 9 - intent [2863, 3383, 4031, 5316, 5346, 5938, 7169, 8292, 8621, 9147, 9159]
+# nodes in X_prev: 9 - # nodes in X: 9
+cw_a: 9.849803248364879 - cd_a: 1.0
+Unex a: 8.849803248364879 - unex_a prec: 115.77171898025723
+  U(G): -30.695556166117385
+  U(A): 124.62152222862211
+  U: 93.92596606250473
+unexs: [0, 62.354103923504155, 85.07616281413985] r_new: 48 - r: 47 - ptr: 2
+ == comparing unex=93.92596606250473 and unexs[2]=85.07616281413985
+ == comparing unex_a=124.62152222862211 and unexs_a[2]=115.77171898025723
+[0, 107.17209602888127, 115.77171898025723]
+STOP rec, unexpectedness difference is 8.849803248364879
+Attribute mouvement (9159) does not add any unexpectedness to pattern
+r:47 - r_new:48
+Taille extent: 48 - taille intent: 48
+**END FUNCTION
+  Extent size 13 - intent [2863, 3383, 4031, 5316, 5346, 5938, 7169, 8292, 8621, 9159]
+# nodes in X_prev: 13 - # nodes in X: 13
+cw_a: 9.849803248364879 - cd_a: 1.0
+Unex a: 8.849803248364879 - unex_a prec: 107.17209602888127
+  U(G): -44.817992105377115
+  U(A): 116.02189927724615
+  U: 71.20390717186903
+unexs: [0, 62.354103923504155] r_new: 42 - r: 41 - ptr: 1
+ == comparing unex=71.20390717186903 and unexs[1]=62.354103923504155
+ == comparing unex_a=116.02189927724615 and unexs_a[1]=107.17209602888127
+[0, 107.17209602888127]
+STOP rec, unexpectedness difference is 8.849803248364879
+Attribute mouvement (9159) does not add any unexpectedness to pattern
+r:41 - r_new:42
+Taille extent: 48 - taille intent: 48
+**END FUNCTION
+  Extent size 14 - intent [3207]
+# nodes in X_prev: 14 - # nodes in X: 14
+cw_a: 15.259194184502581 - cd_a: 9.474430248726133
+Unex a: 5.784763935776448 - unex_a prec: 0
+  U(G): -77.55440335846112
+  U(A): 5.784763935776448
+  U: -71.76963942268466
+unexs: [0] r_new: 1 - r: 0 - ptr: 0
+extents [   0    1    2 ... 9942 9943 9944] intents [] r 0 rnew 1
+  Extent size DID change. IsCannonical: True
+r:0 rnew:1
+ ISCANNO comparing unex=-71.76963942268466 and unexs[0]==0
+  --> Enter recursion with Intent: ['supermassif']...
+NEW ITERATION 
+ --------
+r: 48 - r_new: 49
+|extents[r]|: 14 - intents[r]: ['supermassif']
+  Extent size 14 - intent [3207, 6693]
+# nodes in X_prev: 14 - # nodes in X: 14
+cw_a: 13.511960254882547 - cd_a: 1.0
+Unex a: 12.511960254882547 - unex_a prec: 5.784763935776448
+  U(G): -77.55440335846112
+  U(A): 18.296724190658995
+  U: -59.257679167802124
+unexs: [0, -71.76963942268466] r_new: 49 - r: 48 - ptr: 1
+ == comparing unex=-59.257679167802124 and unexs[1]=-71.76963942268466
+ == comparing unex_a=18.296724190658995 and unexs_a[1]=5.784763935776448
+[0, 5.784763935776448]
+  Extent size did not change -> attribute trou is added to intent.
+  Extent size 14 - intent [3207, 6693, 7523]
+# nodes in X_prev: 14 - # nodes in X: 14
+cw_a: 12.857095740931236 - cd_a: 1.0
+Unex a: 11.857095740931236 - unex_a prec: 18.296724190658995
+  U(G): -77.55440335846112
+  U(A): 30.15381993159023
+  U: -47.40058342687088
+unexs: [0, -59.257679167802124] r_new: 49 - r: 48 - ptr: 1
+ == comparing unex=-47.40058342687088 and unexs[1]=-59.257679167802124
+ == comparing unex_a=30.15381993159023 and unexs_a[1]=18.296724190658995
+[0, 18.296724190658995]
+  Extent size did not change -> attribute galaxie is added to intent.
+  Extent size 8 - intent [3207, 6693, 7523, 8268]
+# nodes in X_prev: 8 - # nodes in X: 8
+cw_a: 12.022154987201732 - cd_a: 1.4594316186372973
+Unex a: 10.562723368564434 - unex_a prec: 30.15381993159023
+  U(G): -12.265664045058521
+  U(A): 40.71654330015467
+  U: 28.450879255096147
+unexs: [0, -47.40058342687088] r_new: 49 - r: 48 - ptr: 1
+extents [1080, 1482, 3258, 3259, 3261, 3489, 4094, 5361, 7461, 7498, 7954, 9115, 9116, 9438] intents [3207, 6693, 7523] r 48 rnew 49
+  Extent size DID change. IsCannonical: True
+r:48 rnew:49
+ ISCANNO comparing unex=28.450879255096147 and unexs[1]==-47.40058342687088
+  --> Enter recursion with Intent: ['supermassif' 'trou' 'galaxie' 'rayonnement']...
+NEW ITERATION 
+ --------
+r: 49 - r_new: 50
+|extents[r]|: 8 - intents[r]: ['supermassif' 'trou' 'galaxie' 'rayonnement']
+  Extent size 8 - intent [3207, 6693, 7523, 8268, 8840]
+# nodes in X_prev: 8 - # nodes in X: 8
+cw_a: 10.995086744003562 - cd_a: 1.0
+Unex a: 9.995086744003562 - unex_a prec: 40.71654330015467
+  U(G): -12.265664045058521
+  U(A): 50.71163004415823
+  U: 38.445965999099705
+unexs: [0, -47.40058342687088, 28.450879255096147] r_new: 50 - r: 49 - ptr: 2
+ == comparing unex=38.445965999099705 and unexs[2]=28.450879255096147
+ == comparing unex_a=50.71163004415823 and unexs_a[2]=40.71654330015467
+[0, 30.15381993159023, 40.71654330015467]
+STOP rec, unexpectedness difference is 9.995086744003558
+Attribute noir (8840) does not add any unexpectedness to pattern
+r:49 - r_new:50
+Taille extent: 50 - taille intent: 50
+**END FUNCTION
+  Extent size 14 - intent [3207, 6693, 7523, 8840]
+# nodes in X_prev: 14 - # nodes in X: 14
+cw_a: 10.995086744003562 - cd_a: 1.0
+Unex a: 9.995086744003562 - unex_a prec: 30.15381993159023
+  U(G): -77.55440335846112
+  U(A): 40.14890667559379
+  U: -37.40549668286732
+unexs: [0, -47.40058342687088] r_new: 49 - r: 48 - ptr: 1
+ == comparing unex=-37.40549668286732 and unexs[1]=-47.40058342687088
+ == comparing unex_a=40.14890667559379 and unexs_a[1]=30.15381993159023
+[0, 30.15381993159023]
+STOP rec, unexpectedness difference is 9.995086744003558
+Attribute noir (8840) does not add any unexpectedness to pattern
+r:48 - r_new:49
+Taille extent: 50 - taille intent: 50
+**END FUNCTION
+r:0 - r_new:1
+Taille extent: 50 - taille intent: 50
+**END FUNCTION
+Timer unit: 1e-09 s
+
+Total time: 15.8748 s
+File: /Users/simondelarue/Documents/PhD/Research/Co-Meg/CoMEG/algorithm.py
+Function: unex_patterns_modif at line 292
+
+Line #      Hits         Time  Per Hit   % Time  Line Contents
+==============================================================
+   292                                           def unex_patterns_modif(adjacency, context, context_csc, extents, intents, r=0, y=0, min_support=0, max_support=np.inf,
+   293                                                             beta=0, delta=0, degs=[], unexs_g=[], unexs_a=[], unexs=[], names_col=[], comp_gen_graph=None,
+   294                                                             shuf=False) -> List:
+   295                                               """InClose algorithm using Unexpectedness + IsCannonical function.
+   296                                           
+   297                                               Parameters
+   298                                               ----------
+   299                                               adjacency: sparse.csr_matrix
+   300                                                   Adjacency matrix of the graph
+   301                                               context: sparse.csr_matrix
+   302                                                   Features matrix of the graph. Contains nodes x attributes.
+   303                                               context_csc: sparse.csc_matrix
+   304                                                   Features matrix of the graph in CSC format.
+   305                                               extents: list
+   306                                                   List of extents, i.e sets of nodes.
+   307                                               intents: list
+   308                                                   List of intents, i.e sets of attributes.
+   309                                               r: int (default=0)
+   310                                                   Index of the pattern being filled.
+   311                                               y: int (default=0)
+   312                                                   Index of candidate attribute.
+   313                                               min_support: int (default=0)
+   314                                                   Minimum support value for extent.
+   315                                               max_support: int (default +inf)
+   316                                                   Maximum support value for extent.
+   317                                               beta: int (default=0)
+   318                                                   Minimum support value for intent.
+   319                                               delta: int (default=0)
+   320                                                   Minimum value for Unexpectedness difference between patterns.
+   321                                               degs, unexs_g, unexs_a, unexs, names_col: list
+   322                                                   Lists for value storage over recursion.
+   323                                               comp_gen_graph: dict (default=None)
+   324                                                   Dictionary with number of nodes as keys and list of graph generation complexities as values.
+   325                                               com_gen_attr: dict (default=None)
+   326                                                   Dictionary with number of attributes as keys and list of bipartite graph generation complexities as values.
+   327                                           
+   328                                               Returns
+   329                                               -------
+   330                                                   List of tuples where each tuple is an unexpected pattern made of (extent, intent).
+   331                                               """
+   332                                               #global r_new
+   333                                               global ptr
+   334                                               #r_new = r_new + 1
+   335                                           
+   336        50      26000.0    520.0      0.0      print(f'NEW ITERATION \n --------')
+   337        50      38000.0    760.0      0.0      print(f'r: {r} - r_new: {r + 1}')
+   338                                               # ------------------------------------------------
+   339        50    1756000.0  35120.0      0.0      print(f'|extents[r]|: {len(extents[r])} - intents[r]: {names_col[intents[r]]}')
+   340                                           
+   341    102941   16569000.0    161.0      0.1      for j in np.arange(context.shape[1])[y:]:
+   342                                                   # print(f"new attribute: {j} - {names_col[j]}")
+   343    102941    8333000.0     80.9      0.1          try:
+   344                                                       #extents[r + 1] = []
+   345                                                       #unexs_g[r + 1] = 0
+   346                                                       #unexs_a[r + 1] = 0
+   347    102941   10518000.0    102.2      0.1              test = True
+   348                                                   except IndexError:
+   349                                                       test = False
+   350                                                       #extents.append([])
+   351                                                       #unexs_g.append(0)
+   352                                                       #unexs_a.append(0)
+   353                                           
+   354                                                   # Form a new extent by adding extension of attribute j to current pattern extent
+   355    102941 4382752000.0  42575.4     27.6          ext_j = set(extension([j], context_csc))
+   356                                                   # ext_j = set(extension([j], context))
+   357                                           
+   358                                                   #extents[r + 1] = list(sorted(set(extents[r]).intersection(ext_j)))
+   359    102941 2976661000.0  28916.2     18.8          X_g = list(sorted(set(extents[r]).intersection(ext_j)))
+   360                                                   #len_new_extent = len(extents[r + 1])
+   361                                           
+   362                                                   #if (len_new_extent >= min_support) and (len_new_extent <= max_support):
+   363     93546   13381000.0    143.0      0.1          if (len(X_g) >= min_support) and (len(X_g) <= max_support):
+   364                                           
+   365                                                       # Verify that length of intention of new extent is greater than a threshold (e.g beta)
+   366                                                       # In other words, we only enter the loop if the new extent still has "space" to welcome enough new attributes
+   367                                                       # Using this, we can trim all patterns with not enough attributes from the recursion tree
+   368                                                       #size_intention = len(intention(extents[r + 1], context))
+   369      9395 3050975000.0 324744.5     19.2              size_intention = len(intention(X_g, context))
+   370      9248    1217000.0    131.6      0.0              if size_intention >= beta:
+   371                                           
+   372       147     334000.0   2272.1      0.0                  new_intent = list(sorted(set(intents[r]).union(set([j]))))
+   373                                           
+   374                                                           # Compute Unexpectedness on pattern (i.e. on graph and attributes)
+   375                                                           # ------------------------------------------------------------------------------------------------------------
+   376                                                           #print(f'  Extent size {len(extents[r + 1])} - intent {new_intent}')
+   377       147     754000.0   5129.3      0.0                  print(f'  Extent size {len(X_g)} - intent {new_intent}')
+   378       147      28000.0    190.5      0.0                  size = len(new_intent)
+   379                                                           #unex_g = graph_unexpectedness(adjacency[extents[r + 1], :][:, extents[r + 1]], comp_gen_graph)
+   380       147   69552000.0 473142.9      0.4                  unex_g = graph_unexpectedness(adjacency[X_g, :][:, X_g], comp_gen_graph)
+   381                                                           #unexs_g[r + 1] = unex_g
+   382                                                           # Attributes unexpectedness
+   383       147    2835000.0  19285.7      0.0                  unex_a = attr_unexpectedness_diff(j, extents[r], X_g, degs)
+   384                                                           # print(f'Shape context: {context[extents[r_new], :][:, new_intent].shape}')
+   385                                                           # unex_a = attr_unexpectedness_modif(context[extents[r_new], :][:, new_intent], com_gen_attr)
+   386       147     347000.0   2360.5      0.0                  print(f'Unex a: {unex_a} - unex_a prec: {unexs_a[ptr]}')
+   387       147      60000.0    408.2      0.0                  unex_a += unexs_a[ptr]
+   388                                                           #unexs_a[r + 1] = unex_a
+   389                                                           # Total unexpectedness
+   390       147      18000.0    122.4      0.0                  unex = unex_g + unex_a
+   391                                                           # unexs[r_new] = unex
+   392       147     175000.0   1190.5      0.0                  print(f'  U(G): {unex_g}')
+   393       147     225000.0   1530.6      0.0                  print(f'  U(A): {unex_a}')
+   394       147     120000.0    816.3      0.0                  print(f'  U: {unex}')
+   395       147     510000.0   3469.4      0.0                  print(f'unexs: {unexs} r_new: {r + 1} - r: {r} - ptr: {ptr}')
+   396                                                           # ------------------------------------------------------------------------------------------------------------
+   397                                           
+   398                                                           # if set(extents[r_new]) == set(extents[r]):
+   399                                                           # if len_new_extent - len(extents[r]) == 0:
+   400        82      33000.0    402.4      0.0                  if len(X_g) - len(extents[r]) == 0:
+   401        82     129000.0   1573.2      0.0                      print(f' == comparing unex={unex} and unexs[{ptr}]={unexs[ptr]}')
+   402        82     133000.0   1622.0      0.0                      print(f' == comparing unex_a={unex_a} and unexs_a[{ptr}]={unexs_a[ptr]}')
+   403        82     107000.0   1304.9      0.0                      print(unexs_a)
+   404                                           
+   405                                                               # if True:
+   406        46      17000.0    369.6      0.0                      if unex - unexs[ptr] >= delta:
+   407                                           
+   408        36     194000.0   5388.9      0.0                          print(f'  Extent size did not change -> attribute {names_col[j]} is added to intent.')
+   409        36      10000.0    277.8      0.0                          intents[r] = new_intent
+   410        36       5000.0    138.9      0.0                          unexs[-1] = unex
+   411        36       6000.0    166.7      0.0                          unexs_a[-1] = unex_a
+   412                                                               else:
+   413        46      49000.0   1065.2      0.0                          print(f'STOP rec, unexpectedness difference is {unex - unexs[ptr]}')
+   414        46     125000.0   2717.4      0.0                          print(f'Attribute {names_col[j]} ({j}) does not add any unexpectedness to pattern')
+   415                                                                   # extents[r_new].pop(-1) -> no need to change the extent since we are in the block where it did not move by adding attribute
+   416                                                                   # intents[r_new].pop(-1) -> at this stage, we only use new-intent, so no need to remove anything from intents parameter
+   417                                                                   # raise Exception('end')
+   418        46      93000.0   2021.7      0.0                          break
+   419                                           
+   420                                                           else:
+   421        65 3799388000.0 58452123.1     23.9                      is_canno = is_cannonical_new(context, extents, intents, r, j - 1, X_g)
+   422        49      13000.0    265.3      0.0                      if is_canno:
+   423        49    1225000.0  25000.0      0.0                          print(f'extents {extents[r]} intents {intents[r]} r {r} rnew {r + 1}')
+   424        49      68000.0   1387.8      0.0                          print(f'  Extent size DID change. IsCannonical: {is_canno}')
+   425                                                                   #try:
+   426                                                                   #    intents[r + 1] = []
+   427                                                                   #except IndexError:
+   428                                                                   #    intents.append([])
+   429                                           
+   430                                                                   # intents[r_new] = new_intent
+   431                                                                   # len_new_intent = len(intents[r_new])
+   432                                           
+   433        49      24000.0    489.8      0.0                          print(f'r:{r} rnew:{r + 1}')
+   434        49     211000.0   4306.1      0.0                          print(f' ISCANNO comparing unex={unex} and unexs[{ptr}]=={unexs[ptr]}')
+   435                                           
+   436                                                                   # if True:
+   437        49      39000.0    795.9      0.0                          if unex - unexs[ptr] >= delta or r == 0:
+   438                                           
+   439                                                                       #intents[r + 1] = new_intent
+   440        49      25000.0    510.2      0.0                              intents.append(new_intent)
+   441        49      14000.0    285.7      0.0                              len_new_intent = len(intents[r + 1])
+   442                                           
+   443                                                                       # Update extents list
+   444                                                                       #extents[r + 1] = X_g
+   445        49       8000.0    163.3      0.0                              extents.append(X_g)
+   446                                           
+   447        49       7000.0    142.9      0.0                              unexs.append(unex)
+   448        49      14000.0    285.7      0.0                              unexs_a.append(unex_a)
+   449        49      17000.0    346.9      0.0                              ptr += 1
+   450                                                                       #print(f'  --> Enter recursion with Intent: {names_col[intents[r + 1]]}...')
+   451        49    2411000.0  49204.1      0.0                              print(f'  --> Enter recursion with Intent: {names_col[new_intent]}...')
+   452                                           
+   453                                                                       # New: if recursion depth is above a threshold, reorder attributes (randomly) to break the redundancy in patterns
+   454        49     254000.0   5183.7      0.0                              p = smoothing(len(unexs))
+   455        49   22182000.0 452693.9      0.1                              X = stats.bernoulli(p)
+   456                                           
+   457                                                                       # if False:
+   458        45    2549000.0  56644.4      0.0                              if not shuf and X.rvs(1)[0] == 1:
+   459         4      14000.0   3500.0      0.0                                  print(f'Entering smoothing, val={smoothing(len(unexs))}')
+   460         4       2000.0    500.0      0.0                                  start = j + 1
+   461         4       1000.0    250.0      0.0                                  end = len(names_col)
+   462         4     140000.0  35000.0      0.0                                  rand_idxs = np.random.choice(np.arange(start, end), size=(end - start), replace=False)
+   463         4       2000.0    500.0      0.0                                  if len(rand_idxs) > 0:
+   464         4 1469866000.0 367466500.0      9.3                                      context = shuffle_columns(context, rand_idxs)
+   465         4    8528000.0 2132000.0      0.1                                      context_csc = context.tocsc()
+   466         4     556000.0 139000.0      0.0                                      new_names_col = shuffle_columns(names_col, rand_idxs)
+   467         4      19000.0   4750.0      0.0                                      print(start, end)
+   468         4    1800000.0 450000.0      0.0                                      print(len(rand_idxs), rand_idxs, j)
+   469         4     248000.0  62000.0      0.0                                      print(new_names_col[j - 1:j + 5], names_col[j - 1:j + 5])
+   470         4      62000.0  15500.0      0.0                                      degs = shuffle_columns(degs, rand_idxs)
+   471         4      12000.0   3000.0      0.0                                      print(f"Next attr will be: {new_names_col[j + 1]} instead of {names_col[j + 1]}")
+   472         4     177000.0  44250.0      0.0                                      print(f'degs: {degs[j - 2:j + 10]}')
+   473         4          0.0      0.0      0.0                                      names_col = new_names_col
+   474         4       1000.0    250.0      0.0                                      shuf = True
+   475        43       5000.0    116.3      0.0                              elif shuf:
+   476         2       1000.0    500.0      0.0                                  print(f'no smoothing, Reorder attributes according to degrees')
+   477         2   16823000.0 8411500.0      0.1                                  sort_index = np.argsort(get_degrees(context.astype(bool), transpose=True))
+   478         2      17000.0   8500.0      0.0                                  new_degs = degs[sort_index]
+   479         2    3334000.0 1667000.0      0.0                                  new_context = context[:, sort_index]
+   480         2     168000.0  84000.0      0.0                                  new_names_col = names_col[sort_index]
+   481         2    4343000.0 2171500.0      0.0                                  context_csc = new_context.tocsc()
+   482         2       7000.0   3500.0      0.0                                  degs = new_degs.copy()
+   483         2    1444000.0 722000.0      0.0                                  context = new_context.copy()
+   484         2     115000.0  57500.0      0.0                                  names_col = new_names_col.copy()
+   485         2     188000.0  94000.0      0.0                                  print(f'degs: {degs[j - 2:j + 5]}')
+   486         2          0.0      0.0      0.0                                  shuf = False
+   487                                           
+   488                                                                       # unex_patterns(adjacency, context, context_csc, extents, intents, r=r_new, y=j+1,
+   489                                                                       #              min_support=min_support,max_support=max_support, beta=beta, delta=delta,
+   490                                                                       #              degs=degs, unexs_g=unexs_g, unexs_a=unexs_a, unexs=unexs, names_col=names_col,
+   491                                                                       #              comp_gen_graph=comp_gen_graph, com_gen_attr=com_gen_attr, shuf=shuf)
+   492        49      15000.0    306.1      0.0                              r_new = r + 1
+   493        49      39000.0    795.9      0.0                              unex_patterns_modif(adjacency, context, context_csc, extents, intents, r=len(extents)-1, y=j + 1,
+   494        49       8000.0    163.3      0.0                                            min_support=min_support, max_support=max_support, beta=beta, delta=delta,
+   495        49       4000.0     81.6      0.0                                            degs=degs, unexs_g=unexs_g, unexs_a=unexs_a, unexs=unexs, names_col=names_col,
+   496        49      10000.0    204.1      0.0                                            comp_gen_graph=comp_gen_graph, shuf=shuf)
+   497                                                                   else:
+   498                                                                       print(f'IsCANNO but no U improvement')
+   499                                                                       break
+   500                                           
+   501                                                               else:
+   502        16      12000.0    750.0      0.0                          print(f'IsCannonical: False --> do not enter recursion.')
+   503                                           
+   504                                               # print(f'inexs: {unexs}')
+   505        50      53000.0   1060.0      0.0      print(f'r:{r} - r_new:{r + 1}')
+   506        50       9000.0    180.0      0.0      r += 1
+   507        50      38000.0    760.0      0.0      print(f'Taille extent: {len(extents)} - taille intent: {len(intents)}')
+   508        50      31000.0    620.0      0.0      unexs.pop(-1)
+   509        50      11000.0    220.0      0.0      unexs_a.pop(-1)
+   510        50      18000.0    360.0      0.0      ptr -= 1
+   511        50       7000.0    140.0      0.0      shuf = False
+   512                                               # print(f'inexs after pop: {unexs}')
+   513        50      18000.0    360.0      0.0      print(f'**END FUNCTION')
+   514                                           
+   515        50     101000.0   2020.0      0.0      return [*zip(extents, intents)]
+
