@@ -31,30 +31,28 @@ def graph_unexpectedness(adjacency: sparse.csr_matrix, gen_complexities: dict) -
     return complexity_gen_g - complexity_desc_g
 
 
-def attr_unexpectedness(biadjacency: sparse.csr_matrix,
-                        attributes: Union[list, np.ndarray],
+def attr_unexpectedness(attribute: int, extent_prev: list, extent: list,
                         degrees: np.ndarray) -> float:
-    """Unexpectedness of a list of attributes.
+    """Unexpectedness of attribute.
 
     Parameters
     ----------
-    biadjacency: sparse.csr_matrix
-        Features matrix of the graph. Contains nodes x attributes.
-    attributes: list, np.ndarray
-        List of attribute indexes.
+    attribute: int
+        Index of attribute.
+    extent_prev: list
+        Extension of pattern attributes at previous iteration.
+    extent: list
+        Current pattern extension.
     degrees: np.ndarray
-        Array of attribute degrees in biadjacency
+        Array of attribute degrees in biadjacency.
 
     Returns
     -------
-        Unexpectedness of list of attributes as a float value. """
-    complexity_gen_a = np.log2(special.comb(biadjacency.shape[1],
-                                            len(attributes)))
-    complexity_desc_a = 0
-    for a in attributes:
-        complexity_desc_a += np.log2(degrees[a])
+        Pattern attribute unexpectedness. """
+    cw_a = np.log2(1 / (degrees[attribute] / np.sum(degrees)))
+    cd_a = np.log2((1 / (len(extent) / len(extent_prev))) + 1)
 
-    return complexity_gen_a - complexity_desc_a
+    return cw_a - cd_a
 
 
 def pattern_unexpectedness(adjacency: sparse.csr_matrix,

@@ -154,7 +154,8 @@ def unex_patterns(adjacency: sparse.csr_matrix,
                 unex_g = graph_unexpectedness(adjacency[extents[r_new], :][:, extents[r_new]], comp_gen_graph)
                 unexs_g[r_new] = unex_g
                 # Attributes unexpectedness
-                unex_a = attr_unexpectedness(context, new_intent, degs)
+                unex_a = attr_unexpectedness(j, extents[r], extents[r_new], degs)
+                unex_a += unexs_a[r]
                 unexs_a[r_new] = unex_a
                 # Total unexpectedness
                 unex = unex_g + unex_a
