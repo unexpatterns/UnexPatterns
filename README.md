@@ -1,4 +1,4 @@
-# Unexpected exlainable subgraphs: a mining algorithm
+# Unexpected Attributed Subgraphs: a Mining Algorithm
 
 UnexPatterns is a an algorithm that mines unexpected patterns from large attributed graphs.
 
